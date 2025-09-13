@@ -1225,7 +1225,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
 
 def main():
     global merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
-    sources = open("sources.txt", encoding="utf-8").read().strip().splitlines()
+    sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
     if DEBUG_NO_NODES:
         # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已启用无节点调试，程序产生的配置不能被直接使用 !!!")
@@ -1394,7 +1394,7 @@ def main():
         f.write(b64encodes(txt))
     print("写出完成！")
 
-    with open("config.txt", encoding="utf-8") as f:
+    with open("config.yml", encoding="utf-8") as f:
         conf: Dict[str, Any] = yaml.full_load(f)
 
     rules: Dict[str, str] = {}
