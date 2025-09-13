@@ -1,1 +1,44 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0461
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 196.247.59.154
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-51.161.118.38-1695
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 51.161.118.38
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.60-2724
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 85.208.108.60
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦CA-15.235.83.227-5409
+  network: ws
+  port: 443
+  server: 15.235.83.227
+  servername: mankadmu.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.21-5875
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 85.208.108.21
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.59-5900
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 85.208.108.59
+  type: ss
