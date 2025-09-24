@@ -1,15 +1,144 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: my|7e2a|puddincat07@Telegram
-  port: 2052
-  server: 38.54.98.110
-  servername: ml0724.ysds168.shop
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: HOME-HK-4(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: home-hkt-4.strongpipe.cloud
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - 0.1x
+  - netflix
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: AW-JP-2(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: aw-jp-28374.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - hop
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: WIS-JP-2(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: wis-jp-26154.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - iepl
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: NAT-HK-3(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: nat-hk-37465.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - iepl
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: AW-TW-2(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: aw-tw-28746.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - hop
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: TK-TW-1(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: tk-tw-18273.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - tiktok
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: WIS-TW-2(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: wis-tw-28764.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - hop
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: AW-US-1(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: aw-us-15204.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - iepl
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: WIS-US-1(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: wis-us-18934.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - iepl
+  type: trojan
+- alpn:
+  - h2
+  load-password: 80c9752a41
+  load-username: dd247fc262
+  name: WIS-HK-3(trojan)
+  password: 9cf136d3-d95c-40b8-95a6-830dcf899995
+  port: 29444
+  server: wis-hk-38457.strongpipe.cloud
+  skip-cert-verify: true
+  sni: 106-110-192-225.d.cjjd20.com
+  tags:
+  - star
+  - iepl
+  type: trojan
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: xx|0350|puddincat07@Telegram
@@ -34,6 +163,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: my|7e2a|puddincat07@Telegram
+  port: 2052
+  server: 38.54.98.110
+  servername: ml0724.ysds168.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
+- alterId: 0
+  cipher: auto
   http-opts:
     method: GET
     path:
@@ -56,87 +196,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🟡_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001...
-  network: ws
-  port: 60252
-  server: 154.201.67.40
-  tls: false
-  type: vmess
-  uuid: ef1016c9-49b2-4465-b86d-2697549dbcba
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🟡_🇲🇾_💻_github.com/Ruk1ng001_34...
-  network: none
-  port: 2052
-  server: 38.54.98.110
-  servername: ml0724.ysds168.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
-- alterId: 0
-  cipher: auto
-  name: ❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001...
-  network: ws
-  port: 26821
-  server: 163.61.208.13
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #1'
-  network: ws
-  port: 16863
-  server: 163.61.208.186
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #2'
-  network: ws
-  port: 4355
-  server: 163.61.208.131
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #3'
-  network: ws
-  port: 16863
-  server: 163.61.208.225
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #4'
-  network: ws
-  port: 16863
-  server: 163.61.208.110
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #5'
+  name: github.com/Ruk1ng001_613563633...
   network: ws
   port: 12182
-  server: 163.61.208.86
+  server: 163.61.208.146
   tls: false
   type: vmess
   uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
@@ -144,22 +207,127 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #6'
+  name: ❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001...
   network: ws
-  port: 16863
-  server: 163.61.208.64
+  port: 4355
+  server: 163.61.208.219
   tls: false
   type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
   ws-opts:
     path: /arki?ed=2048
-- country: 🇺🇸US
-  name: 🟠_🇸🇪_💻_github.com/Ruk1ng001_64...
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  skip-cert-verify: true
-  sni: sto.freeguard.org
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #1'
+  network: ws
+  port: 26821
+  server: 163.61.208.134
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #2'
+  network: ws
+  port: 4355
+  server: 163.61.208.99
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_376635303...
+  network: ws
+  port: 26821
+  server: 163.61.208.238
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_383662656...
+  network: ws
+  port: 12182
+  server: 163.61.208.238
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #3'
+  network: ws
+  port: 12182
+  server: 163.61.208.73
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #4'
+  network: ws
+  port: 26821
+  server: 163.61.208.62
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: github.com/Ruk1ng001_613964643...
+  network: ws
+  port: 30808
+  server: v8.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #5'
+  network: ws
+  port: 4355
+  server: 163.61.208.134
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #6'
+  network: ws
+  port: 12182
+  server: 163.61.208.214
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  name: 🇺🇸 美国3|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1700
+  server: 153.121.45.139
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
   type: trojan
   udp: true
 - alterId: 0
@@ -167,7 +335,7 @@ proxies:
   name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #7'
   network: ws
   port: 26821
-  server: 163.61.208.201
+  server: 163.61.208.18
   tls: false
   type: vmess
   uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
@@ -177,22 +345,11 @@ proxies:
   cipher: auto
   name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #8'
   network: ws
-  port: 4355
-  server: 163.61.208.126
+  port: 26821
+  server: 163.61.208.188
   tls: false
   type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #9'
-  network: ws
-  port: 12182
-  server: 163.61.208.48
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
@@ -200,7 +357,7 @@ proxies:
   name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #10'
   network: ws
   port: 16863
-  server: 163.61.208.185
+  server: 163.61.208.139
   tls: false
   type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
@@ -209,193 +366,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #11'
-  network: ws
-  port: 12182
-  server: 163.61.208.176
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #12'
-  network: ws
-  port: 4355
-  server: 163.61.208.48
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #13'
-  network: ws
-  port: 26821
-  server: 163.61.208.242
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #15'
-  network: ws
-  port: 26821
-  server: 163.61.208.137
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #16'
-  network: ws
-  port: 4355
-  server: 163.61.208.157
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #17'
-  network: ws
-  port: 12182
-  server: 163.61.208.139
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #18'
-  network: ws
-  port: 4355
-  server: 163.61.208.150
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🟡_🇲🇾_💻_github.com/Ruk1ng001_33...
-  network: ws
-  port: 62656
-  server: 38.54.98.150
-  tls: false
-  type: vmess
-  uuid: b771d99f-ef69-4b5c-8398-665bf851a661
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #19'
-  network: ws
-  port: 4355
-  server: 163.61.208.182
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #20'
-  network: ws
-  port: 4355
-  server: 163.61.208.122
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #21'
-  network: ws
-  port: 4355
-  server: 163.61.208.162
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #22'
-  network: ws
-  port: 26821
-  server: 163.61.208.212
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #23'
-  network: ws
-  port: 4355
-  server: 163.61.208.138
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #24'
-  network: ws
-  port: 16863
-  server: 163.61.208.231
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #25'
-  network: ws
-  port: 26821
-  server: 163.61.208.198
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #26'
-  network: ws
-  port: 4355
-  server: 163.61.208.86
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #28'
-  network: ws
-  port: 12182
-  server: 163.61.208.103
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #29'
   network: ws
   port: 16863
   server: 163.61.208.78
@@ -406,727 +376,38 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: github.com/Ruk1ng001_396535613...
-  network: ws
-  port: 443
-  server: cproxies.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-  ws-opts:
-    headers:
-      Host: farid.1.berozha.ir
-    path: /us.kkp.me.eu.org/aa
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: github.com/Ruk1ng001_356633356...
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #30'
-  network: ws
-  port: 4355
-  server: 163.61.208.228
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🟡_🇨🇳_💻_github.com/Ruk1ng001_39...
-  network: ws
-  port: 56532
-  server: 119.29.98.43
-  tls: false
-  type: vmess
-  uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: github.com/Ruk1ng001_636433356...
-  network: ws
-  port: 12182
-  server: 163.61.208.165
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #31'
-  network: ws
-  port: 12182
-  server: 163.61.208.242
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #32'
-  network: ws
-  port: 4355
-  server: 163.61.208.208
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #33'
-  network: ws
-  port: 16863
-  server: 163.61.208.249
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #34'
-  network: ws
-  port: 12182
-  server: 163.61.208.40
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #35'
-  network: ws
-  port: 12182
-  server: 163.61.208.62
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #36'
-  network: ws
-  port: 4355
-  server: 163.61.208.110
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #37'
-  network: ws
-  port: 16863
-  server: 163.61.208.42
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #38'
-  network: ws
-  port: 4355
-  server: 163.61.208.185
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #39'
-  network: ws
-  port: 16863
-  server: 163.61.208.134
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #40'
-  network: ws
-  port: 12182
-  server: 163.61.208.231
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #41'
-  network: ws
-  port: 12182
-  server: 163.61.208.214
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🟡_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001...
-  network: http
-  port: 31212
-  server: 47.242.90.210
-  tls: false
-  type: vmess
-  uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
-- alterId: 0
-  cipher: auto
-  name: github.com/Ruk1ng001_373831666...
-  network: ws
-  port: 4355
-  server: 163.61.208.120
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #43'
-  network: ws
-  port: 16863
-  server: 163.61.208.18
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #44'
-  network: ws
-  port: 4355
-  server: 163.61.208.222
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #45'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #12'
   network: ws
   port: 26821
-  server: 163.61.208.64
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #46'
-  network: ws
-  port: 16863
   server: 163.61.208.216
   tls: false
   type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #47'
-  network: ws
-  port: 4355
-  server: 163.61.208.124
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #48'
-  network: ws
-  port: 16863
-  server: 163.61.208.120
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #49'
-  network: ws
-  port: 4355
-  server: 163.61.208.223
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #50'
-  network: ws
-  port: 4355
-  server: 163.61.208.238
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #51'
-  network: ws
-  port: 16863
-  server: 163.61.208.161
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #52'
-  network: ws
-  port: 12182
-  server: 163.61.208.19
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #53'
-  network: ws
-  port: 4355
-  server: 163.61.208.28
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #54'
-  network: ws
-  port: 26821
-  server: 163.61.208.190
-  tls: false
-  type: vmess
   uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #55'
-  network: ws
-  port: 12182
-  server: 163.61.208.189
+  name: github.com/Ruk1ng001_373665353...
+  network: none
+  port: 6508
+  server: 193.124.24.247
   tls: false
   type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
+  uuid: b68fead5-5b0b-43a1-c34a-804467f0f368
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #56'
-  network: ws
-  port: 12182
-  server: 163.61.208.110
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #57'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #14'
   network: ws
   port: 16863
-  server: 163.61.208.202
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #58'
-  network: ws
-  port: 12182
-  server: 163.61.208.229
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #59'
-  network: ws
-  port: 16863
-  server: 163.61.208.212
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #60'
-  network: ws
-  port: 26821
-  server: 163.61.208.131
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #61'
-  network: ws
-  port: 26821
   server: 163.61.208.222
   tls: false
   type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #62'
-  network: ws
-  port: 26821
-  server: 163.61.208.116
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #63'
-  network: ws
-  port: 4355
-  server: 163.61.208.193
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #64'
-  network: ws
-  port: 12182
-  server: 163.61.208.18
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- cipher: aes-256-cfb
-  country: 🇺🇸 US
-  name: '🇰🇷 韩国|@ripaojiedian #1'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #65'
-  network: ws
-  port: 16863
-  server: 163.61.208.113
-  tls: false
-  type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #66'
-  network: ws
-  port: 26821
-  server: 163.61.208.163
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #67'
-  network: ws
-  port: 16863
-  server: 163.61.208.190
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: github.com/Ruk1ng001_643236366...
-  network: ws
-  port: 26821
-  server: 163.61.208.200
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- cipher: aes-256-cfb
-  country: 🇺🇸 US
-  name: 🇺🇸_US_美国
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.165.233.93
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #68'
-  network: ws
-  port: 12182
-  server: 163.61.208.124
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #69'
-  network: ws
-  port: 16863
-  server: 163.61.208.29
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #70'
-  network: ws
-  port: 16863
-  server: 163.61.208.146
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #71'
-  network: ws
-  port: 4355
-  server: 163.61.208.174
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🟡_🇨🇳_💻_github.com/Ruk1ng001_31...
-  network: ws
-  port: 20521
-  server: 119.29.98.43
-  tls: false
-  type: vmess
-  uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #72'
-  network: ws
-  port: 26821
-  server: 163.61.208.162
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #73'
-  network: ws
-  port: 16863
-  server: 163.61.208.53
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #74'
-  network: ws
-  port: 26821
-  server: 163.61.208.249
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #75'
-  network: ws
-  port: 4355
-  server: 163.61.208.202
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #76'
-  network: ws
-  port: 26821
-  server: 163.61.208.139
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #77'
-  network: ws
-  port: 26821
-  server: 163.61.208.66
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #78'
-  network: ws
-  port: 4355
-  server: 163.61.208.3
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #79'
-  network: ws
-  port: 12182
-  server: 163.61.208.23
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 2
-  cipher: auto
-  name: 🇮🇹IT_1|3.0MB/s
-  network: ws
-  port: 30805
-  server: v5.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v5.heduian.link
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 🟡_🇲🇾_💻_github.com/Ruk1ng001_36...
-  network: ws
-  port: 28293
-  server: 47.250.159.134
-  tls: false
-  type: vmess
-  uuid: ff9ad07c-e1b4-467f-90bc-9b067f47dd5c
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #80'
-  network: ws
-  port: 4355
-  server: 163.61.208.135
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #81'
-  network: ws
-  port: 4355
-  server: 163.61.208.73
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #82'
-  network: ws
-  port: 16863
-  server: 163.61.208.223
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: github.com/Ruk1ng001_343062393...
-  network: ws
-  port: 26821
-  server: 163.61.208.21
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #83'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #15'
   network: ws
   port: 26821
   server: 163.61.208.84
@@ -1137,24 +418,137 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '🟡_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001... #1'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #16'
   network: ws
-  port: 37196
-  server: 154.201.67.40
+  port: 26821
+  server: 163.61.208.105
   tls: false
   type: vmess
-  uuid: a0560819-7fb2-4db1-8dea-bf5e53abbfe8
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #84'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #17'
   network: ws
   port: 26821
-  server: 163.61.208.99
+  server: 163.61.208.122
   tls: false
   type: vmess
   uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_616131666...
+  network: ws
+  port: 12182
+  server: 163.61.208.37
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #18'
+  network: ws
+  port: 12182
+  server: 163.61.208.40
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #19'
+  network: ws
+  port: 12182
+  server: 163.61.208.131
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #21'
+  network: ws
+  port: 12182
+  server: 163.61.208.205
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- cipher: aes-256-cfb
+  country: 🇰🇷 KR
+  name: ❓_🇰🇷_📶_github.com/Ruk1ng001_31...
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🟡_🇸🇬_💻_github.com/Ruk1ng001_61...
+  network: http
+  port: 22286
+  server: 8.219.14.179
+  tls: false
+  type: vmess
+  uuid: 8646218f-a600-4b73-8721-aa5d4567819e
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #22'
+  network: ws
+  port: 12182
+  server: 163.61.208.190
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_333630383...
+  network: ws
+  port: 443
+  server: 51.75.160.237
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3adba462-318f-4a6c-ad7a-2923bc74f207
+  ws-opts:
+    headers:
+      Host: blazE-Uk-237.BLaZEsERVERs1.sItE
+    path: /linkvkwss
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #23'
+  network: ws
+  port: 16863
+  server: 163.61.208.216
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #25'
+  network: ws
+  port: 4355
+  server: 163.61.208.92
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
   ws-opts:
     path: /arki?ed=2048
 - cipher: aes-256-cfb
@@ -1166,43 +560,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #85'
-  network: ws
-  port: 16863
-  server: 163.61.208.245
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🟡_🇲🇾_💻_github.com/Ruk1ng001_65...
-  network: none
-  port: 1037
-  server: 38.60.195.254
-  servername: ml0605.ysds168.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2d978341-a391-4b54-8623-12284dc24525
-- alterId: 0
-  cipher: auto
-  name: github.com/Ruk1ng001_613433313...
-  network: ws
-  port: 4355
-  server: 163.61.208.234
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #86'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #26'
   network: ws
   port: 12182
-  server: 163.61.208.53
+  server: 163.61.208.185
   tls: false
   type: vmess
   uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
@@ -1210,322 +571,209 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #87'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #27'
   network: ws
   port: 16863
-  server: 163.61.208.192
+  server: 163.61.208.28
   tls: false
   type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
   ws-opts:
     path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #28'
+  network: ws
+  port: 4355
+  server: 163.61.208.93
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #29'
+  network: ws
+  port: 16863
+  server: 163.61.208.167
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: github.com/Ruk1ng001_643464383...
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #30'
+  network: ws
+  port: 26821
+  server: 163.61.208.245
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #31'
+  network: ws
+  port: 4355
+  server: 163.61.208.118
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #32'
+  network: ws
+  port: 4355
+  server: 163.61.208.18
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #33'
+  network: ws
+  port: 26821
+  server: 163.61.208.176
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- cipher: aes-256-cfb
+  name: 'tg频道:@ripaojiedian #1'
+  password: amazonskr05
+  port: 443
+  server: 18.185.56.207
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #35'
+  network: ws
+  port: 16863
+  server: 163.61.208.165
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #36'
+  network: ws
+  port: 26821
+  server: 163.61.208.222
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #37'
+  network: ws
+  port: 26821
+  server: 163.61.208.37
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_383337623...
+  network: none
+  port: 6504
+  server: 193.124.24.247
+  tls: false
+  type: vmess
+  uuid: 7ceb165c-9aff-4ab7-ce9e-1df31a5ed911
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: '🟡_🇯🇵_💻_github.com/Ruk1ng001_35... #1'
+  name: '🟡_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001... #1'
   network: http
-  port: 18639
-  server: 158.51.110.111
+  port: 36821
+  server: 47.238.145.58
   tls: false
   type: vmess
-  uuid: 7e368916-ff86-4758-b99e-31bbbb5917fc
-- cipher: aes-256-cfb
-  country: 🇰🇷 KR
-  name: ❓_🇰🇷_📶_github.com/Ruk1ng001_31...
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
+  uuid: ced629ce-9861-4f55-a1be-c0505fa6c5bf
 - alterId: 0
   cipher: auto
-  name: github.com/Ruk1ng001_383561613...
-  network: ws
-  port: 443
-  server: klo.986986.shop
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: b75c9731-408d-4aa6-8ae9-3857205113a1
-  ws-opts:
-    headers:
-      Host: klo.986986.shop
-    path: /nvjx6j7kbDQIQMZvbeVA9
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_4|2.1MB/s
-  network: ws
-  port: 443
-  server: dddvvbn.931.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-  ws-opts:
-    headers:
-      Host: dddvvbn.931.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #88'
-  network: ws
-  port: 12182
-  server: 163.61.208.131
+  name: github.com/Ruk1ng001_646665653...
+  network: none
+  port: 6514
+  server: 193.124.24.247
   tls: false
   type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
+  uuid: c362d735-01a8-48eb-baa2-ae7aa63bfdc3
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #89'
-  network: ws
-  port: 4355
-  server: 163.61.208.93
+  name: github.com/Ruk1ng001_366465633...
+  network: none
+  port: 6502
+  server: 193.124.24.247
   tls: false
   type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
+  uuid: 242f22a3-29d9-4a94-d8ba-88043f2e1921
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #90'
-  network: ws
-  port: 12182
-  server: 163.61.208.212
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #91'
+  name: github.com/Ruk1ng001_636539646...
   network: ws
   port: 16863
-  server: 163.61.208.49
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #92'
-  network: ws
-  port: 4355
-  server: 163.61.208.159
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #93'
-  network: ws
-  port: 12182
-  server: 163.61.208.68
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #94'
-  network: ws
-  port: 16863
-  server: 163.61.208.214
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #95'
-  network: ws
-  port: 26821
-  server: 163.61.208.219
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🟡_🇨🇳_💻_github.com/Ruk1ng001_64...
-  network: ws
-  port: 48536
-  server: 119.29.98.43
-  tls: false
-  type: vmess
-  uuid: 057caba1-2237-41e6-a54d-ec03509898a5
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #96'
-  network: ws
-  port: 16863
-  server: 163.61.208.93
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #97'
-  network: ws
-  port: 12182
-  server: 163.61.208.49
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #98'
-  network: ws
-  port: 16863
-  server: 163.61.208.118
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: github.com/Ruk1ng001_613631346...
-  network: ws
-  port: 4355
-  server: 163.61.208.190
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #99'
-  network: ws
-  port: 12182
-  server: 163.61.208.116
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #100'
-  network: ws
-  port: 4355
-  server: 163.61.208.108
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #101'
-  network: ws
-  port: 26821
-  server: 163.61.208.9
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #102'
-  network: ws
-  port: 16863
-  server: 163.61.208.76
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #103'
-  network: ws
-  port: 12182
-  server: 163.61.208.105
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #104'
-  network: ws
-  port: 16863
-  server: 163.61.208.151
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #106'
-  network: ws
-  port: 12182
   server: 163.61.208.13
   tls: false
   type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #108'
-  network: ws
-  port: 16863
-  server: 163.61.208.142
-  tls: false
-  type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #109'
-  network: ws
-  port: 4355
-  server: 163.61.208.62
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #110'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #38'
   network: ws
   port: 12182
-  server: 163.61.208.79
+  server: 163.61.208.93
   tls: false
   type: vmess
   uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
   ws-opts:
     path: /arki?ed=2048
+- cipher: aes-128-gcm
+  name: github.com/Ruk1ng001_316633653...
+  password: VXPipi29nxMO
+  plugin: obfs
+  plugin-opts:
+    host: 182039459a34f64238143cd31ddebbc914362.taobao.com
+    mode: http
+  port: 1052
+  server: kr2.qiangdong.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #112'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #39'
   network: ws
   port: 26821
-  server: 163.61.208.52
+  server: 163.61.208.234
   tls: false
   type: vmess
   uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
@@ -1533,32 +781,10 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #113'
-  network: ws
-  port: 12182
-  server: 163.61.208.142
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #115'
-  network: ws
-  port: 12182
-  server: 163.61.208.126
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #116'
+  name: github.com/Ruk1ng001_633633313...
   network: ws
   port: 26821
-  server: 163.61.208.3
+  server: 163.61.208.153
   tls: false
   type: vmess
   uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
@@ -1566,24 +792,13 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: github.com/Ruk1ng001_373935323...
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #40'
   network: ws
-  port: 4355
-  server: 163.61.208.194
+  port: 26821
+  server: 163.61.208.228
   tls: false
   type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '🟡_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001... #2'
-  network: ws
-  port: 20840
-  server: 154.201.67.40
-  tls: false
-  type: vmess
-  uuid: 6bdff969-dc85-4f83-9242-ddeacb9d6df1
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
   ws-opts:
     path: /arki?ed=2048
 - alterId: 64
@@ -1600,12 +815,48 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-path: /ivideos.sbs/linkws
+- alterId: 2
+  cipher: auto
+  name: github.com/Ruk1ng001_663235623...
+  network: ws
+  port: 30804
+  server: v4.heduian.link
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #119'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #41'
+  network: ws
+  port: 26821
+  server: 163.61.208.142
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #42'
+  network: ws
+  port: 12182
+  server: 163.61.208.106
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #44'
   network: ws
   port: 4355
-  server: 163.61.208.21
+  server: 163.61.208.142
   tls: false
   type: vmess
   uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
@@ -1613,30 +864,128 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #120'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #45'
+  network: ws
+  port: 12182
+  server: 163.61.208.29
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_616237373...
+  network: ws
+  port: 4355
+  server: 163.61.208.163
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #46'
+  network: ws
+  port: 26821
+  server: 163.61.208.201
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #47'
   network: ws
   port: 16863
-  server: 163.61.208.246
+  server: 163.61.208.9
   tls: false
   type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
   ws-opts:
     path: /arki?ed=2048
-- country: 🇺🇸US
-  name: 🟡_🇺🇸_💻_github.com/Ruk1ng001_37...
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 192.3.107.252
-  skip-cert-verify: true
-  sni: rc8.freeguard.org
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #48'
+  network: ws
+  port: 26821
+  server: 163.61.208.135
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_353237663...
+  network: none
+  port: 6510
+  server: 193.124.24.247
+  tls: false
+  type: vmess
+  uuid: 8f44f672-e53b-44fb-b502-c886d37107b5
+- name: 🇸🇬 新加坡2|@ripaojiedian
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4397
+  server: 160.16.117.182
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tfo: false
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #121'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #50'
+  network: ws
+  port: 12182
+  server: 163.61.208.5
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #51'
+  network: ws
+  port: 4355
+  server: 163.61.208.62
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #52'
+  network: ws
+  port: 12182
+  server: 163.61.208.149
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #53'
+  network: ws
+  port: 26821
+  server: 163.61.208.249
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #54'
   network: ws
   port: 16863
-  server: 163.61.208.91
+  server: 163.61.208.92
   tls: false
   type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
@@ -1644,65 +993,63 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #122'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #55'
   network: ws
-  port: 16863
-  server: 163.61.208.23
+  port: 12182
+  server: 163.61.208.120
   tls: false
   type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #123'
+  name: github.com/Ruk1ng001_633536636...
+  network: none
+  port: 6513
+  server: 193.124.24.247
+  tls: false
+  type: vmess
+  uuid: 5cf7fcbc-e2c1-42c4-d0d7-79c45a7d588d
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #56'
   network: ws
-  port: 16863
+  port: 4355
+  server: 163.61.208.137
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #57'
+  network: ws
+  port: 26821
   server: 163.61.208.116
   tls: false
   type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #124'
-  network: ws
-  port: 26821
-  server: 163.61.208.149
-  tls: false
-  type: vmess
   uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #125'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #58'
   network: ws
   port: 12182
-  server: 163.61.208.187
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #126'
-  network: ws
-  port: 26821
   server: 163.61.208.113
   tls: false
   type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #127'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #59'
   network: ws
   port: 26821
-  server: 163.61.208.234
+  server: 163.61.208.169
   tls: false
   type: vmess
   uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
@@ -1710,32 +1057,10 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #128'
-  network: ws
-  port: 4355
-  server: 163.61.208.121
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #129'
-  network: ws
-  port: 16863
-  server: 163.61.208.84
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #130'
+  name: github.com/Ruk1ng001_376664376...
   network: ws
   port: 12182
-  server: 163.61.208.84
+  server: 163.61.208.56
   tls: false
   type: vmess
   uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
@@ -1743,10 +1068,10 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #131'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #60'
   network: ws
   port: 26821
-  server: 163.61.208.93
+  server: 163.61.208.192
   tls: false
   type: vmess
   uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
@@ -1754,13 +1079,139 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #133'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #61'
   network: ws
   port: 4355
-  server: 163.61.208.149
+  server: 163.61.208.146
   tls: false
   type: vmess
   uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #62'
+  network: ws
+  port: 4355
+  server: 163.61.208.124
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #64'
+  network: ws
+  port: 26821
+  server: 163.61.208.174
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '🟡_🇯🇵_💻_github.com/Ruk1ng001_35... #1'
+  network: http
+  port: 18639
+  server: 158.51.110.111
+  tls: false
+  type: vmess
+  uuid: 7e368916-ff86-4758-b99e-31bbbb5917fc
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #65'
+  network: ws
+  port: 4355
+  server: 163.61.208.228
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #67'
+  network: ws
+  port: 26821
+  server: 163.61.208.131
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #68'
+  network: ws
+  port: 26821
+  server: 163.61.208.212
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: github.com/Ruk1ng001_626232653...
+  network: ws
+  port: 30836
+  server: v36.heduian.link
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #69'
+  network: ws
+  port: 26821
+  server: 163.61.208.167
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #70'
+  network: ws
+  port: 26821
+  server: 163.61.208.198
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #71'
+  network: ws
+  port: 26821
+  server: 163.61.208.53
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #72'
+  network: ws
+  port: 12182
+  server: 163.61.208.64
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
   ws-opts:
     path: /arki?ed=2048
 - cipher: aes-256-gcm
@@ -1780,150 +1231,45 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #134'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #73'
   network: ws
-  port: 12182
-  server: 163.61.208.92
+  port: 4355
+  server: 163.61.208.231
   tls: false
   type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: github.com/Ruk1ng001_383666313...
+  name: github.com/Ruk1ng001_376365323...
   network: ws
   port: 16863
-  server: 163.61.208.238
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #135'
-  network: ws
-  port: 26821
-  server: 163.61.208.106
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #136'
-  network: ws
-  port: 26821
-  server: 163.61.208.245
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #137'
-  network: ws
-  port: 26821
-  server: 163.61.208.18
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #138'
-  network: ws
-  port: 12182
   server: 163.61.208.198
   tls: false
   type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: github.com/Ruk1ng001_663862306...
-  network: ws
-  port: 26821
-  server: 163.61.208.29
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #139'
-  network: ws
-  port: 16863
-  server: 163.61.208.201
-  tls: false
-  type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #140'
-  network: ws
-  port: 4355
-  server: 163.61.208.167
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: github.com/Ruk1ng001_636539646...
-  network: ws
-  port: 16863
-  server: 163.61.208.13
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #142'
-  network: ws
-  port: 16863
-  server: 163.61.208.73
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #143'
-  network: ws
-  port: 26821
-  server: 163.61.208.196
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- name: '🟡_🇯🇵_💻_github.com/Ruk1ng001_61... #2'
+  country: 🇨🇳 CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🟡_🇨🇳_📶_github.com/Ruk1ng001_63...
   network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1802
-  server: 160.16.196.59
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
+  port: 50007
+  server: 112.132.215.34
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #144'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #74'
   network: ws
   port: 4355
-  server: 163.61.208.56
+  server: 163.61.208.162
   tls: false
   type: vmess
   uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
@@ -1931,32 +1277,10 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #145'
-  network: ws
-  port: 26821
-  server: 163.61.208.19
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #146'
-  network: ws
-  port: 26821
-  server: 163.61.208.124
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #147'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #75'
   network: ws
   port: 12182
-  server: 163.61.208.66
+  server: 163.61.208.68
   tls: false
   type: vmess
   uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
@@ -1964,10 +1288,51 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #148'
+  name: github.com/Ruk1ng001_616532653...
+  network: none
+  port: 6503
+  server: 193.124.24.247
+  tls: false
+  type: vmess
+  uuid: 978d0097-dc80-48db-935a-348a08dff336
+- cipher: aes-256-cfb
+  country: 🇭🇰 HK
+  name: 🟠_🇨🇴_💻_github.com/Ruk1ng001_33...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.223.16.212
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #76'
+  network: ws
+  port: 4355
+  server: 163.61.208.153
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 🇮🇹IT_1|3.0MB/s
+  network: ws
+  port: 30805
+  server: v5.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v5.heduian.link
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #77'
   network: ws
   port: 16863
-  server: 163.61.208.139
+  server: 163.61.208.5
   tls: false
   type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
@@ -1975,10 +1340,32 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #149'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #78'
+  network: ws
+  port: 16863
+  server: 163.61.208.42
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🟡_🇨🇳_💻_github.com/Ruk1ng001_64...
+  network: ws
+  port: 48536
+  server: 119.29.98.43
+  tls: false
+  type: vmess
+  uuid: 057caba1-2237-41e6-a54d-ec03509898a5
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #79'
   network: ws
   port: 12182
-  server: 163.61.208.98
+  server: 163.61.208.189
   tls: false
   type: vmess
   uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
@@ -1986,7 +1373,46 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #150'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #80'
+  network: ws
+  port: 26821
+  server: 163.61.208.86
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- cipher: aes-256-cfb
+  name: 🔴_🇲🇩_💼_github.com/Ruk1ng001_65...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #82'
+  network: ws
+  port: 12182
+  server: 163.61.208.161
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #83'
+  network: ws
+  port: 26821
+  server: 163.61.208.91
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #84'
   network: ws
   port: 12182
   server: 163.61.208.228
@@ -1997,43 +1423,47 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #151'
+  name: 🟡_🇨🇳_💻_github.com/Ruk1ng001_39...
   network: ws
-  port: 12182
-  server: 163.61.208.205
+  port: 56532
+  server: 119.29.98.43
   tls: false
   type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  uuid: b20b5fcd-23f5-4f70-ba49-898d78296abf
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #152'
-  network: ws
-  port: 12182
-  server: 163.61.208.64
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #153'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #86'
   network: ws
   port: 16863
-  server: 163.61.208.196
+  server: 163.61.208.249
   tls: false
   type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
   ws-opts:
     path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: github.com/Ruk1ng001_353062616...
+  network: ws
+  port: 30833
+  server: v33.heduian.link
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #154'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #87'
   network: ws
   port: 26821
-  server: 163.61.208.121
+  server: 163.61.208.208
   tls: false
   type: vmess
   uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
@@ -2041,10 +1471,98 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #155'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #88'
+  network: ws
+  port: 12182
+  server: 163.61.208.150
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #89'
+  network: ws
+  port: 12182
+  server: 163.61.208.97
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #90'
+  network: ws
+  port: 26821
+  server: 163.61.208.106
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #91'
+  network: ws
+  port: 4355
+  server: 163.61.208.198
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🟡_🇨🇳_💻_github.com/Ruk1ng001_31...
+  network: ws
+  port: 20521
+  server: 119.29.98.43
+  tls: false
+  type: vmess
+  uuid: 682b8828-6cb4-476b-99ea-33ac91e30c77
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #92'
+  network: ws
+  port: 4355
+  server: 163.61.208.110
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #93'
+  network: ws
+  port: 4355
+  server: 163.61.208.3
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #94'
+  network: ws
+  port: 12182
+  server: 163.61.208.79
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #95'
   network: ws
   port: 16863
-  server: 163.61.208.62
+  server: 163.61.208.134
   tls: false
   type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
@@ -2052,10 +1570,65 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #156'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #96'
+  network: ws
+  port: 26821
+  server: 163.61.208.163
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #97'
   network: ws
   port: 16863
-  server: 163.61.208.106
+  server: 163.61.208.231
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #98'
+  network: ws
+  port: 4355
+  server: 163.61.208.135
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🟡_🇲🇾_💻_github.com/Ruk1ng001_34...
+  network: none
+  port: 2052
+  server: 38.54.98.110
+  servername: ml0724.ysds168.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 665d9b8f-153d-4907-adac-de12afd9c851
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_613631346...
+  network: ws
+  port: 4355
+  server: 163.61.208.190
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #99'
+  network: ws
+  port: 16863
+  server: 163.61.208.86
   tls: false
   type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
@@ -2078,10 +1651,43 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #157'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #100'
+  network: ws
+  port: 16863
+  server: 163.61.208.192
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_353235383...
+  network: ws
+  port: 26821
+  server: 163.61.208.61
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #101'
+  network: ws
+  port: 12182
+  server: 163.61.208.198
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #102'
   network: ws
   port: 4355
-  server: 163.61.208.237
+  server: 163.61.208.229
   tls: false
   type: vmess
   uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
@@ -2089,26 +1695,279 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '🟡_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001... #3'
-  network: http
-  port: 36821
-  server: 47.238.145.58
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #103'
+  network: ws
+  port: 16863
+  server: 163.61.208.171
   tls: false
   type: vmess
-  uuid: ced629ce-9861-4f55-a1be-c0505fa6c5bf
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: ❓_🇺🇸_💻_github.com/Ruk1ng001_33...
-  network: none
-  port: 16385
-  server: 13.57.178.100
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #104'
+  network: ws
+  port: 16863
+  server: 163.61.208.106
   tls: false
   type: vmess
-  uuid: 1fe231c4-d760-4759-e45a-8382d5f3ae0a
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_373866383...
+  network: ws
+  port: 16863
+  server: 163.61.208.180
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_613665353...
+  network: ws
+  port: 26821
+  server: 163.61.208.171
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #105'
+  network: ws
+  port: 4355
+  server: 163.61.208.13
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #106'
+  network: ws
+  port: 4355
+  server: 163.61.208.176
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #107'
+  network: ws
+  port: 26821
+  server: 163.61.208.92
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #108'
+  network: ws
+  port: 12182
+  server: 163.61.208.23
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #109'
+  network: ws
+  port: 16863
+  server: 163.61.208.162
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #110'
+  network: ws
+  port: 16863
+  server: 163.61.208.196
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_366163396...
+  network: none
+  port: 6515
+  server: 193.124.24.247
+  tls: false
+  type: vmess
+  uuid: 2f3c646a-37f3-483a-a2a5-6bc1c5e526ae
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_613430393...
+  network: ws
+  port: 26821
+  server: 163.61.208.35
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #111'
+  network: ws
+  port: 12182
+  server: 163.61.208.139
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #112'
+  network: ws
+  port: 26821
+  server: 163.61.208.9
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #114'
+  network: ws
+  port: 12182
+  server: 163.61.208.86
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #116'
+  network: ws
+  port: 16863
+  server: 163.61.208.163
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #118'
+  network: ws
+  port: 12182
+  server: 163.61.208.159
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_613730643...
+  network: ws
+  port: 26821
+  server: 163.61.208.159
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #119'
+  network: ws
+  port: 16863
+  server: 163.61.208.23
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #120'
+  network: ws
+  port: 16863
+  server: 163.61.208.73
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #121'
+  network: ws
+  port: 4355
+  server: 163.61.208.208
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #122'
+  network: ws
+  port: 16863
+  server: 163.61.208.110
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🟡_🇺🇸_💻_github.com/Ruk1ng001_65...
+  network: none
+  port: 41128
+  server: 72.249.200.122
+  tls: false
+  type: vmess
+  uuid: e699faa1-d333-4736-b5e5-e6edf9f5c2b5
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_376439643...
+  network: ws
+  port: 12182
+  server: 163.61.208.125
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: github.com/Ruk1ng001_333435663...
+  network: ws
+  port: 30830
+  server: v30.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - cipher: aes-256-cfb
   name: 🟠_🇮🇸_💻_github.com/Ruk1ng001_34...
   password: f8f7aCzcPKbsF8p3
@@ -2117,21 +1976,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #158'
-  network: ws
-  port: 12182
-  server: 163.61.208.188
-  tls: false
-  type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: github.com/Ruk1ng001_383463303...
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #123'
   network: ws
   port: 4355
-  server: 163.61.208.66
+  server: 163.61.208.108
   tls: false
   type: vmess
   uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
@@ -2139,48 +1987,164 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #159'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #124'
   network: ws
-  port: 12182
-  server: 163.61.208.128
+  port: 4355
+  server: 163.61.208.196
   tls: false
   type: vmess
-  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #160'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #125'
+  network: ws
+  port: 4355
+  server: 163.61.208.128
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- cipher: aes-256-cfb
+  country: 🇰🇷 KR
+  name: github.com/Ruk1ng001_383135343...
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🟠_🇮🇳_💻_github.com/Ruk1ng001_64...
+  network: http
+  port: 18872
+  server: 123.58.203.92
+  tls: false
+  type: vmess
+  uuid: edfe29a5-cc54-488d-a31d-ca71f39e38d4
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '🟡_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001... #3'
+  network: http
+  port: 28269
+  server: 8.218.17.106
+  tls: false
+  type: vmess
+  uuid: 70ed401b-5761-46ec-92b4-11dab3fc088d
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #126'
+  network: ws
+  port: 4355
+  server: 163.61.208.86
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #127'
+  network: ws
+  port: 16863
+  server: 163.61.208.214
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #128'
+  network: ws
+  port: 16863
+  server: 163.61.208.176
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #129'
   network: ws
   port: 26821
+  server: 163.61.208.202
+  tls: false
+  type: vmess
+  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🟡_🇲🇾_💻_github.com/Ruk1ng001_65...
+  network: none
+  port: 1037
+  server: 38.60.195.254
+  servername: ml0605.ysds168.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2d978341-a391-4b54-8623-12284dc24525
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #130'
+  network: ws
+  port: 4355
+  server: 163.61.208.216
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #131'
+  network: ws
+  port: 16863
+  server: 163.61.208.245
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #132'
+  network: ws
+  port: 4355
   server: 163.61.208.40
   tls: false
   type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #133'
+  network: ws
+  port: 26821
+  server: 163.61.208.93
+  tls: false
+  type: vmess
   uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
   ws-opts:
     path: /arki?ed=2048
-- cipher: chacha20-ietf
-  name: 🟠_🇨🇳:🇭🇰_🌀_github.com/Ruk1ng001...
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🟠_🇺🇸_💻_github.com/Ruk1ng001_35...
-  network: none
-  port: 14827
-  server: 154.201.73.39
-  tls: false
-  type: vmess
-  uuid: 4abcc4f8-c147-4c5b-fd7d-e3824eb4c473
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #161'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #134'
   network: ws
   port: 16863
-  server: 163.61.208.230
+  server: 163.61.208.99
   tls: false
   type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
@@ -2188,61 +2152,28 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #163'
-  network: ws
-  port: 4355
-  server: 163.61.208.188
-  tls: false
-  type: vmess
-  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #164'
-  network: ws
-  port: 26821
-  server: 163.61.208.169
-  tls: false
-  type: vmess
-  uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
-  ws-opts:
-    path: /arki?ed=2048
-- cipher: aes-256-cfb
-  country: 🇺🇸 US
-  name: 🟡_🇸🇰_💻_github.com/Ruk1ng001_38...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: github.com/Ruk1ng001_393130313...
-  network: ws
-  port: 80
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-headers:
-    HOST: broadcastlv.chat.bilibili.com
-  ws-path: /
-- cipher: aes-256-cfb
-  name: 🇬🇧_GB_英国_1
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 62.100.205.48
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #165'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #135'
   network: ws
   port: 12182
-  server: 163.61.208.5
+  server: 163.61.208.128
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: github.com/Ruk1ng001_363435343...
+  password: gqkUCvmeOTghYJXF1YIuk5
+  port: 443
+  server: 71.19.148.74
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #136'
+  network: ws
+  port: 12182
+  server: 163.61.208.6
   tls: false
   type: vmess
   uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
@@ -2250,21 +2181,10 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #166'
-  network: ws
-  port: 16863
-  server: 163.61.208.3
-  tls: false
-  type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #167'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #137'
   network: ws
   port: 26821
-  server: 163.61.208.128
+  server: 163.61.208.139
   tls: false
   type: vmess
   uuid: bd1bdd99-d311-49bf-a68f-27ee8e42e670
@@ -2272,10 +2192,21 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #168'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #138'
+  network: ws
+  port: 12182
+  server: 163.61.208.230
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #141'
   network: ws
   port: 4355
-  server: 163.61.208.139
+  server: 163.61.208.171
   tls: false
   type: vmess
   uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
@@ -2283,10 +2214,10 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #169'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #142'
   network: ws
   port: 16863
-  server: 163.61.208.135
+  server: 163.61.208.19
   tls: false
   type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
@@ -2294,21 +2225,105 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #170'
+  name: github.com/Ruk1ng001_383765366...
+  network: none
+  port: 6512
+  server: 193.124.24.247
+  tls: false
+  type: vmess
+  uuid: 729bfa51-095c-4f50-a1e0-2dfc90d51ebd
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #143'
+  network: ws
+  port: 4355
+  server: 163.61.208.189
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_613435393...
+  network: none
+  port: 6511
+  server: 193.124.24.247
+  tls: false
+  type: vmess
+  uuid: 5ef4e89b-262f-4c74-e793-c7332079f251
+- alterId: 0
+  cipher: auto
+  name: '🟠_🇨🇳:🇭🇰_💻_github.com/Ruk1ng001... #2'
+  network: ws
+  port: 20521
+  server: 45.136.12.37
+  tls: false
+  type: vmess
+  uuid: 090d0bd9-f9c4-4c3b-8aae-ffa678765935
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #144'
+  network: ws
+  port: 4355
+  server: 163.61.208.91
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #146'
   network: ws
   port: 16863
+  server: 163.61.208.189
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #147'
+  network: ws
+  port: 12182
+  server: 163.61.208.212
+  tls: false
+  type: vmess
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🟡_🇨🇳_💻_github.com/Ruk1ng001_62...
+  network: ws
+  port: 11399
+  server: 119.29.98.43
+  tls: false
+  type: vmess
+  uuid: 4d53cd6c-31f5-4b3b-bb11-fb012c8d9648
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #148'
+  network: ws
+  port: 12182
   server: 163.61.208.222
   tls: false
   type: vmess
-  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  uuid: 4d64eedc-287e-471e-b05d-f4b49b5d9cc3
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #171'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #149'
   network: ws
   port: 16863
-  server: 163.61.208.188
+  server: 163.61.208.118
   tls: false
   type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
@@ -2316,22 +2331,37 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #172'
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #151'
+  network: ws
+  port: 4355
+  server: 163.61.208.68
+  tls: false
+  type: vmess
+  uuid: 37ba82a4-2a71-43c5-9b41-a568116da44e
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #152'
   network: ws
   port: 16863
-  server: 163.61.208.242
+  server: 163.61.208.37
   tls: false
   type: vmess
   uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
   ws-opts:
     path: /arki?ed=2048
-- cipher: aes-256-cfb
-  name: 'tg频道:@ripaojiedian #1'
-  password: amazonskr05
-  port: 443
-  server: 18.185.56.207
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: '❓_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #153'
+  network: ws
+  port: 16863
+  server: 163.61.208.91
+  tls: false
+  type: vmess
+  uuid: e4ee1fa7-b055-46fe-9ca8-257dcfe86fad
+  ws-opts:
+    path: /arki?ed=2048
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -2440,19 +2470,18 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-256-cfb
+  name: '🇰🇷 韩国|@ripaojiedian #1'
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
+  tfo: false
+  type: ss
 - name: 🇸🇬 新加坡|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 2045
   server: 160.16.130.66
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4397
-  server: 160.16.117.182
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -2483,14 +2512,6 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: 🇺🇸 美国3|@ripaojiedian
-  network: tcp
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1700
-  server: 153.121.45.139
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 🇺🇸 美国4|@ripaojiedian
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -2546,10 +2567,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 1cc84891-1657-4f71-97d0-287df565820e
+- cipher: aes-256-cfb
+  name: 🇬🇧_GB_英国_1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 62.100.205.48
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.165.233.93
+  type: ss
 - name: end-gfw.com11@jp89
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6688
-  server: 18.182.10.88
+  server: 52.195.195.95
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
@@ -2558,7 +2591,7 @@ proxies:
   name: end-gfw.com12@jp89
   network: ws
   port: 8686
-  server: 18.182.10.88
+  server: 52.195.195.95
   servername: baidu.com
   tls: false
   type: vmess
@@ -2570,7 +2603,7 @@ proxies:
 - name: end-gfw.com21@kr64
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6688
-  server: 43.201.112.173
+  server: 3.35.173.179
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
@@ -2579,7 +2612,7 @@ proxies:
   name: end-gfw.com22@kr64
   network: ws
   port: 8686
-  server: 43.201.112.173
+  server: 3.35.173.179
   servername: baidu.com
   tls: false
   type: vmess
@@ -2680,6 +2713,20 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
+  name: 🇺🇸US_4|2.1MB/s
+  network: ws
+  port: 443
+  server: dddvvbn.931.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  ws-opts:
+    headers:
+      Host: dddvvbn.931.pp.ua
+    path: /6We3U9Df1WGxgFnoFPw1
+- alterId: 0
+  cipher: auto
   name: 🇩🇪DE_3|4.5MB/s
   network: ws
   port: 443
@@ -2743,123 +2790,73 @@ proxies:
         AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
         Safari/537.36
     path: /xa846InEcmjyiKVby2Lp
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE-57.129.59.201-0267
-  network: ws
-  port: 443
-  server: 57.129.59.201
-  servername: kampong.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: kampong.org
-    path: /
-- cipher: aes-256-cfb
-  name: 🇮🇸IS-37.235.49.152-0300
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.235.49.152
-  type: ss
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK-219.73.40.17-0278
+  name: 🇭🇰HK-116.48.94.127-0272
   network: ws
   port: 80
-  server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
   ws-opts:
     headers:
-      Host: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+      Host: broadcastlv.chat.bilibili.com
     path: /
-- cipher: aes-256-gcm
-  name: 🇺🇸US-23.157.40.101-0340
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 23.157.40.101
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇷TR-185.123.101.241-0355
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 185.123.101.241
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.75.136.21-0376
-  password: g5MeD6Ft3CWlJId
-  port: 5003
+  name: 🇺🇸US-38.75.136.21-0373
+  password: Y6R9pAtvxxzmGC
+  port: 5001
   server: 38.75.136.21
   type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US-38.121.43.71-0389
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 38.121.43.71
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-190.93.245.4-0431
+  name: 🇺🇸US-154.9.254.63-0357
   network: ws
-  port: 443
-  server: 190.93.245.4
-  servername: lg10.cfcdn1.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  ws-opts:
-    path: /A2DJOPFT
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP-168.138.203.232-0487
-  network: ws
-  port: 443
-  server: suzhihan.eu.org
-  servername: suzhihan.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 0b873cff-11ab-4716-c41a-04f886135091
-  ws-opts:
-    headers:
-      Host: suzhihan.eu.org
-    path: /roewesu
-- cipher: aes-256-cfb
-  name: 🇺🇸US-45.79.111.214-0490
-  password: 9d6cceaa373bf2c8acb22e60b6a58be6
-  port: 443
-  server: 45.79.111.214
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR-51.77.212.145-0452
-  network: ws
-  port: 80
-  server: 51.77.212.145
-  servername: 51.77.212.145
+  port: 20521
+  server: 154.9.254.63
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 5f6e42bb-2fd1-478b-8f0f-e52b2d6f7652
+  uuid: d824764a-954e-4c75-9116-f6e5eba944a9
   ws-opts:
-    path: /vmess
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.193.50-0574
+  name: 🏁RELAY-203.24.108.9-0427
   network: ws
-  port: 8443
-  server: orvps2.horsenma.net
+  port: 443
+  server: 203.24.108.9
+  servername: oplg1.zhujicn2.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   ws-opts:
-    headers:
-      Host: orvps2.horsenma.net
-    path: /horsen
+    path: /5QNROSRV
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-198.41.203.3-0674
+  name: 🏁RELAY-141.101.114.134-0442
+  network: ws
+  port: 443
+  server: 141.101.114.134
+  servername: opfr1.v2rayfree1.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-opts:
+    path: /IYKLD53M
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-198.41.203.3-0676
   network: ws
   port: 443
   server: 198.41.203.3
@@ -2871,173 +2868,101 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-198.41.203.6-0673
+  name: 🇦🇺AU-103.224.212.211-0733
   network: ws
   port: 443
-  server: 198.41.203.6
+  server: 21.72img.xyz
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   ws-opts:
     headers:
-      Host: fr2.cfcdn4.xyz
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-141.101.114.111-0694
-  network: ws
+      Host: 21.72img.xyz
+    path: /
+- cipher: aes-256-cfb
+  name: 🇺🇸US-54.245.219.99-1403
+  password: amazonskr05
   port: 443
-  server: 141.101.114.111
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-  ws-opts:
-    headers:
-      Host: fr2.cfcdn4.xyz
-    path: /ray
+  server: 54.245.219.99
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-203.30.191.19-0742
+  name: 🇨🇳CN-221.5.203.98-1400
   network: ws
-  port: 443
-  server: 203.30.191.19
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  ws-opts:
-    headers:
-      Host: clash6.ssr-free.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-103.21.244.219-0833
-  network: ws
-  port: 8443
-  server: 103.21.244.219
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  ws-opts:
-    path: /8cda48b3
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.132.15-0865
-  network: ws
-  port: 443
-  server: 172.67.132.15
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-  ws-opts:
-    headers:
-      Host: ming2.kiwireich.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.17.176.171-0907
-  network: ws
-  port: 8080
-  server: 104.17.176.171
+  port: 5001
+  server: steam.dnspro.icu
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03
+  uuid: d4c93465-70f0-30d5-ab5f-a8881f3f49e7
   ws-opts:
-    path: /nasnet/cdn
+    headers:
+      Host: steam.dnspro.icu
+    path: /iso
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-141.101.115.120-0795
+  name: 🇹🇼TW-111.250.119.13-1583
+  network: ws
+  port: 45215
+  server: 012.AP.POP.node-for-smallairport.win
+  servername: 012.AP.POP.node-for-smallairport.win
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cd0e1cd4-9aac-41df-9746-4d76182c8009
+  ws-opts:
+    headers:
+      Host: 012.AP.POP.node-for-smallairport.win
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP-138.2.39.67-1671
+  network: ws
+  port: 80
+  server: 138.2.39.67
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ab335c88-d14a-4e67-b52c-54ed8be80c49
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-198.41.212.122-1728
   network: ws
   port: 443
-  server: 141.101.115.120
+  server: 198.41.212.122
+  servername: fr1.trump2023.org
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
   ws-opts:
-    headers:
-      Host: clash6.ssr-free.xyz
-    path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE-164.90.234.85-1017
-  password: fdRAl4scWDTg
-  port: 18492
-  server: 164.90.234.85
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-203.30.188.121-0854
-  network: ws
-  port: 443
-  server: 203.30.188.121
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  ws-opts:
-    headers:
-      Host: oplg1.cfcdn2.xyz
-    path: /AUIKN8AU
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US-154.17.1.251-1053
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-  port: 18334
-  server: 154.17.1.251
-  type: ss
+    path: /9JZFDTKE
 - cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.90-1292
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 85.208.108.90
+  name: 🇭🇰HK-54.46.122.237-1814
+  password: 5f00e880-45d9-444c-af13-12820eb13ffc
+  port: 16688
+  server: ss.036.node-for-bigairport.win
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-141.193.213.21-1297
+  name: 🏁RELAY-104.21.8.157-1924
   network: ws
-  port: 443
-  server: news.microsoft.com
+  port: 2082
+  server: 104.21.8.157
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
-    headers:
-      Host: news.microsoft.com
-    path: /ECTCJ0DF
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸US-23.224.191.6-1409
-  network: ws
-  port: 443
-  server: 23.224.191.6
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/220128071100
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-103.21.244.95-1453
-  network: ws
-  port: 443
-  server: 103.21.244.95
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: aa586ced-9c6b-4882-aae5-f4fa3919c73c
-  ws-opts:
-    path: /233blog
+    path: /
 - cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.60-1594
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 85.208.108.60
+  name: 🇺🇸US-38.91.102.30-1970
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 38.91.102.30
   type: ss
 - alterId: 0
   cipher: auto
@@ -3045,329 +2970,751 @@ proxies:
     method: GET
     path:
     - /
-  name: 🇭🇰HK-47.242.65.80-1597
+  name: 🇸🇬SG-152.69.211.235-1979
   network: http
-  port: 62307
-  server: 47.242.65.80
-  servername: 47.242.65.80
+  port: 80
+  server: 152.69.211.235
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 48f3fa93-1722-4f8d-af74-fcc54c2f21d5
-- cipher: aes-128-cfb
-  name: 🇨🇳CN-14.29.124.168-1640
-  password: QazEdcTgb159@$*
-  port: 25218
-  server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: 🇨🇳CN-14.29.124.168-1614
-  password: QazEdcTgb159@$*
-  port: 25219
-  server: 14.29.124.168
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.71.122-1920
-  network: ws
-  port: 2095
-  server: russia.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
-  ws-opts:
-    headers:
-      Host: russia.com
-    path: /api/v3/download.getFile
-- cipher: aes-256-gcm
-  name: 🇺🇸US-38.91.102.30-1995
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 38.91.102.30
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.60-2310
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 85.208.108.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.60-2326
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 85.208.108.60
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 🇸🇬SG-202.79.171.157-2500
-  network: ws
-  port: 443
-  server: 202.79.171.157
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
-  ws-opts:
-    path: /path/243535322906
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR-195.154.77.190-2697
-  network: ws
-  port: 2082
-  server: 195.154.77.190
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 36fa45db-2d4a-4295-a1fe-223836989878
-  ws-opts:
-    path: /pineapple
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.59-2822
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 85.208.108.59
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-103.21.244.248-3704
-  network: ws
-  port: 8443
-  server: 103.21.244.248
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  ws-opts:
-    path: /8cda48b3
+  uuid: d345916f-1673-4a98-f37d-49357c84ce03
 - cipher: aes-256-cfb
-  name: 🇳🇱NL-213.183.59.185-4202
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 213.183.59.185
+  name: 🇯🇵JP-43.207.68.169-2127
+  password: amazonskr05
+  port: 443
+  server: 43.207.68.169
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.60-2307
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 85.208.108.60
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US-129.159.33.199-4274
-  network: ws
-  port: 45328
-  server: 129.159.33.199
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 842c33ff-31b5-410c-a96e-0cb52a99a6da
-  ws-opts:
-    headers:
-      Host: 129.159.33.199
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇻🇳VN-103.176.111.247-4416
+  name: 🇩🇪DE-188.40.132.107-3687
   network: ws
   port: 80
-  server: 103.176.111.247
+  server: 188.40.132.107
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: e982184f-c6e0-4ba4-91cc-71eb6c702588
+  uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+  ws-opts:
+    path: /p3573l6m92h1ham3q23t
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW-211.72.35.110-4129
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  servername: haxeu7.jsworld.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: dfd1d80f-caf0-4b11-e0bb-733a2710a07a
   ws-opts:
     headers:
-      Host: nkpvpn.akamaized.net
-    path: /
-- cipher: aes-256-cfb
-  name: 🇻🇳VN-103.186.155.23-5019
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.23
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇻🇳VN-103.186.155.133-5021
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.133
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇻🇳VN-103.186.155.231-5207
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.231
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇻🇳VN-103.186.155.225-5211
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.225
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇻🇳VN-103.186.155.102-5220
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.102
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇻🇳VN-103.186.154.14-5287
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.14
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇻🇳VN-103.186.155.109-5345
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.109
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇻🇳VN-103.186.154.242-5372
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.242
-  type: ss
+      Host: haxeu7.jsworld.eu.org
+    path: /nishikata3
 - cipher: aes-256-gcm
-  name: 🇭🇰HK-95.40.113.255-5398
-  password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
-  port: 36885
-  server: ss.031.node-for-bigairport.win
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇻🇳VN-103.186.155.135-5317
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.135
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-38.111.114.246-5710
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 38.111.114.246
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇻🇳VN-103.186.155.140-5378
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.140
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US-169.197.142.187-5944
+  name: 🇨🇦CA-85.208.108.20-4188
   password: TEzjfAYq2IjtuoS
   port: 6679
+  server: 85.208.108.20
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇳🇱NL-213.183.59.211-4475
+  password: UWZQeLRWnkqgkseq
+  port: 9032
+  server: 213.183.59.211
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-5.161.133.65-4380
+  network: ws
+  port: 52317
+  server: 5.161.133.65
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e8dcd51e-098d-4155-d232-1438c4f40dc6
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-57.129.64.238-4833
+  network: ws
+  port: 443
+  server: 57.129.64.238
+  servername: kapelleng.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.76.157.234-5067
+  network: ws
+  port: 14479
+  server: 47.76.157.234
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 90606c14-cba4-43ff-9586-9edd8bef21a4
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇸🇨SC-154.201.80.214-5066
+  network: ws
+  port: 44471
+  server: 154.201.80.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7b454c2e-51d2-49ef-8814-71531c2bd41f
+  ws-opts:
+    path: /arki?ed=2048
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.187-5137
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.187
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.73-5129
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.73
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.155.5-5166
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.5
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.248-5158
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.248
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.246-5161
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.246
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.155.56-5192
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.56
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.155.154-5233
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.154
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.223-5269
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.223
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.155.218-5260
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.218
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.141-5252
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.141
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.77-5283
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.77
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.201-5247
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.201
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.203-5298
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.203
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.155.32-5316
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.32
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.155.156-5335
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.156
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.155.2-5355
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.2
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.144-5383
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.144
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.249-5371
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.249
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.155.226-5384
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.226
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.225-5385
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.225
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.155.27-5372
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.27
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.154.191-5378
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.191
+  type: ss
+- cipher: chacha20-ietf
+  name: 🇭🇰HK-103.149.182.191-5406
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.18.156.119-5399
+  network: ws
+  port: 443
+  server: api.jquery.com
+  servername: admin.kasrax.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      Host: api.jquery.com
+    path: /us.kkp.me.eu.org/aa
+- alterId: 0
+  cipher: auto
+  name: 🇻🇳VN-160.19.78.237-5401
+  network: ws
+  port: 40608
+  server: 160.19.78.237
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 167dc5a8-6f72-49b3-a0c9-e41e403bd400
+  ws-opts:
+    path: /arki?ed=2048
+- cipher: aes-256-cfb
+  name: 🇻🇳VN-103.186.155.137-5363
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.137
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.114.114.69-5619
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 38.114.114.69
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.68.135.19-5605
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 38.68.135.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE-145.239.1.100-5761
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.59-5795
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 85.208.108.59
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧GB-172.99.190.87-5880
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 172.99.190.87
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.61.175-5913
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 167.88.61.175
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-169.197.142.187-5961
+  password: zDNVedRFPQexG9v
+  port: 6379
   server: 169.197.142.187
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-167.88.63.82-6206
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 167.88.63.82
+  name: 🇺🇸US-169.197.142.187-5977
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 169.197.142.187
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.75.136.21-6205
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 38.75.136.21
+  name: 🇺🇸US-167.88.61.14-5918
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 167.88.61.14
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-167.88.61.60-6228
+  name: 🇺🇸US-38.121.43.97-6035
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.121.43.97
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.68.135.239-6062
   password: Y6R9pAtvxxzmGC
-  port: 5001
+  port: 3306
+  server: 38.68.135.239
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-134.195.198.95-6100
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.198.95
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.143.66.55-6175
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.143.66.55
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.61.60-6202
+  password: cdBIDV42DCwnfIN
+  port: 8119
   server: 167.88.61.60
   type: ss
 - cipher: aes-256-gcm
-  name: 🇳🇱NL-172.99.188.99-6294
+  name: 🇺🇸US-38.68.135.123-6162
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 38.68.135.123
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.75.136.135-6190
   password: cdBIDV42DCwnfIN
   port: 8119
-  server: 172.99.188.99
+  server: 38.75.136.135
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.121.43.142-6340
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 38.121.43.142
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧GB-172.99.190.39-6394
+  name: 🇺🇸US-38.75.136.135-6205
   password: Y6R9pAtvxxzmGC
-  port: 5001
+  port: 5000
+  server: 38.75.136.135
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.61.175-6227
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 167.88.61.175
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧GB-172.99.190.39-6234
+  password: Y6R9pAtvxxzmGC
+  port: 5601
   server: 172.99.190.39
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US-38.68.134.135-6231
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 38.68.134.135
+  type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.91.100.27-6540
+  name: 🇺🇸US-167.88.61.60-6232
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 167.88.61.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.86.135.36-6255
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 38.86.135.36
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇳🇱NL-172.99.188.71-6260
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 172.99.188.71
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.61.50-6281
   password: faBAoD54k87UJG7
   port: 2376
+  server: 167.88.61.50
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.143.66.99-6301
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 38.143.66.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.75.136.135-6273
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.75.136.135
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.143.66.55-6373
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.143.66.55
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇳🇱NL-172.99.188.71-6395
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 172.99.188.71
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.86.135.36-6358
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.86.135.36
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US-167.88.61.2-6421
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 167.88.61.2
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.63.44-6442
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 167.88.63.44
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.91.107.16-6457
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 38.91.107.16
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US-38.91.107.225-6429
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 38.91.107.225
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.107.226.132-6466
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 38.107.226.132
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.114.114.19-6480
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.114.114.69-6493
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 38.114.114.69
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.114.114.49-6494
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.114.114.49
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.91.100.27-6528
+  password: PCnnH6SQSnfoS27
+  port: 8091
   server: 38.91.100.27
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-142.202.48.34-6580
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 142.202.48.34
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US-38.91.100.207-6609
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.91.100.207
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US-38.68.134.48-6629
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 38.68.134.48
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US-38.91.100.207-6597
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.91.100.207
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US-167.88.63.82-6619
-  password: Y6R9pAtvxxzmGC
-  port: 5600
+  name: 🇺🇸US-167.88.63.82-6517
+  password: TEzjfAYq2IjtuoS
+  port: 6679
   server: 167.88.63.82
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.86.135.169-6754
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 38.86.135.169
+  name: 🇺🇸US-142.202.48.83-6542
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 142.202.48.83
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.68.134.191-6795
+  name: 🇺🇸US-38.91.107.16-6551
   password: FoOiGlkAA9yPEGP
   port: 7307
-  server: 38.68.134.191
+  server: 38.91.107.16
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.107.226.146-6910
+  name: 🇺🇸US-38.114.114.19-6543
   password: faBAoD54k87UJG7
   port: 2376
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.64.138.145-6560
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.64.138.145
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.107.226.48-6583
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.107.226.48
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.86.135.36-6610
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 38.86.135.36
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.121.43.71-6545
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 38.121.43.71
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.63.82-6594
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 167.88.63.82
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.107.226.146-6587
+  password: g5MeD6Ft3CWlJId
+  port: 5004
   server: 38.107.226.146
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-167.88.61.60-6958
+  name: 🇺🇸US-38.143.66.20-6630
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 38.143.66.20
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.143.66.87-6648
   password: Y6R9pAtvxxzmGC
-  port: 8888
+  port: 3389
+  server: 38.143.66.87
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.63.44-6662
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 167.88.63.44
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.114.114.69-6690
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 38.114.114.69
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.86.135.36-6703
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.86.135.36
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.61.175-6699
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 167.88.61.175
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.114.114.143-6715
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.114.114.143
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.61.14-6689
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 167.88.61.14
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.61.60-6670
+  password: RexnBgU7EV5ADxG
+  port: 7002
   server: 167.88.61.60
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.68.134.9-7021
+  name: 🇺🇸US-38.75.136.135-6731
   password: XKFKl2rULjIp74
   port: 8009
-  server: 38.68.134.9
+  server: 38.75.136.135
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-167.88.63.99-6985
+  name: 🇺🇸US-38.68.134.85-6874
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 38.68.134.85
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.68.134.85-6866
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 38.68.134.85
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.61.60-6916
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 167.88.61.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-142.202.48.7-6847
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 142.202.48.7
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.63.44-6945
   password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 167.88.63.99
+  port: 5601
+  server: 167.88.63.44
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-142.202.48.83-7005
+  name: 🇬🇧GB-172.99.190.61-6950
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 172.99.190.61
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.86.135.169-6933
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 38.86.135.169
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.63.82-6963
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 167.88.63.82
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧GB-172.99.190.39-6967
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 172.99.190.39
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-142.202.48.74-6983
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 142.202.48.74
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.114.114.67-6976
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 38.114.114.67
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.86.135.27-6990
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.86.135.27
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-142.202.48.83-7039
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 142.202.48.83
   type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.114.114.69-6974
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 38.114.114.69
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.63.79-7029
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 167.88.63.79
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.107.226.132-7032
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.107.226.132
+  type: ss
 - cipher: rc4-md5
-  name: 🇨🇳CN-120.195.181.170-7091
+  name: 🇨🇳CN-111.6.86.80-7114
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: e61b761245.microsoft.com
+    mode: http
+  port: 1157
+  server: 111.6.86.80
+  type: ss
+- cipher: rc4-md5
+  name: 🇨🇳CN-111.6.86.80-7126
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: e61b761245.microsoft.com
+    mode: http
+  port: 1185
+  server: 111.6.86.80
+  type: ss
+- cipher: rc4-md5
+  name: 🇨🇳CN-120.195.181.170-7125
   password: Paofu
   plugin: obfs
   plugin-opts:
@@ -3378,19 +3725,98 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.86.18.229-7272
-  network: ws
-  port: 53719
-  server: 47.86.18.229
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰HK-47.242.56.3-7192
+  network: http
+  port: 37064
+  server: 47.242.56.3
+  servername: 47.242.56.3
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 33dbf25a-285f-48f7-9080-cc3ac3f7490e
+  uuid: d2a10a17-6191-472c-896b-782331f49fb9
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.239.233.101-7295
+  network: ws
+  port: 11614
+  server: 47.239.233.101
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8e63bf5b-1ecb-49c9-a53a-5e9f6d0f7d39
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR-146.19.168.161-7364
+  name: 🇭🇰HK-205.198.125.160-7344
+  network: ws
+  port: 10901
+  server: 205.198.125.160
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 30a5ba37-cfbd-4b27-d266-b52562cfbc44
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-82.29.132.9-7356
+  network: ws
+  port: 20086
+  server: 82.29.132.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b2c61f53-a359-429c-900e-255f02def6be
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US-198.2.218.216-7360
+  network: ws
+  port: 443
+  server: 198.2.218.216
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳CN-36.151.194.29-7379
+  network: ws
+  port: 30828
+  server: v28.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-185.135.9.247-7403
+  network: ws
+  port: 2095
+  server: 185.135.9.247
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-146.19.168.161-7402
   network: ws
   port: 443
   server: 146.19.168.161
@@ -3405,10 +3831,80 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-45.142.120.190-7372
+  name: 🇺🇸US-76.223.26.96-7390
+  network: ws
+  port: 443
+  server: kapelleng.com
+  servername: kapelleng.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kapelleng.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.138.69-7433
+  network: ws
+  port: 443
+  server: ParsVds.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-57.129.24.141-7454
+  network: ws
+  port: 443
+  server: 57.129.24.141
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-188.114.96.5-7475
+  network: ws
+  port: 443
+  server: 188.114.96.5
+  servername: linde06.indiavideo.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US-38.14.107.228-7497
+  network: ws
+  port: 38003
+  server: 38.14.107.228
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/181721272114
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-185.174.138.196-7459
   network: ws
   port: 2082
-  server: 45.142.120.190
+  server: 185.174.138.196
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3419,10 +3915,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-45.149.12.84-7412
+  name: 🇮🇷IR-2.189.59.4-7502
   network: ws
   port: 443
-  server: 45.149.12.84
+  server: 2.189.59.4
+  servername: obdii.cfd
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -3430,52 +3927,161 @@ proxies:
   ws-opts:
     headers:
       Host: obdii.cfd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇮🇷IR-2.189.59.6-7451
-  network: ws
-  port: 443
-  server: 2.189.59.6
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /
+    path: /linkws
 - alterId: 64
   cipher: auto
-  name: 🇺🇸US-199.188.105.56-7623
+  name: 🇺🇸US-108.186.26.167-7554
   network: ws
-  port: 31004
-  server: 199.188.105.56
+  port: 37004
+  server: 108.186.26.167
   skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.46554484.xyz
+      Host: www.64933771.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US-38.33.34.38-7538
+  network: ws
+  port: 36002
+  server: 38.33.34.38
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇬🇷GR-46.20.109.113-7631
+  name: 🏁RELAY-104.21.83.108-7528
   network: ws
-  port: 25228
-  server: cu.awslcn.info
+  port: 443
+  server: 104.21.83.108
+  servername: hms02.fxiaomi.sbs
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
   ws-opts:
     headers:
-      Host: cu.awslcn.info
+      Host: hms02.fxiaomi.sbs
+    path: /link
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US-38.14.100.196-7549
+  network: ws
+  port: 37009
+  server: 38.14.100.196
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.93257876.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US-199.180.100.97-7591
+  network: ws
+  port: 31003
+  server: 199.180.100.97
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.17330585.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.18.25.92-7751
+  name: 🇺🇸US-38.91.107.36-7643
+  network: ws
+  port: 443
+  server: 38.91.107.36
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-45.145.165.113-7662
+  network: ws
+  port: 443
+  server: 45.145.165.113
+  servername: hms19.best-tizi.top
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧GB-149.7.16.73-7655
+  network: ws
+  port: 443
+  server: 149.7.16.73
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US-38.174.162.114-7686
+  network: ws
+  port: 38003
+  server: 38.174.162.114
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.78422888.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.21.74.239-7774
+  network: ws
+  port: 443
+  server: 104.21.74.239
+  servername: afrhms07.xfixedfloat.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+  ws-opts:
+    headers:
+      Host: afrhms07.xfixedfloat.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-192.200.160.214-7815
+  network: ws
+  port: 443
+  server: 192.200.160.214
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.18.24.92-7789
   network: ws
   port: 2052
   server: lol.ps
@@ -3489,40 +4095,180 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: 🇸🇬SG-192.53.114.167-7913
+  name: 🇬🇧GB-217.163.76.147-7802
   network: ws
   port: 443
-  server: 192.53.114.167
-  servername: 192.53.114.167
+  server: 217.163.76.147
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: 192.53.114.167
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.16.9.95-7934
+  name: 🏁RELAY-172.67.189.189-7897
+  network: ws
+  port: 443
+  server: af.cnpvcpp.com
+  servername: yetejbw5h52j25jlan.thelastronin.cloudns.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: yelan.thelastronin.cloudns.org
+    path: /linkws/ivideos.sbs
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP-131.186.57.111-7808
+  network: ws
+  port: 443
+  server: 131.186.57.111
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 🇺🇸US-38.99.82.187-7924
+  network: ws
+  port: 443
+  server: 38.99.82.187
+  servername: 38.99.82.187
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 38.99.82.187
+    path: /linkvws
+- alterId: 1
+  cipher: auto
+  name: 🇩🇪DE-23.157.88.20-7946
+  network: ws
+  port: 443
+  server: 23.157.88.20
+  servername: 23.157.88.20
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.157.88.20
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.18.24.92-7940
   network: ws
   port: 2052
-  server: 104.16.9.95
+  server: 104.18.24.92
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
   ws-opts:
     headers:
-      Host: us2FchmwQky.inivtrak.xyz
-    path: /video/BgpiHrui/
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.19.46.240-8074
+  name: 🏁RELAY-104.21.118.181-7975
+  network: ws
+  port: 2052
+  server: 104.21.118.181
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 423caa0c-0542-4326-92e1-18769b6608e7
+  ws-opts:
+    headers:
+      Host: tw1eskJpKcA.inivtrak.xyz
+    path: /video/WNMicnDh
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US-107.167.20.184-8003
+  network: ws
+  port: 30000
+  server: 107.167.20.184
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.15314695.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-182.16.1.194-8012
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US-170.178.179.187-8017
+  network: ws
+  port: 30000
+  server: 170.178.179.187
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.15314695.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.19.47.13-8046
+  network: ws
+  port: 8080
+  server: 104.19.47.13
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.19.47.187-8055
   network: ws
   port: 8443
-  server: 104.19.46.240
-  servername: hk01.leleles.us
+  server: 104.19.47.187
+  servername: hk01.linkitnow.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  ws-opts:
+    headers:
+      Host: hk01.linkitnow.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.244.88-8083
+  network: ws
+  port: 8443
+  server: 172.67.244.88
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -3531,18 +4277,150 @@ proxies:
     headers:
       Host: hk01.leleles.us
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.19.47.52-8093
+  network: ws
+  port: 8443
+  server: 104.19.47.52
+  servername: hk01.linkitnow.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  ws-opts:
+    headers:
+      Host: hk01.linkitnow.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.19.48.31-8099
+  network: ws
+  port: 8443
+  server: 104.19.48.31
+  servername: hk01.linkitnow.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  ws-opts:
+    headers:
+      Host: hk01.linkitnow.net
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇱🇻LV-185.135.86.86-8675
-  password: PhilEhgKJQ540MNK7mNoim
-  port: 51348
-  server: 185.135.86.86
+  name: 🇫🇷FR-51.178.87.37-8390
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 51.178.87.37
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.204.73-8745
+  name: 🇫🇷FR-51.38.82.132-8387
+  network: ws
+  port: 80
+  server: 51.38.82.132
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: aca76f27-cda3-47f7-af79-7873034fd3bc
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱NL-51.15.105.39-8397
+  network: ws
+  port: 443
+  server: 51.15.105.39
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+  ws-opts:
+    path: /nimvws
+- cipher: aes-256-cfb
+  name: 🇹🇼TW-61.220.130.70-8366
+  password: qwerREWQ@@
+  port: 50701
+  server: 61.220.130.70
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-45.76.88.37-8452
+  network: ws
+  port: 2053
+  server: 45.76.88.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4134efe7-d935-416c-c2cc-24943e4a80ca
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: 🇵🇱PL-217.30.10.68-8575
+  password: Lp27rqyJq72bZsqX
+  port: 9045
+  server: 217.30.10.68
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇵🇱PL-217.30.10.68-8588
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  server: 217.30.10.68
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇿CZ-195.123.246.15-8667
+  password: cyi4FDe4FdrTG3rUpna
+  port: 51348
+  server: 195.123.246.15
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-206.168.190.218-8618
+  network: ws
+  port: 2087
+  server: 206.168.190.218
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 68bd0ca0-3131-11ee-b032-205c6d5f5d78
+  ws-opts:
+    path: /V2RayyNGvpn
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-198.41.193.110-8654
+  network: ws
+  port: 2082
+  server: 198.41.193.110
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  ws-opts:
+    path: /blue
+- cipher: aes-256-cfb
+  name: 🇱🇻LV-185.135.86.173-8713
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 185.135.86.173
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.81.238-8751
+  network: ws
+  port: 443
+  server: 172.67.81.238
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+  ws-opts:
+    path: /11201
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.7.236-8753
   network: ws
   port: 2095
-  server: 172.67.204.73
+  server: 172.67.7.236
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3551,111 +4429,175 @@ proxies:
     path: /hgcefomn
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-154.92.9.65-8884
+  name: 🏁RELAY-172.64.173.70-8842
   network: ws
-  port: 80
-  server: 154.92.9.65
+  port: 2095
+  server: 172.64.173.70
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
   ws-opts:
-    path: /blue
+    path: /hgcefomn
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-154.92.9.228-8894
+  name: 🏁RELAY-162.159.245.122-8874
   network: ws
-  port: 80
-  server: 154.92.9.228
+  port: 2095
+  server: 162.159.245.122
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
   ws-opts:
-    path: /blue
+    path: /hgcefomn
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US-107.173.35.242-9049
-  network: ws
-  port: 8443
-  server: 107.173.35.242
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 1074988f-51da-41df-9db9-36bf3d6f3d94
-  ws-opts:
-    path: /xpyrvws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.31.16.46-9072
-  network: ws
-  port: 80
-  server: 104.31.16.46
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
-  ws-opts:
-    path: /i99LgvSaslbsPLLQQ7j6Z
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.31.16.196-9118
+  name: 🏁RELAY-104.25.188.126-9167
   network: ws
   port: 443
-  server: 104.31.16.196
+  server: 104.25.188.126
   skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 824c58b1-65ba-4680-a609-663a000dbb92
   ws-opts:
     path: /wss13889
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇯🇵JP-89.31.126.242-0654
+  name: 🏁RELAY-104.16.108.100-9254
   network: ws
-  port: 30806
-  server: v6.heduian.link
+  port: 8880
+  server: 104.16.108.100
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  ws-opts:
+    path: /RpT6kZjkw45EenmTcDYWs
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.197.47-117
+  network: ws
+  port: 8443
+  server: fk3.620720.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: ocbc.com
-    path: /oooo
+      Host: fk3.620720.xyz
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-8.218.8.84-5043
+  name: 23-0084-RELAY
   network: ws
-  port: 55138
-  server: 8.218.8.84
-  skip-cert-verify: false
-  tls: false
+  port: 8443
+  server: info.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: tls
   type: vmess
-  uuid: 6bd50af8-81a7-480d-ab78-5ef284868485
+  udp: true
+  uuid: 9e515918-bee8-4850-ac46-28074409ed8d
   ws-opts:
-    path: /arki?ed=2048
+    host: info.andishehnegariran.ir
+    path: /🆔@M3HDIO1
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.76.118.235-5083
+  name: 23-0123-RELAY
   network: ws
-  port: 4656
-  server: 47.76.118.235
-  skip-cert-verify: false
-  tls: false
+  port: 8443
+  server: info.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: tls
   type: vmess
-  uuid: b32e6f10-a209-4614-a2da-5c3c2769c507
+  udp: true
+  uuid: 3951d7de-79a9-4c98-89f0-cd710d765628
   ws-opts:
-    path: /arki?ed=2048
-- cipher: aes-128-gcm
-  name: 🇸🇬SG-154.90.58.212-013
-  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
-  port: 13886
-  server: xinjiapo.tmdns-sing.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-193.29.139.138-245
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.138
-  type: ss
+    host: info.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  name: 23-0145-RELAY
+  network: ws
+  port: 8443
+  server: info.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: tls
+  type: vmess
+  udp: true
+  uuid: 3e1aa840-d32d-4ccf-be16-c110995e728e
+  ws-opts:
+    host: info.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  name: 23-0151-RELAY
+  network: ws
+  port: 8443
+  server: info.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: tls
+  type: vmess
+  udp: true
+  uuid: b985a397-ac71-4cf9-ad39-f933059ea813
+  ws-opts:
+    host: info.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  name: 23-0161-RELAY
+  network: ws
+  port: 8443
+  server: info.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: tls
+  type: vmess
+  udp: true
+  uuid: c08d8f47-676f-4b03-8898-2ce41c842ff8
+  ws-opts:
+    host: info.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  name: 23-0166-RELAY
+  network: ws
+  port: 8443
+  server: info.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: tls
+  type: vmess
+  udp: true
+  uuid: 99e7bd83-4c44-4851-b427-fdf2e0b1db0f
+  ws-opts:
+    host: info.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  name: 23-0167-RELAY
+  network: ws
+  port: 8443
+  server: info.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: tls
+  type: vmess
+  udp: true
+  uuid: 9c2491d5-53d8-4548-9e06-b4a4f303ceff
+  ws-opts:
+    host: info.andishehnegariran.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  name: 23-0157-RELAY
+  network: ws
+  port: 8443
+  server: info.andishehnegariran.ir
+  skip-cert-verify: true
+  tls: tls
+  type: vmess
+  udp: true
+  uuid: a674b2ec-e27c-47d9-9408-1354d0f84ede
+  ws-opts:
+    host: info.andishehnegariran.ir
+    path: /🆔@M3HDIO1
