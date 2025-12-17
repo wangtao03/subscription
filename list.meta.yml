@@ -1,4 +1,4 @@
-# Update: 2025-12-17 08:48
+# Update: 2025-12-17 14:18
 allow-lan: true
 dns:
   enable: true
@@ -110,53 +110,78 @@ proxies:
     headers:
       Host: fr-1-fr-1.aiopen.sbs
     path: /kbjc/fr1
-- flow: xtls-rprx-vision
-  name: 🟡_🇺🇸_💻_github.com/Ruk1ng001_64...
-  network: tcp
-  port: 33873
-  reality-opts:
-    public-key: RV6FhlbDmMyc_qCuuTbUZt3QMUsKZU7EjyjGkYxHS34
-    short-id: 'de550428'
-  server: 139.144.199.41
-  servername: www.nokia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ffb5a850-edbc-4831-ad0b-e29483949ea8
-- name: 🟡_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001...
+- alterId: 0
+  name: 🟡_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001...
   password: BxceQaOe
   port: 443
   server: 58.152.25.242
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me/ripaojiedian
+  tls: true
   type: trojan
-- name: 🟡_🇸🇬_💻_github.com/Ruk1ng001_66...
-  port: 10808
-  server: 213.35.126.34
+  udp: true
+- name: 🟡_🇰🇷_📶_github.com/Ruk1ng001_37...
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+- name: NL_speednode_0013
+  port: 1080
+  server: 161.35.82.57
   type: socks5
   udp: true
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 香港|@ripaojiedian #1'
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_6|1.4MB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
+  skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🟠_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001...
-  network: http
-  port: 44457
-  server: 47.242.145.160
+  name: GB_speednode_0003
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 40290609-2743-4d85-c9c3-4c72dd151b9f
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_383734636...
+  port: 30830
+  server: v30.hdacd.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: github.com/Ruk1ng001_373532346...
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'HK_speednode_0005 #1'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.79.214.159
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -169,14 +194,57 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: NL_speednode_0013
-  port: 1080
-  server: 161.35.82.57
-  type: socks5
+- alterId: 2
+  cipher: auto
+  name: github.com/Ruk1ng001_663130666...
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_643531356...
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
   udp: true
-- name: 🟡_🇰🇷_📶_github.com/Ruk1ng001_37...
-  port: 1090
-  server: 121.169.46.116
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: github.com/Ruk1ng001_356239643...
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '🟡_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #2'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: '🇭🇰 香港|@ripaojiedian #1'
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇸🇬SG_1|1.1MB/s
+  port: 10808
+  server: 213.35.126.34
   type: socks5
   udp: true
 - name: 'HK_speednode_0010 #1'
@@ -188,93 +256,83 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 'HK_speednode_0005 #1'
+- name: 🇭🇰 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 219.79.214.159
+  server: 58.152.30.31
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
-- name: 'HK_speednode_0009 #1'
+- name: 🇯🇵 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 58.152.25.89
+  port: 3760
+  server: 18.179.13.93
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
-- name: 11,12|日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 5156
-  server: 13.113.164.125
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 11,12|日本2|@ripaojiedian
+- name: 🇯🇵 日本2|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 3093
-  server: 153.121.45.139
+  server: 160.16.117.182
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|日本3|@ripaojiedian
+- name: 🇯🇵 日本3|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 3169
-  server: 13.231.90.117
+  server: 160.16.117.182
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|新加坡|@ripaojiedian
+- name: 🇸🇬 新加坡|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 3145
-  server: 18.179.119.5
+  server: 160.16.153.13
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|新加坡2|@ripaojiedian
+- name: 🇸🇬 新加坡2|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 1507
-  server: 160.16.196.59
+  server: 160.16.132.158
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|新加坡3|@ripaojiedian
+- name: 🇸🇬 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 381
-  server: 43.199.144.199
+  port: 1691
+  server: 18.167.69.38
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12|美国|@ripaojiedian
-  network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 4054
-  server: 202.181.103.246
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 11,12|美国2|@ripaojiedian
+- name: 🇺🇸 美国|@ripaojiedian
   network: tcp
   password: e2722c0fb503f8a592436c12bce0509a
   port: 2890
-  server: 160.16.136.130
-  skip-cert-verify: true
+  server: 160.16.89.176
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国3|@ripaojiedian
+- name: 🇺🇸 美国2|@ripaojiedian
+  network: tcp
+  password: e2722c0fb503f8a592436c12bce0509a
+  port: 4054
+  server: 160.16.138.24
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2173
-  server: 16.163.143.132
+  port: 4569
+  server: 43.199.204.139
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -294,6 +352,14 @@ proxies:
   server: 219.79.214.159
   skip-cert-verify: true
   sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 'HK_speednode_0009 #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.89
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - name: 🇨🇳_CN_中国->🇯🇵_JP_日本
@@ -318,7 +384,7 @@ proxies:
 - name: end-gfw.com11@jp89
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6688
-  server: 13.230.3.203
+  server: 3.113.27.102
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
@@ -327,7 +393,7 @@ proxies:
   name: end-gfw.com12@jp89
   network: ws
   port: 8686
-  server: 13.230.3.203
+  server: 3.113.27.102
   servername: baidu.com
   tls: false
   type: vmess
@@ -339,7 +405,7 @@ proxies:
 - name: end-gfw.com21@kr64
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6688
-  server: 3.36.99.166
+  server: 3.35.137.154
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
@@ -348,7 +414,7 @@ proxies:
   name: end-gfw.com22@kr64
   network: ws
   port: 8686
-  server: 3.36.99.166
+  server: 3.35.137.154
   servername: baidu.com
   tls: false
   type: vmess
@@ -447,88 +513,8 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.31
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 3760
-  server: 18.179.13.93
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本2|@ripaojiedian
-  network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 3093
-  server: 160.16.117.182
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本3|@ripaojiedian
-  network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 3169
-  server: 160.16.117.182
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡|@ripaojiedian
-  network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 3145
-  server: 160.16.153.13
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@ripaojiedian
-  network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 1507
-  server: 160.16.132.158
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 1691
-  server: 18.167.69.38
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇺🇸 美国|@ripaojiedian
-  network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 2890
-  server: 160.16.89.176
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国2|@ripaojiedian
-  network: tcp
-  password: e2722c0fb503f8a592436c12bce0509a
-  port: 4054
-  server: 160.16.138.24
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 4569
-  server: 43.199.204.139
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - encryption: none
-  name: 🇯🇵JP_1|1.5MB/s
+  name: 🇯🇵JP_1|2.9MB/s
   network: ws
   port: 8880
   server: wangcai.cf.877774.xyz
@@ -539,15 +525,191 @@ proxies:
     headers:
       Host: snip.062797.xyz
     path: /?ed=2560&Telegram@freecodes
+- delay: 1381
+  name: 🇺🇸US_1|3.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tro8sFW1S91B6sZrM1
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  delay: 2692
+  down: 100
+  name: 🇫🇷FR_1|1.9MB/s
+  port: 15010
+  protocol: udp
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 100
+- name: 🇩🇪DE_1|2.3MB/s
+  network: ws
+  port: 2053
+  server: 104.26.12.27
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- name: 🇩🇪DE_2|1.1MB/s
+  network: ws
+  port: 2053
+  server: www.aapanel.com
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- name: 🇩🇪DE_3|1.4MB/s
+  network: ws
+  port: 2053
+  server: www.gco.gov.qa
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- name: 🇺🇸US_4|1.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: koma-yt.pages.dev
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tro8sFW1S91B6sZrM1
+- alterId: '2'
+  cipher: auto
+  name: 🇺🇸US_5|2.5MB/s
+  network: tcp
+  port: '30808'
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_4|2.1MB/s
+  network: ws
+  port: '80'
+  server: usaa.fastlynew.hosting-ip.com
+  type: vless
+  udp: true
+  uuid: b8653fb6-6a78-4bc1-e89d-1ed171e4b56e
+  ws-opts:
+    headers:
+      Host: mojhsjd.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: /telegeam-@v2_city--?ed=2048
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇹🇼TW_1|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: I0fwGRiSwcXazqFy0qmyhMzaN3JOOBafmvDM6A-AaUs
+    short-id: '9c2378562188c3cb'
+  server: 178.171.122.65
+  servername: msk.capybara.press
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a97c5f3-68de-4d5e-bac2-c6bd94551fb6
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_5|3.2MB/s
+  network: ws
+  port: '80'
+  server: usaa.fastlynew.hosting-ip.com
+  type: vless
+  udp: true
+  uuid: 464c6913-95b5-44e0-9bdb-5ae9b8f82735
+  ws-opts:
+    headers:
+      Host: mojhsjd.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /telegeam-@v2_city--?ed=2048
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇭🇰HK_2|4.8MB/s
+  network: none
+  port: 32228
+  server: 8.218.116.26
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e4767e9f-ed00-4f31-a984-a918bdd9b09c
+  xudp: true
+- name: 🇯🇵JP_2|2.7MB/s
+  password: 7a88d322-eb4a-4a59-8c62-8c60d76abf4b
+  port: 28253
+  server: 161.33.185.230
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰HK_1|1.8MB/s
+  name: 🇭🇰HK_3|3.3MB/s
   network: ws
   port: 80
-  server: 9d8128b3-t70f40-t7c251-nx3b.hkt.gotochinatown.net
+  server: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK_4|1.9MB/s
+  network: ws
+  port: 80
+  server: c4ea51ab-t7h340-t8xdsu-nx3b.hkt.gotochinatown.net
   servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: true
   type: vmess
@@ -556,33 +718,291 @@ proxies:
     headers:
       HOST: broadcastlv.chat.bilibili.com
     path: /
-- encryption: none
-  name: 🇺🇸US_1|1.4MB/s
-  network: ws
-  port: '2095'
-  server: www.udemy.com
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: freedom.pusytroller.cf
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 🏁RELAY-172.67.242.38-8651
+  name: 🇺🇸US_7|2.4MB/s
   network: ws
-  port: 443
-  server: 172.67.242.38
+  port: '443'
+  server: 162.159.243.133
+  servername: foxpol.fovi.tk
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 824c58b1-65ba-4680-a609-663a000dbb92
+  udp: true
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
   ws-opts:
-    path: /wss13889
+    headers:
+      Host: foxpol.fovi.tk
+    path: /eisasqa
+  xudp: true
+- encryption: none
+  name: 🇫🇮FI_1|1.9MB/s
+  network: tcp
+  port: '2087'
+  reality-opts:
+    public-key: apWDV3PACWUfkz4vHSEhoJrTQvO3deytV1n1nWwmzXo
+    short-id: 'f312'
+  server: free.best-antiaging-reviews.com
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c70919b3-a54f-4293-a781-05ded7a6f2a4
+  xudp: true
+- client-fingerprint: safari
+  encryption: none
+  name: 🇺🇸US_8|2.7MB/s
+  network: ws
+  port: '443'
+  server: www.speedtest.net
+  servername: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: a55538a5-2fd5-4e89-8c94-ef9b2da061ea
+  ws-opts:
+    headers:
+      Host: n50-dz21lt64-cueuu2g4o5y3hpby-22.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /vuut6bvfxroxjbja?ed=2560
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_9|1.2MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: BaTi5Wrua_Oo_CMJ-uQ6UWtDId9z9IhzoOvRe2qvBhQ
+    short-id: '63d80d5199a2bc'
+  server: 158.62.198.132
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd7d3e61-288e-4d0f-b5dc-591dcdbc119f
+  xudp: true
+- name: 🇫🇷FR_2|1.9MB/s
+  network: ws
+  port: '80'
+  server: hajimamadvpnjoinsho.fast199.hosting-ip.com
+  type: vless
+  udp: true
+  uuid: b727aa5e-27bd-4fe5-bd95-7db682992637
+  ws-opts:
+    headers:
+      Host: downloadha.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW-165.154.246.71-1150
+  network: ws
+  port: 80
+  server: 165.154.246.71
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 13581ae8-65c9-4fbe-9c78-77fac9ca503a
+  ws-opts:
+    headers:
+      Host: 165.154.246.71
+    path: ?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP-172.104.78.98-1519
+  network: ws
+  port: 443
+  server: 172.104.78.98
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.19.40.99-1908
+  network: ws
+  port: 8880
+  server: 104.19.40.99
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵JP-153.122.173.53-2367
+  network: ws
+  port: 32407
+  server: 153.122.173.53
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 26c5fdc7-b3be-3482-9a45-d97b958a889a
+  ws-opts:
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-174.129.128.48-4485
+  network: ws
+  port: 443
+  server: xr-1.herokuapp.com
+  servername: xr-1.herokuapp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  ws-opts:
+    headers:
+      Host: xr-1.herokuapp.com
+    path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-149.30.232.103-5114
+  network: ws
+  port: 18393
+  server: 149.30.232.103
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2c1807ce-6a63-4451-9add-a778d2507160
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG-8.219.120.168-7091
+  network: ws
+  port: 443
+  server: 8.219.120.168
+  servername: p3.chigua.tk
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-31.58.87.99-7364
+  network: ws
+  port: 36989
+  server: 31.58.87.99
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d90bef15-1403-4e79-92cc-90f6cc697603
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-8.217.171.193-7386
+  network: ws
+  port: 28910
+  server: 8.217.171.193
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c13c737c-c0b3-434e-8091-bb677946fd40
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧GB-149.7.16.248-7688
+  network: ws
+  port: 443
+  server: 149.7.16.248
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 149.7.16.248
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US-38.11.61.80-7817
+  network: ws
+  port: 31001
+  server: 38.11.61.80
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.62903512.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸US-199.180.101.23-7995
+  network: ws
+  port: 38004
+  server: 199.180.101.23
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.72522209.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.238.152-8678
+  network: ws
+  port: 2095
+  server: 172.67.238.152
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+  ws-opts:
+    path: /hgcefomn
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.212.44-8686
+  network: ws
+  port: 80
+  server: 172.67.212.44
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
+  ws-opts:
+    path: 4a47e680
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.64.175.26-8753
+  network: ws
+  port: 2095
+  server: 172.64.175.26
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+  ws-opts:
+    path: /hgcefomn
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.64.129.7-8760
+  network: ws
+  port: 2095
+  server: 172.64.129.7
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+  ws-opts:
+    path: /hgcefomn
 - flow: xtls-rprx-vision
   name: DE_speednode_0001
   port: 443
@@ -596,16 +1016,6 @@ proxies:
   type: vless
   udp: true
   uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-- alterId: 0
-  cipher: auto
-  name: GB_speednode_0003
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - flow: xtls-rprx-vision
   name: HK_speednode_0008
   port: 10001
