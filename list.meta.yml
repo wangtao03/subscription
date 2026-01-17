@@ -1,4 +1,4 @@
-# Update: 2026-01-17 08:52
+# Update: 2026-01-17 14:16
 allow-lan: true
 dns:
   enable: true
@@ -19,506 +19,299 @@ mixed-port: 7890
 mode: rule
 proxies:
 - alpn:
-  - http%2F1.1
+  - h3%2Ch2%2Chttp%2F1.1
   alterId: 0
   cipher: auto
   client-fingerprint: random
   flow: ''
   name: 永久官网https://kelayun.notepin.co
   network: ws
-  port: 8443
-  server: 104.17.162.123
-  servername: rtwoqiujknfi91e5owhulmxds66nr8k49jhdjx7i8op2.zjde5.de5.net
+  port: 443
+  server: time.is
+  servername: snip.cfv.pp.ua
   skip-cert-verify: true
-  sni: rtwoqiujknfi91e5owhulmxds66nr8k49jhdjx7i8op2.zjde5.de5.net
+  sni: snip.cfv.pp.ua
   tls: true
   type: vless
-  uuid: 62451d42-fbcb-4e64-a962-66a70c1dfb80
+  udp: true
+  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
   ws-opts:
     headers:
-      Host: rtwoqiujknfi91e5owhulmxds66nr8k49jhdjx7i8op2.zjde5.de5.net
+      Host: snip.cfv.pp.ua
     path: /?ed=2560
 - alpn:
-  - http%2F1.1
-  name: 永久地址https://kelayun.notepin.co
-  network: ws
-  password: je63ralz8q05
-  port: 8443
-  server: 104.17.162.123
-  servername: fselibq2q8e3qr90bfa00jaqf7ruqh5ajf908y5a15.zjde5.de5.net
-  skip-cert-verify: true
-  sni: fselibq2q8e3qr90bfa00jaqf7ruqh5ajf908y5a15.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: fselibq2q8e3qr90bfa00jaqf7ruqh5ajf908y5a15.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
+  - h3%2Ch2%2Chttp%2F1.1
   alterId: 0
   cipher: auto
   client-fingerprint: random
   flow: ''
   name: 下单地址https://kelayun.notepin.co
   network: ws
-  port: 8443
-  server: 104.17.163.123
-  servername: vuesehf88bc1eqnr.zjde5.de5.net
+  port: 443
+  server: icook.hk
+  servername: snip.cfv.pp.ua
   skip-cert-verify: true
-  sni: vuesehf88bc1eqnr.zjde5.de5.net
+  sni: snip.cfv.pp.ua
   tls: true
   type: vless
-  uuid: f0e57256-b97d-48c7-b636-c76c9c317a17
+  udp: true
+  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
   ws-opts:
     headers:
-      Host: vuesehf88bc1eqnr.zjde5.de5.net
+      Host: snip.cfv.pp.ua
     path: /?ed=2560
 - alpn:
-  - http%2F1.1
-  name: 购买地址https://kelayun.notepin.co
-  network: ws
-  password: c5h0v6gc3wsf
-  port: 8443
-  server: 104.17.163.123
-  servername: vr5x2s53purywxa6ku2je9otf3hrrskffv7dfsrp8.zjde5.de5.net
-  skip-cert-verify: true
-  sni: vr5x2s53purywxa6ku2je9otf3hrrskffv7dfsrp8.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vr5x2s53purywxa6ku2je9otf3hrrskffv7dfsrp8.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
+  - h3%2Ch2%2Chttp%2F1.1
   alterId: 0
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 最低2块钱1000G流量
-  network: ws
-  port: 8443
-  server: 104.17.164.123
-  servername: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-  skip-cert-verify: true
-  sni: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-  tls: true
-  type: vless
-  uuid: 4525c260-df3c-4f62-b8f1-f4f5f305694b
-  ws-opts:
-    headers:
-      Host: yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  name: 最高200元终身无限流量
-  network: ws
-  password: 6pu3rf412wt6
-  port: 8443
-  server: 104.17.164.123
-  servername: 18mhfsgzjtr6l.zjde5.de5.net
-  skip-cert-verify: true
-  sni: 18mhfsgzjtr6l.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 18mhfsgzjtr6l.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  client-fingerprint: random
-  name: free-vless-优选4
-  network: ws
-  port: 8443
-  server: 104.17.165.123
-  servername: wy1z7e6gbi8zsp1wrficzit51rj71v20okgs1t1rh4njr6uu3x6tc5m1c9.zjde5.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 078732ab-fd09-4e70-b72e-091b26e81f24
-  ws-opts:
-    headers:
-      Host: wy1z7e6gbi8zsp1wrficzit51rj71v20okgs1t1rh4njr6uu3x6tc5m1c9.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  name: free-trojan-优选4
-  network: ws
-  password: 0yb9a8dagdmd
-  port: 8443
-  server: 104.17.165.123
-  skip-cert-verify: true
-  sni: e5pvfcd090no504n1qmlf4iiojp94ngii9h5gql1pbfseo1i9ruv.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: e5pvfcd090no504n1qmlf4iiojp94ngii9h5gql1pbfseo1i9ruv.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  client-fingerprint: random
-  name: free-vless-优选5
-  network: ws
-  port: 8443
-  server: 104.17.166.123
-  servername: 9936hvswgqixoz9k4sishdhtqphe69kf66ra.zjde5.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 5263aed7-5337-47bc-b166-13ea99922aeb
-  ws-opts:
-    headers:
-      Host: 9936hvswgqixoz9k4sishdhtqphe69kf66ra.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  name: free-trojan-优选5
-  network: ws
-  password: 3pegq7hd6n8k
-  port: 8443
-  server: 104.17.166.123
-  skip-cert-verify: true
-  sni: eu06r50a9f90l8xjmhd44w1jw3rfzmggk9ry.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: eu06r50a9f90l8xjmhd44w1jw3rfzmggk9ry.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  client-fingerprint: random
-  name: free-vless-优选6
-  network: ws
-  port: 8443
-  server: 172.64.145.38
-  servername: kwoikmf5t3pytmpbjjtys25t9woamhtjtqcqqsr86wxrzyx.zjde5.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 0febd9af-9162-475a-a1e7-2c3c22a5a6e0
-  ws-opts:
-    headers:
-      Host: kwoikmf5t3pytmpbjjtys25t9woamhtjtqcqqsr86wxrzyx.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  name: free-trojan-优选6
-  network: ws
-  password: iq2iv16f2neo
-  port: 8443
-  server: 172.64.145.38
-  skip-cert-verify: true
-  sni: cf0t0xqlf97r.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cf0t0xqlf97r.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  client-fingerprint: random
-  name: free-vless-优选7
-  network: ws
-  port: 8443
-  server: 172.64.153.235
-  servername: 45egrtii5xuxfdtvcrfm5ybf5re.zjde5.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: fbd98863-c5bb-4aba-8593-5b064d238c7d
-  ws-opts:
-    headers:
-      Host: 45egrtii5xuxfdtvcrfm5ybf5re.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  name: free-trojan-优选7
-  network: ws
-  password: p397k7jausaw
-  port: 8443
-  server: 172.64.153.235
-  skip-cert-verify: true
-  sni: 8vphfprr.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 8vphfprr.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  client-fingerprint: random
-  name: free-vless-优选8
-  network: ws
-  port: 8443
-  server: 172.64.154.125
-  servername: bqfxuz57bgqjjfd0r.zjde5.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 1dab04a1-b8e6-4677-9663-8544956529a6
-  ws-opts:
-    headers:
-      Host: bqfxuz57bgqjjfd0r.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  name: free-trojan-优选8
-  network: ws
-  password: sksr7wx1obyo
-  port: 8443
-  server: 172.64.154.125
-  skip-cert-verify: true
-  sni: d33ny2kwcizsicgkoosnjg65ckd7qmqkvn4kvbnjftrb.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: d33ny2kwcizsicgkoosnjg65ckd7qmqkvn4kvbnjftrb.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  client-fingerprint: random
-  name: free-vless-优选9
-  network: ws
-  port: 8443
-  server: 172.64.149.99
-  servername: n4i97ttd3opbjx2m5z2le00zlo268qstquuu1vfr.zjde5.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: b324ea91-d03f-4a09-bb1e-3b64121df2c1
-  ws-opts:
-    headers:
-      Host: n4i97ttd3opbjx2m5z2le00zlo268qstquuu1vfr.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  name: free-trojan-优选9
-  network: ws
-  password: nwyjpxk7eznn
-  port: 8443
-  server: 172.64.149.99
-  skip-cert-verify: true
-  sni: rwt67ysx6fgcfcusicssxlw24j0gv9noarufrg.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: rwt67ysx6fgcfcusicssxlw24j0gv9noarufrg.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  client-fingerprint: random
-  name: free-vless-优选10
-  network: ws
-  port: 8443
-  server: 172.64.153.22
-  servername: gzotlnifye5rp3m3roao3zggvfunoj3epzrl7s08dqoe1i780cw2txt2h1oe.zjde5.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: f500d92c-9ac3-403d-8569-41a8ff840610
-  ws-opts:
-    headers:
-      Host: gzotlnifye5rp3m3roao3zggvfunoj3epzrl7s08dqoe1i780cw2txt2h1oe.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  name: free-trojan-优选10
-  network: ws
-  password: c38zyoolzgmf
-  port: 8443
-  server: 172.64.153.22
-  skip-cert-verify: true
-  sni: aecolw97853zagq46gr9bcxhx6mz6g7mleqfarm3zrea3r.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aecolw97853zagq46gr9bcxhx6mz6g7mleqfarm3zrea3r.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  client-fingerprint: random
-  name: free-vless-优选11
-  network: ws
-  port: 8443
-  server: 172.64.145.18
-  servername: i66k0ea7swxtnfjpqr.zjde5.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 1886c0a8-464d-4c02-ab2a-80d60254ae7b
-  ws-opts:
-    headers:
-      Host: i66k0ea7swxtnfjpqr.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  name: free-trojan-优选11
-  network: ws
-  password: 02k4158n7mhb
-  port: 8443
-  server: 172.64.145.18
-  skip-cert-verify: true
-  sni: 2p5daw88cd2b9lq34r1a6nfj898rjotvv5.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 2p5daw88cd2b9lq34r1a6nfj898rjotvv5.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  client-fingerprint: random
-  name: www.visa.com-VLESS
-  network: ws
-  port: 8443
-  server: www.visa.com
-  servername: tg2phu2jmfnxa15f9bvcdxa2rjdvmsfw8k50kowi4ocfjcb.zjde5.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 1af1d61f-e45b-4762-9eee-66930e6e13d6
-  ws-opts:
-    headers:
-      Host: tg2phu2jmfnxa15f9bvcdxa2rjdvmsfw8k50kowi4ocfjcb.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  name: www.visa.com-Trojan
-  network: ws
-  password: km4vw7ou690h
-  port: 8443
-  server: www.visa.com
-  skip-cert-verify: true
-  sni: nkv7vi2m0ci05dkhdf9xdlj9nf4fr6i8cuhq.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nkv7vi2m0ci05dkhdf9xdlj9nf4fr6i8cuhq.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  client-fingerprint: random
-  name: www.shopify.com-VLESS
-  network: ws
-  port: 8443
-  server: www.shopify.com
-  servername: fx2h4nk0uf05dtl0jr637vlw4n.zjde5.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: e6cb6021-52fa-4885-b128-428bda8fa3bb
-  ws-opts:
-    headers:
-      Host: fx2h4nk0uf05dtl0jr637vlw4n.zjde5.de5.net
-    path: /?ed=2560
-- alpn:
-  - http%2F1.1
-  name: www.shopify.com-Trojan
-  network: ws
-  password: jmt2ha018i22
-  port: 8443
-  server: www.shopify.com
-  skip-cert-verify: true
-  sni: 1qr2wi9jdq7ikceo8d49a04gjfp1pfxrps.zjde5.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 1qr2wi9jdq7ikceo8d49a04gjfp1pfxrps.zjde5.de5.net
-    path: /?ed=2560
-- name: 🟠_🇺🇸_💻_github.com/Ruk1ng001_36...
+  name: 购买地址https://kelayun.notepin.co
   network: ws
   port: 443
-  server: 162.159.16.63
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
+  server: icook.tw
+  servername: snip.cfv.pp.ua
+  skip-cert-verify: true
+  sni: snip.cfv.pp.ua
   tls: true
   type: vless
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
   ws-opts:
     headers:
-      Host: l.ayovo.netlib.re
+      Host: snip.cfv.pp.ua
     path: /?ed=2560
-- name: US_speednode_0043
-  network: ws
-  port: 443
-  server: 104.16.250.22
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- cipher: auto
-  name: 🟡_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001...
-  network: none
-  port: 9527
-  server: 43.161.253.78
-  tls: false
-  type: vless
-  uuid: d4a23188-85b0-4b46-b84b-f1d36d66c03e
-- alterId: 2
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  alterId: 0
   cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: github.com/Ruk1ng001_386337666...
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
+  client-fingerprint: random
+  flow: ''
+  name: 不限速不限设备
+  network: ws
+  port: 443
+  server: www.visa.cn
+  servername: snip.cfv.pp.ua
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  sni: snip.cfv.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+  ws-opts:
+    headers:
+      Host: snip.cfv.pp.ua
+    path: /?ed=2560
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  alterId: 0
+  cipher: auto
+  client-fingerprint: random
+  flow: ''
+  name: 新疆西藏福建可用
+  network: ws
+  port: 443
+  server: mfa.gov.ua
+  servername: snip.cfv.pp.ua
+  skip-cert-verify: true
+  sni: snip.cfv.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+  ws-opts:
+    headers:
+      Host: snip.cfv.pp.ua
+    path: /?ed=2560
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  alterId: 0
+  cipher: auto
+  client-fingerprint: random
+  flow: ''
+  name: 解锁一切流媒体
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: snip.cfv.pp.ua
+  skip-cert-verify: true
+  sni: snip.cfv.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+  ws-opts:
+    headers:
+      Host: snip.cfv.pp.ua
+    path: /?ed=2560
+- name: US91｜家宽｜非常安全
+  password: 1e071e05-b6b4-4966-9a78-3a98e6c0e984
+  port: 25502
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+- name: US82｜家宽｜非常安全
+  password: 7ba1a0b8-4d6c-4293-9317-187caf132dcd
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK76｜原生/疑似家宽｜非常安全
+  password: 7a75e482-0c41-4407-ad4d-d519944e5dd7
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: github.com/Ruk1ng001_643531356...
-  port: 30812
-  server: v12.hdacd.com
-  skip-cert-verify: true
-  tfo: false
+  name: US116｜原生/疑似家宽｜非常安全
+  network: tcp
+  port: '47084'
+  server: 120.198.71.161
   tls: false
   type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: US_speednode_0038
-  network: ws
+  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+- name: US88｜家宽｜非常安全
+  password: 7a75e482-0c41-4407-ad4d-d519944e5dd7
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK36｜原生/疑似家宽｜非常安全
+  password: 7ba1a0b8-4d6c-4293-9317-187caf132dcd
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- flow: xtls-rprx-vision
+  name: github.com/Ruk1ng001_613636613...
   port: 443
-  server: 104.18.185.26
-  servername: l.ayovo.netlib.re
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: ru-msk-yan-1gbit-02.sssrvpn.pro
+  servername: ya.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- alterId: 64
-  cipher: auto
-  name: CN2｜家宽｜非常安全
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+- name: HK33｜原生/疑似家宽｜非常安全
+  password: 7ba1a0b8-4d6c-4293-9317-187caf132dcd
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 0
+  name: HK12｜家宽｜非常安全
   network: tcp
-  port: '59003'
-  server: 183.236.51.36
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.219
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- name: 🟡_🇰🇷_📶_github.com/Ruk1ng001_37...
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+- name: 🟠_🇩🇪_💻_github.com/Ruk1ng001_39...
+  port: 1080
+  server: 193.233.254.9
   tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: NL_speednode_0017
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuOTpAMTkzLjIzMy4yNTQuOTo%3D
+- name: HK25｜原生/疑似家宽｜非常安全
+  password: 7ba1a0b8-4d6c-4293-9317-187caf132dcd
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK24｜原生/疑似家宽｜非常安全
+  password: c91410bb-b777-4daf-988b-d5445d143e6b
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 🇩🇪DE_4|2.2MB/s
   network: ws
-  port: 2082
-  server: 45.131.4.246
-  servername: GER.SODOGODPING.IR
+  port: 8880
+  server: clean.photoggenic.ir
+  servername: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
   skip-cert-verify: false
   tls: false
+  type: vless
+  udp: true
+  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
+  ws-opts:
+    headers:
+      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+    path: /?ed=8880
+- name: github.com/Ruk1ng001_393866343...
+  network: ws
+  port: 2087
+  server: api.dark-coffe.com
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+    path: /?ed=2048
+- name: HK52｜原生/疑似家宽｜非常安全
+  password: 5d531627-3b7c-4e13-b5e3-067e2d054efb
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: US104｜家宽｜非常安全
+  password: 47f867f8-45bb-43be-aa13-b99ed8f55c7d
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- client-fingerprint: firefox
+  name: github.com/Ruk1ng001_643263373...
+  port: 587
+  reality-opts:
+    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+    short-id: '916e8258c4a01b02'
+  server: england.torprospeed.ir
+  servername: excoino.com
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
   uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-  ws-opts:
-    headers:
-      Host: GER.SODOGODPING.IR
-    path: /
+- name: JP29｜机房｜低风险
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 443
+  server: tuntro003.instconn.com
+  skip-cert-verify: true
+  sni: login-staticjpc.jasmine-douyin.top
+  type: trojan
+- name: US89｜家宽｜非常安全
+  password: c91410bb-b777-4daf-988b-d5445d143e6b
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - flow: xtls-rprx-vision
   name: 🟠_🇷🇺_💻_github.com/Ruk1ng001_36...
   port: 443
@@ -532,68 +325,71 @@ proxies:
   type: vless
   udp: true
   uuid: 5725a60c-34a5-476d-9ae3-9e43d945ca8f
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: RU_speednode_0027
+- name: 🔴_🇹🇷_💼_github.com/Ruk1ng001_34...
+  port: 2053
+  server: 92.60.70.36
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 08c7f096-d057-4d53-82fd-c739d372887b
+- client-fingerprint: firefox
+  name: GB_speednode_0010
+  port: 587
+  reality-opts:
+    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+    short-id: '916e8258c4a01b02'
+  server: turkiye.torprospeed.ir
+  servername: excoino.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+- name: HK47｜原生/疑似家宽｜非常安全
+  password: b8d7ae9d-9cba-4983-ac16-5b5f02ba2802
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK38｜原生/疑似家宽｜非常安全
+  password: c67bf403-83b9-417b-81f1-e1f37017746f
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK30｜原生/疑似家宽｜非常安全
+  password: 3b6608c7-2217-4643-a387-f0937a9972ed
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: github.com/Ruk1ng001_373532346...
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: HK18｜原生/疑似家宽｜非常安全
+  password: b8d7ae9d-9cba-4983-ac16-5b5f02ba2802
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- flow: xtls-rprx-vision
+  name: 🟡_🇷🇺_💻_github.com/Ruk1ng001_36...
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   server: 51.250.93.152
-  servername: ya.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- flow: xtls-rprx-vision
-  name: NN_speednode_0018
-  port: 26978
-  reality-opts:
-    public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
-    short-id: '28bf'
-  server: sakura.bunnywaffle.org
-  servername: tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
-- alterId: 0
-  name: HK12｜家宽｜非常安全
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.219
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: ❓_🇺🇸_💼_github.com/Ruk1ng001_36...
-  network: none
-  port: 42507
-  server: 23.138.148.47
-  tls: false
-  type: vmess
-  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
-- alterId: 0
-  cipher: auto
-  name: github.com/Ruk1ng001_313530343...
-  network: tcp
-  port: 47081
-  server: oss-4.qqa678.com
-  tls: false
-  type: vmess
-  uuid: e49b8721-f124-4999-814a-fc777c0ae190
-- flow: xtls-rprx-vision
-  name: RU_speednode_0023
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 176.98.177.145
-  servername: fi.reality.tv123.ru
+  servername: ads.x5.ru
   skip-cert-verify: false
   tls: true
   type: vless
@@ -611,7 +407,157 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: US_speednode_0037
+- name: HK72｜原生/疑似家宽｜非常安全
+  password: 401a7257-66ad-4b7d-84b0-4745651f4701
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- flow: xtls-rprx-vision
+  name: NN_speednode_0019
+  port: 26978
+  reality-opts:
+    public-key: n2w4hj7Q7wN6P21LSJJwIPitfYZbwWh5a2seJHH58SE
+    short-id: '28bf'
+  server: sakura.bunnywaffle.org
+  servername: tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9042affd-0ad3-4014-adbc-e52f00891ea2
+- name: IR_speednode_0017
+  network: ws
+  port: 80
+  server: 185.143.233.235
+  servername: oon.visaups.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 087d8602-503b-4091-9f05-44c20792083c
+  ws-opts:
+    headers:
+      Host: oon.visaups.ir
+    path: /
+- name: HK86｜机房｜低风险
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 443
+  server: tuntro000.instconn.com
+  skip-cert-verify: true
+  sni: hkip5.686911.xyz
+  type: trojan
+- name: HK71｜原生/疑似家宽｜非常安全
+  password: 761a3023-9c06-4197-a0d5-1f0c96337d8c
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK70｜原生/疑似家宽｜非常安全
+  password: 5d531627-3b7c-4e13-b5e3-067e2d054efb
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK19｜原生/疑似家宽｜非常安全
+  password: 3b6608c7-2217-4643-a387-f0937a9972ed
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 🔴_🇩🇪_💻_github.com/Ruk1ng001_64...
+  port: 1080
+  server: 193.233.254.7
+  tls: false
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
+- name: US96｜家宽｜非常安全
+  password: 688abcd9-0ff0-49f8-baa1-6a23403bd0e7
+  port: 25501
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+- name: HK43｜原生/疑似家宽｜非常安全
+  password: c67bf403-83b9-417b-81f1-e1f37017746f
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK29｜原生/疑似家宽｜非常安全
+  password: c91410bb-b777-4daf-988b-d5445d143e6b
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK53｜原生/疑似家宽｜非常安全
+  password: 47f867f8-45bb-43be-aa13-b99ed8f55c7d
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: github.com/Ruk1ng001_336235643...
+  network: ws
+  port: 2096
+  server: api.dark-coffe.com
+  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
+    path: /?ed=2048
+- name: HK59｜原生/疑似家宽｜非常安全
+  password: 42c3750a-ab5f-47d3-858a-59ee292912ac
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: CN2｜家宽｜非常安全
+  network: tcp
+  port: '59003'
+  server: 183.236.51.36
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: HK28｜原生/疑似家宽｜非常安全
+  password: af9b7bde-5b98-4bae-b35d-81637d99848f
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 🟠_🇺🇸_💻_github.com/Ruk1ng001_32...
+  network: ws
+  port: 8443
+  server: 104.21.3.219
+  servername: ovhwuxian.pai50288.uk
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/120.0.0.0 Safari/537.36
+    path: /57ba2ab1
+- name: 🟠_🇺🇸_💻_github.com/Ruk1ng001_61...
   network: ws
   port: 443
   server: 104.21.227.134
@@ -639,108 +585,26 @@ proxies:
     headers:
       Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
     path: /?ed=8880
-- alterId: 0
-  cipher: auto
-  country: 🇸🇬 SG
-  h2-opts: {}
-  http-opts: {}
-  name: github.com/Ruk1ng001_323736383...
-  network: ws
-  port: 443
-  server: n1761214911.74qxv.top
-  servername: n1761214911.74qxv.top
+- name: HK75｜原生/疑似家宽｜非常安全
+  password: 47f867f8-45bb-43be-aa13-b99ed8f55c7d
+  port: 31103
+  server: green2.cdntencentmusic.com
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 372c1939-299d-4946-9633-5ffa971f8b67
-  ws-headers:
-    HOST: n1761214911.74qxv.top
-  ws-path: /
-- name: GB_speednode_0007
-  network: ws
-  port: 2053
-  server: 25.129.197.138
-  servername: khamenei.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-  ws-opts:
-    headers:
-      Host: khamenei.dpdns.org
-    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-- alterId: 0
-  cipher: auto
-  name: github.com/Ruk1ng001_323836643...
-  network: ws
-  port: 443
-  server: frankfurt01.zgjok.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: b71579b1-6593-426d-90ac-f002fa96ade1
-  ws-opts:
-    headers:
-      Host: frankfurt01.zgjok.com
-    path: /
-- name: 🟠_🇺🇸_💻_github.com/Ruk1ng001_32...
-  network: ws
-  port: 8443
-  server: 104.21.3.219
-  servername: ovhwuxian.pai50288.uk
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-  ws-opts:
-    headers:
-      Host: ovhwuxian.pai50288.uk
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/120.0.0.0 Safari/537.36
-    path: /57ba2ab1
-- name: 🔴_🇳🇱_💻_github.com/Ruk1ng001_36...
-  port: 1080
-  server: 104.248.203.234
-  type: socks5
-  udp: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 香港|@ripaojiedian #1'
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: github.com/Ruk1ng001_346433616...
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: firefox
-  name: github.com/Ruk1ng001_643263373...
-  port: 587
-  reality-opts:
-    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-    short-id: '916e8258c4a01b02'
-  server: england.torprospeed.ir
-  servername: excoino.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-- flow: xtls-rprx-vision
-  name: RU_speednode_0032
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: ru-msk-yan-1gbit-02.sssrvpn.pro
-  servername: sun6-20.userapi.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- name: US_speednode_0046
+- name: github.com/Ruk1ng001_636433633...
   network: ws
   port: 443
   server: staticdelivery.nexusmods.com
@@ -754,105 +618,76 @@ proxies:
     headers:
       Host: kb.as129394.me
     path: /?ed=2560
-- name: github.com/Ruk1ng001_333437636...
-  network: ws
-  port: 20531
-  server: 82.115.31.209
-  servername: miku.mikuru.ip-ddns.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: miku.mikuru.ip-ddns.com
-    path: /@Marisa_kristi
-- name: 🟡_🇮🇷_💻_github.com/Ruk1ng001_66...
-  network: ws
-  port: 80
-  server: 185.143.233.235
-  servername: oon.visaups.ir
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 087d8602-503b-4091-9f05-44c20792083c
-  ws-opts:
-    headers:
-      Host: oon.visaups.ir
-    path: /
-- client-fingerprint: firefox
-  name: GB_speednode_0011
-  port: 587
-  reality-opts:
-    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-    short-id: '916e8258c4a01b02'
-  server: turkiye.torprospeed.ir
-  servername: excoino.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-- name: DE_speednode_0002
-  network: ws
-  port: 2096
-  server: api.dark-coffe.com
-  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
-    path: /?ed=2048
-- flow: xtls-rprx-vision
-  name: GB_speednode_0008
-  port: 443
-  reality-opts:
-    public-key: j_b7jaRqL2-82XSGRL0IYkNJ2Y3hrhhgq5kIBIK76lk
-  server: 38.60.196.27
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e64c5bbb-a4b8-498e-b374-4462d961c8a2
-- name: 🔴_🇮🇳_💻_github.com/Ruk1ng001_34...
-  port: 1080
-  server: 64.227.131.240
-  type: socks5
-  udp: true
-- name: 🔴_🇹🇷_💼_github.com/Ruk1ng001_34...
-  port: 2053
-  server: 92.60.70.36
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 08c7f096-d057-4d53-82fd-c739d372887b
 - alterId: 0
-  cipher: auto
-  name: US93｜原生/疑似家宽｜非常安全
+  name: 🇭🇰HK_2|2.1MB/s
   network: tcp
-  port: '47084'
-  server: tunnel1.qqa678.com
-  tls: false
+  password: 4843e94d205f3893f588255a591abe94
+  port: 443
+  server: 58.152.18.147
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: github.com/Ruk1ng001_663138396...
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
   type: vmess
-  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: github.com/Ruk1ng001_346433616...
+  name: github.com/Ruk1ng001_386337666...
   network: tcp
-  port: 30804
-  server: v4.hdacd.com
+  port: 30835
+  server: v35.hdacd.com
   skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: ❓_🇺🇸_💼_github.com/Ruk1ng001_36...
+  network: none
+  port: 42507
+  server: 23.138.148.47
+  tls: false
+  type: vmess
+  uuid: 4db07b13-6524-49d2-b432-1f312c0e9c7c
+- name: HK49｜原生/疑似家宽｜非常安全
+  password: bbd26247-dc4c-4073-a051-94155e762ab1
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: github.com/Ruk1ng001_356239643...
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: github.com/Ruk1ng001_663130666...
+  port: 30806
+  server: v6.hdacd.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🟠_🇺🇸_💻_github.com/Ruk1ng001_33...
@@ -869,38 +704,244 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- flow: xtls-rprx-vision
-  name: RU_speednode_0024
-  port: 47030
-  reality-opts:
-    public-key: cZsRvk8pr8wfYiX1CNxdDjR38tow3HuL6IpBj8P82l8
-    short-id: 'e18eda8458cab0d7'
-  server: 185.138.90.31
-  servername: api-maps.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2affe9a-685f-4063-b22a-27c615a83e74
-- name: github.com/Ruk1ng001_393866343...
-  network: ws
-  port: 2087
-  server: api.dark-coffe.com
-  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-    path: /?ed=2048
-- name: 🟡_🇰🇷_📶_github.com/Ruk1ng001_37...
-  port: 1090
-  server: 121.169.46.116
+- name: 🔴_🇮🇳_💻_github.com/Ruk1ng001_34...
+  port: 1080
+  server: 64.227.131.240
   type: socks5
   udp: true
+- name: HK45｜原生/疑似家宽｜非常安全
+  password: 7a75e482-0c41-4407-ad4d-d519944e5dd7
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 🟠_🇺🇸_💻_github.com/Ruk1ng001_39...
+  network: ws
+  port: 443
+  server: 104.16.250.22
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- name: 🟠_🇺🇸_💻_github.com/Ruk1ng001_36...
+  network: ws
+  port: 443
+  server: 162.159.16.63
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- name: github.com/Ruk1ng001_343431356...
+  port: 1080
+  server: 193.233.254.8
+  tls: false
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
+- name: US83｜家宽｜非常安全
+  password: 3b6608c7-2217-4643-a387-f0937a9972ed
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK65｜原生/疑似家宽｜非常安全
+  password: 0e55a9cb-4116-408e-895b-3653ad8b5392
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK41｜原生/疑似家宽｜非常安全
+  password: b8d7ae9d-9cba-4983-ac16-5b5f02ba2802
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- flow: xtls-rprx-vision
+  name: 🟡_🇷🇺_💻_github.com/Ruk1ng001_34...
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 109.71.245.198
+  servername: fi.reality.tv123.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+- name: US81｜家宽｜非常安全
+  password: 505ab478-a7c5-413b-ac56-7cef17584a7c
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- cipher: auto
+  name: 🟡_🇨🇳:🇭🇰_💼_github.com/Ruk1ng001...
+  network: none
+  port: 9527
+  server: 43.161.253.78
+  tls: false
+  type: vless
+  uuid: d4a23188-85b0-4b46-b84b-f1d36d66c03e
+- name: '🟠_🇺🇸_💻_github.com/Ruk1ng001_61... #1'
+  network: ws
+  port: 443
+  server: 104.18.185.26
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- name: US92｜家宽｜非常安全
+  password: 04709581-0161-4d78-b03c-0f74a6513f2a
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK42｜原生/疑似家宽｜非常安全
+  password: 505ab478-a7c5-413b-ac56-7cef17584a7c
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK40｜原生/疑似家宽｜非常安全
+  password: c91410bb-b777-4daf-988b-d5445d143e6b
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: 🔴_🇳🇱_💻_github.com/Ruk1ng001_35...
+  port: 1080
+  server: 161.35.82.57
+  type: socks5
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: github.com/Ruk1ng001_643531356...
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: TW3｜商宽｜非常安全
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 40130
+  server: tuntro011.instconn.com
+  skip-cert-verify: true
+  sni: cntwbta.686911.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US93｜原生/疑似家宽｜非常安全
+  network: tcp
+  port: '47084'
+  server: tunnel1.qqa678.com
+  tls: false
+  type: vmess
+  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
+- name: DE_speednode_0003
+  network: ws
+  port: 20531
+  server: 82.115.31.209
+  servername: miku.mikuru.ip-ddns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: miku.mikuru.ip-ddns.com
+    path: /@Marisa_kristi
+- name: HK23｜原生/疑似家宽｜非常安全
+  password: 401a7257-66ad-4b7d-84b0-4745651f4701
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: US103｜家宽｜非常安全
+  password: 761a3023-9c06-4197-a0d5-1f0c96337d8c
+  port: 35501
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK46｜原生/疑似家宽｜非常安全
+  password: 1d2d37ba-7625-4fdd-ad58-515783b2c48a
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK54｜原生/疑似家宽｜非常安全
+  password: 0fedde7a-7ef6-4ef5-8a6f-c675dc8fcbba
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK57｜原生/疑似家宽｜非常安全
+  password: 3b95536d-2620-4734-aace-5b3fc671fe54
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK79｜原生/疑似家宽｜非常安全
+  password: 0e55a9cb-4116-408e-895b-3653ad8b5392
+  port: 31103
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK37｜原生/疑似家宽｜非常安全
+  password: 505ab478-a7c5-413b-ac56-7cef17584a7c
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: GB_speednode_0006
+  network: ws
+  port: 2053
+  server: 25.129.197.138
+  servername: KhAmeneI.DPdNs.OrG
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+  ws-opts:
+    headers:
+      Host: khamenei.dpdns.org
+    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
 - name: 🟠_🇺🇸_💻_github.com/Ruk1ng001_63...
   network: ws
   port: 443
@@ -915,75 +956,82 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- name: 🔴_🇳🇱_💻_github.com/Ruk1ng001_35...
-  port: 1080
-  server: 161.35.82.57
-  type: socks5
-  udp: true
-- name: 🔴_🇩🇪_💻_github.com/Ruk1ng001_64...
-  port: 1080
-  server: 193.233.254.7
-  tls: false
-  type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
-- flow: xtls-rprx-vision
-  name: RU_speednode_0031
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 109.71.245.198
-  servername: fi.reality.tv123.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- name: 🇩🇪DE_4|2.2MB/s
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: github.com/Ruk1ng001_373133633...
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇩🇪DE_1|2.0MB/s
   network: ws
-  port: 8880
-  server: clean.photoggenic.ir
-  servername: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
+  port: 2082
+  server: 45.131.4.246
+  servername: GER.SODOGODPING.IR
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
+  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
   ws-opts:
     headers:
-      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
-    path: /?ed=8880
-- alterId: 0
+      Host: GER.SODOGODPING.IR
+    path: /
+- name: HK61｜原生/疑似家宽｜非常安全
+  password: f363c8b4-45cc-463b-959d-9ff613cbe2cd
+  port: 31102
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK31｜原生/疑似家宽｜非常安全
+  password: 401a7257-66ad-4b7d-84b0-4745651f4701
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK26｜原生/疑似家宽｜非常安全
+  password: af9b7bde-5b98-4bae-b35d-81637d99848f
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- name: HK62｜原生/疑似家宽｜非常安全
+  password: e0711230-4770-4d4a-a8ff-e05430e0c00c
+  port: 31101
+  server: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  sni: green2.cdntencentmusic.com
+  type: trojan
+- alterId: 2
   cipher: auto
-  name: GB_speednode_0004
-  port: 180
-  server: 82.198.246.97
-  servername: snippets.kkii.eu.org
+  name: '🇭🇰 香港|@ripaojiedian #1'
+  port: 30807
+  server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇭🇰HK_2|2.1MB/s
-  network: tcp
-  password: 4843e94d205f3893f588255a591abe94
-  port: 443
-  server: 58.152.18.147
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3830
-  server: 95.40.93.39
+  port: 4329
+  server: 13.115.134.113
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 🇭🇰 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3830
-  server: 95.40.53.47
+  port: 443
+  server: 58.152.110.50
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -991,7 +1039,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 2053
-  server: 13.115.245.96
+  server: 52.195.185.240
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -999,7 +1047,7 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 1933
-  server: 160.16.130.21
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1007,40 +1055,39 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 4006
-  server: 160.16.105.192
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 3901
-  server: 160.16.85.33
+  port: 3076
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡2|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
-  port: 544
-  server: 160.16.130.21
+  port: 3901
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 'US_speednode_0036 #1'
+- name: 🇸🇬 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 3579
-  server: 54.46.50.46
+  server: 57.180.49.42
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: 🇺🇸 美国|@ripaojiedian
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
-  server: 160.16.105.192
+  server: 160.16.72.33
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1048,15 +1095,15 @@ proxies:
   network: tcp
   password: 4843e94d205f3893f588255a591abe94
   port: 5076
-  server: 160.16.85.33
+  server: 160.16.87.174
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇺🇸 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 54.199.172.151
+  port: 4569
+  server: 18.162.188.208
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1070,19 +1117,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'US_speednode_0047 #1'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
+- name: 'CA_speednode_0001 #1'
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
+  port: 443
+  server: tuntro006.instconn.com
+  skip-cert-verify: true
+  sni: torontorm1.686911.xyz
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /
 - name: 🇨🇳_CN_中国->🇯🇵_JP_日本
   password: BxceQaOe
   port: 26876
@@ -1105,7 +1147,7 @@ proxies:
 - name: end-gfw.com11@jp89
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6688
-  server: 18.183.69.61
+  server: 3.112.2.123
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
@@ -1114,7 +1156,7 @@ proxies:
   name: end-gfw.com12@jp89
   network: ws
   port: 8686
-  server: 18.183.69.61
+  server: 3.112.2.123
   servername: baidu.com
   tls: false
   type: vmess
@@ -1126,7 +1168,7 @@ proxies:
 - name: end-gfw.com21@kr64
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6688
-  server: 43.203.170.33
+  server: 43.203.207.94
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
@@ -1135,7 +1177,7 @@ proxies:
   name: end-gfw.com22@kr64
   network: ws
   port: 8686
-  server: 43.203.170.33
+  server: 43.203.207.94
   servername: baidu.com
   tls: false
   type: vmess
@@ -1519,26 +1561,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 77aad73d-03e7-441b-9bc5-98d13535ba3e
-- name: TW3｜商宽｜非常安全
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
-  port: 40130
-  server: tuntro011.instconn.com
-  skip-cert-verify: true
-  sni: cntwbta.686911.xyz
-  type: trojan
 - name: HK13｜家宽｜非常安全
   password: BxceQaOe
   port: 443
   server: 58.152.53.219
   skip-cert-verify: true
   sni: 58.152.53.219
-  type: trojan
-- name: JP29｜机房｜低风险
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
-  port: 443
-  server: tuntro003.instconn.com
-  skip-cert-verify: true
-  sni: login-staticjpc.jasmine-douyin.top
   type: trojan
 - alterId: 0
   cipher: auto
@@ -1578,22 +1606,6 @@ proxies:
   uuid: a97d726d-fb9c-4cef-802a-f3ffdd136980
 - alterId: 0
   cipher: auto
-  name: US116｜原生/疑似家宽｜非常安全
-  network: tcp
-  port: '47084'
-  server: 120.198.71.161
-  tls: false
-  type: vmess
-  uuid: 3fc3310d-fd84-4933-b370-8cb2d565fab9
-- name: HK86｜机房｜低风险
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
-  port: 443
-  server: tuntro000.instconn.com
-  skip-cert-verify: true
-  sni: hkip5.686911.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
   name: CN3｜家宽｜非常安全
   network: ws
   port: '80'
@@ -1607,10 +1619,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: CN4｜家宽｜非常安全
+  name: 🇨🇳CN-60.215.152.142-029
   network: ws
-  port: '80'
+  port: 80
   server: 60.215.152.142
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 927d2b5e-a8ac-4e52-a9f6-0521c6e9af7e
@@ -1631,20 +1644,6 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
-- name: HK18｜原生/疑似家宽｜非常安全
-  password: b8d7ae9d-9cba-4983-ac16-5b5f02ba2802
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK19｜原生/疑似家宽｜非常安全
-  password: 3b6608c7-2217-4643-a387-f0937a9972ed
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - name: HK20｜原生/疑似家宽｜非常安全
   password: 16e368be-0ebb-416a-a5bc-4f66d89a2e41
   port: 21101
@@ -1659,79 +1658,9 @@ proxies:
   skip-cert-verify: true
   sni: cdnfire.xiaomispeed.com
   type: trojan
-- name: HK76｜原生/疑似家宽｜非常安全
-  password: 7a75e482-0c41-4407-ad4d-d519944e5dd7
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK23｜原生/疑似家宽｜非常安全
-  password: 401a7257-66ad-4b7d-84b0-4745651f4701
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK24｜原生/疑似家宽｜非常安全
-  password: c91410bb-b777-4daf-988b-d5445d143e6b
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK25｜原生/疑似家宽｜非常安全
-  password: 7ba1a0b8-4d6c-4293-9317-187caf132dcd
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK26｜原生/疑似家宽｜非常安全
-  password: af9b7bde-5b98-4bae-b35d-81637d99848f
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - name: HK27｜原生/疑似家宽｜非常安全
   password: 1d2d37ba-7625-4fdd-ad58-515783b2c48a
   port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: US81｜家宽｜非常安全
-  password: 505ab478-a7c5-413b-ac56-7cef17584a7c
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: US82｜家宽｜非常安全
-  password: 7ba1a0b8-4d6c-4293-9317-187caf132dcd
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK28｜原生/疑似家宽｜非常安全
-  password: af9b7bde-5b98-4bae-b35d-81637d99848f
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK29｜原生/疑似家宽｜非常安全
-  password: c91410bb-b777-4daf-988b-d5445d143e6b
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: US83｜家宽｜非常安全
-  password: 3b6608c7-2217-4643-a387-f0937a9972ed
-  port: 35501
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
@@ -1750,27 +1679,6 @@ proxies:
   skip-cert-verify: true
   sni: cdnfire.xiaomispeed.com
   type: trojan
-- name: HK30｜原生/疑似家宽｜非常安全
-  password: 3b6608c7-2217-4643-a387-f0937a9972ed
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK31｜原生/疑似家宽｜非常安全
-  password: 401a7257-66ad-4b7d-84b0-4745651f4701
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK65｜原生/疑似家宽｜非常安全
-  password: 0e55a9cb-4116-408e-895b-3653ad8b5392
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - name: US86｜家宽｜非常安全
   password: 16e368be-0ebb-416a-a5bc-4f66d89a2e41
   port: 25501
@@ -1778,47 +1686,12 @@ proxies:
   skip-cert-verify: true
   sni: cdnfire.xiaomispeed.com
   type: trojan
-- name: HK33｜原生/疑似家宽｜非常安全
-  password: 7ba1a0b8-4d6c-4293-9317-187caf132dcd
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK72｜原生/疑似家宽｜非常安全
-  password: 401a7257-66ad-4b7d-84b0-4745651f4701
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - name: HK35｜原生/疑似家宽｜非常安全
   password: 5dc3f09b-c217-4ceb-ba5f-5f69775c2fa1
   port: 21103
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
   sni: cdnfire.xiaomispeed.com
-  type: trojan
-- name: HK36｜原生/疑似家宽｜非常安全
-  password: 7ba1a0b8-4d6c-4293-9317-187caf132dcd
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK37｜原生/疑似家宽｜非常安全
-  password: 505ab478-a7c5-413b-ac56-7cef17584a7c
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK38｜原生/疑似家宽｜非常安全
-  password: c67bf403-83b9-417b-81f1-e1f37017746f
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
   type: trojan
 - name: HK74｜原生/疑似家宽｜非常安全
   password: a0194cb9-ee34-4f75-b620-6d4d72ab1cb0
@@ -1830,48 +1703,6 @@ proxies:
 - name: US87｜家宽｜非常安全
   password: af9b7bde-5b98-4bae-b35d-81637d99848f
   port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK40｜原生/疑似家宽｜非常安全
-  password: c91410bb-b777-4daf-988b-d5445d143e6b
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK41｜原生/疑似家宽｜非常安全
-  password: b8d7ae9d-9cba-4983-ac16-5b5f02ba2802
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: US88｜家宽｜非常安全
-  password: 7a75e482-0c41-4407-ad4d-d519944e5dd7
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK42｜原生/疑似家宽｜非常安全
-  password: 505ab478-a7c5-413b-ac56-7cef17584a7c
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: US89｜家宽｜非常安全
-  password: c91410bb-b777-4daf-988b-d5445d143e6b
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK43｜原生/疑似家宽｜非常安全
-  password: c67bf403-83b9-417b-81f1-e1f37017746f
-  port: 31102
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
@@ -1890,54 +1721,12 @@ proxies:
   skip-cert-verify: true
   sni: cdnfire.xiaomispeed.com
   type: trojan
-- name: HK45｜原生/疑似家宽｜非常安全
-  password: 7a75e482-0c41-4407-ad4d-d519944e5dd7
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK46｜原生/疑似家宽｜非常安全
-  password: 1d2d37ba-7625-4fdd-ad58-515783b2c48a
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: US91｜家宽｜非常安全
-  password: 1e071e05-b6b4-4966-9a78-3a98e6c0e984
-  port: 25502
-  server: cdnfire.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdnfire.xiaomispeed.com
-  type: trojan
-- name: HK47｜原生/疑似家宽｜非常安全
-  password: b8d7ae9d-9cba-4983-ac16-5b5f02ba2802
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - name: HK48｜原生/疑似家宽｜非常安全
   password: 16e368be-0ebb-416a-a5bc-4f66d89a2e41
   port: 21102
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
   sni: cdnfire.xiaomispeed.com
-  type: trojan
-- name: US92｜家宽｜非常安全
-  password: 04709581-0161-4d78-b03c-0f74a6513f2a
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK49｜原生/疑似家宽｜非常安全
-  password: bbd26247-dc4c-4073-a051-94155e762ab1
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
   type: trojan
 - name: HK50｜机房｜低风险
   password: 51fcd029-5735-4663-afb9-ed182aa4e282
@@ -1960,41 +1749,6 @@ proxies:
   skip-cert-verify: true
   sni: douyin.com
   type: trojan
-- name: US96｜家宽｜非常安全
-  password: 688abcd9-0ff0-49f8-baa1-6a23403bd0e7
-  port: 25501
-  server: cdnfire.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdnfire.xiaomispeed.com
-  type: trojan
-- name: HK52｜原生/疑似家宽｜非常安全
-  password: 5d531627-3b7c-4e13-b5e3-067e2d054efb
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK53｜原生/疑似家宽｜非常安全
-  password: 47f867f8-45bb-43be-aa13-b99ed8f55c7d
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK54｜原生/疑似家宽｜非常安全
-  password: 0fedde7a-7ef6-4ef5-8a6f-c675dc8fcbba
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK57｜原生/疑似家宽｜非常安全
-  password: 3b95536d-2620-4734-aace-5b3fc671fe54
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: HK93｜机房｜低风险
@@ -2009,44 +1763,9 @@ proxies:
     headers:
       Host: n1761214911.74qxv.top
     path: /
-- name: HK59｜原生/疑似家宽｜非常安全
-  password: 42c3750a-ab5f-47d3-858a-59ee292912ac
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - name: HK60｜原生/疑似家宽｜非常安全
   password: 092cc803-585e-49ee-b936-29b3f2ca1d9f
   port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK61｜原生/疑似家宽｜非常安全
-  password: f363c8b4-45cc-463b-959d-9ff613cbe2cd
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK62｜原生/疑似家宽｜非常安全
-  password: e0711230-4770-4d4a-a8ff-e05430e0c00c
-  port: 31101
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK70｜原生/疑似家宽｜非常安全
-  password: 5d531627-3b7c-4e13-b5e3-067e2d054efb
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK71｜原生/疑似家宽｜非常安全
-  password: 761a3023-9c06-4197-a0d5-1f0c96337d8c
-  port: 31103
   server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
@@ -2067,13 +1786,6 @@ proxies:
   tls: false
   type: vmess
   uuid: bbc42c70-c9d9-4746-be21-b3b7daae7aeb
-- name: HK75｜原生/疑似家宽｜非常安全
-  password: 47f867f8-45bb-43be-aa13-b99ed8f55c7d
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
 - alterId: 0
   cipher: auto
   name: JP16｜原生/疑似家宽｜非常安全
@@ -2087,27 +1799,6 @@ proxies:
   password: a0194cb9-ee34-4f75-b620-6d4d72ab1cb0
   port: 31101
   server: 220.130.58.136
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: HK79｜原生/疑似家宽｜非常安全
-  password: 0e55a9cb-4116-408e-895b-3653ad8b5392
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: US103｜家宽｜非常安全
-  password: 761a3023-9c06-4197-a0d5-1f0c96337d8c
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-- name: US104｜家宽｜非常安全
-  password: 47f867f8-45bb-43be-aa13-b99ed8f55c7d
-  port: 35501
-  server: green2.cdntencentmusic.com
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
@@ -2428,94 +2119,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /
-- name: '🇭🇰 香港4|@ripaojiedian #1'
-  network: tcp
-  password: BxceQaOe
-  port: 4329
-  server: 13.115.134.113
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: '🇭🇰 香港5|@ripaojiedian #1'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.110.50
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: '🇯🇵 日本|@ripaojiedian #1'
-  network: tcp
-  password: BxceQaOe
-  port: 2053
-  server: 52.195.185.240
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: '🇯🇵 日本2|@ripaojiedian #1'
-  network: tcp
-  password: 4843e94d205f3893f588255a591abe94
-  port: 1933
-  server: 160.16.87.174
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '🇯🇵 日本3|@ripaojiedian #1'
-  network: tcp
-  password: 4843e94d205f3893f588255a591abe94
-  port: 4006
-  server: 160.16.87.174
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '🇸🇬 新加坡|@ripaojiedian #1'
-  network: tcp
-  password: 4843e94d205f3893f588255a591abe94
-  port: 3076
-  server: 160.16.87.174
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '🇸🇬 新加坡2|@ripaojiedian #1'
-  network: tcp
-  password: 4843e94d205f3893f588255a591abe94
-  port: 3901
-  server: 160.16.72.33
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 3579
-  server: 57.180.49.42
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: '🇺🇸 美国|@ripaojiedian #1'
-  network: tcp
-  password: 4843e94d205f3893f588255a591abe94
-  port: 5076
-  server: 160.16.72.33
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '🇺🇸 美国2|@ripaojiedian #1'
-  network: tcp
-  password: 4843e94d205f3893f588255a591abe94
-  port: 5076
-  server: 160.16.87.174
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '🇺🇸 美国3|@ripaojiedian #1'
-  network: tcp
-  password: BxceQaOe
-  port: 4569
-  server: 18.162.188.208
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - delay: 512
   name: 🇯🇵JP_1|1.1MB/s
   network: ws
@@ -2584,7 +2187,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK_4|3.4MB/s
+  name: HK_speednode_0015
   network: ws
   port: 80
   server: hkt.gotochinatown.net
@@ -2592,6 +2195,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
   ws-opts:
     headers:
@@ -2603,14 +2207,15 @@ proxies:
     headers: {}
     path:
     - /
-  name: 🇩🇪DE_6|2.6MB/s
+  name: RU_speednode_0022
   network: tcp
-  port: '7443'
+  port: 7443
   reality-opts:
     public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
     short-id: 'a20d3ed244c76426'
   server: 51.250.16.8
   servername: ads.x5.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -2644,31 +2249,47 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR-57.128.189.240-211
+  name: 🇩🇪DE-130.61.250.10-260
   network: ws
   port: 443
-  server: 57.128.189.240
+  server: frankfurt01.zgjok.com
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: b71579b1-6593-426d-90ac-f002fa96ade1
   ws-opts:
+    headers:
+      Host: frankfurt01.zgjok.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇲🇾MY-47.250.45.234-246
+  name: 🇲🇾MY-47.250.45.234-244
   network: ws
-  port: 43063
+  port: 8613
   server: 47.250.45.234
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US-209.126.84.189-287
+  name: 🏁RELAY-104.21.76.158-301
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-209.126.84.189-313
   network: ws
   port: 443
   server: 209.126.84.189
@@ -2679,20 +2300,6 @@ proxies:
   ws-opts:
     headers:
       Host: 209.126.84.189
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 06-0028-CN
-  network: ws
-  port: 45064
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6a8b2bab-fd52-4237-aa81-908f42398257
-  ws-opts:
-    host: haa.dashuai.cyou
     path: /
 - alterId: 0
   cipher: auto
@@ -2710,21 +2317,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 06-0064-HK
+  name: 06-0077-CN
   network: ws
-  port: 22130
-  server: 212.192.13.86
+  port: 45057
+  server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: da5d9d7c-f8a1-4b88-80c5-ca05dd99e8be
+  uuid: 46daf2b3-2475-4ec8-b91c-398e8ca867ba
   ws-opts:
-    host: 212.192.13.86
+    host: xdd.dashuai.cyou
     path: /
 - alterId: 0
   cipher: auto
-  name: 06-0082-CN
+  name: 06-0081-CN
   network: ws
   port: 45076
   server: haa.dashuai.cyou
@@ -2732,310 +2339,356 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 297d5d2d-ba3d-436d-9bb6-023efa49c083
+  uuid: 36968af6-6fba-43ab-84db-adc868f0f567
   ws-opts:
     host: haa.dashuai.cyou
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.21.89.56-0006
+  name: 06-0091-CN
   network: ws
-  port: 443
-  server: surongwei.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
-  ws-opts:
-    headers:
-      Host: surongwei.eu.org
-    path: /reffs7y26g0ua
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-141.101.114.111-0021
-  network: ws
-  port: 443
-  server: 141.101.114.111
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  ws-opts:
-    headers:
-      Host: fr1.trump2023.org
-    path: /9JZFDTKE
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-203.24.108.8-0064
-  network: ws
-  port: 443
-  server: 203.24.108.8
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  ws-opts:
-    headers:
-      Host: lg1.trump2023.us
-    path: /ECTCJ0DF
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG-15.235.202.111-0111
-  network: ws
-  port: 80
-  server: 15.235.202.111
-  skip-cert-verify: false
+  port: 45054
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 0ce71b6e-d6a6-4335-94b8-0b1719142f4c
+  udp: true
+  uuid: 5387d88d-5ebc-42f0-8aa6-e7ec65c58db9
   ws-opts:
-    path: /vmess
+    host: haa.dashuai.cyou
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US-103.224.182.210-0582
+  name: 06-0134-CN
   network: ws
-  port: 10020
-  server: ah.yd01.paopaocloud.cyou
+  port: 45053
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d0c4defd-fb27-4a16-a08e-59e3e0b94722
+  ws-opts:
+    host: xdd.dashuai.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 07-0179-RELAY
+  network: ws
+  port: 80
+  server: 185.146.173.16
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    host: 185.146.173.16
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-162.159.128.7-0079
+  network: ws
+  port: 443
+  server: 162.159.128.7
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-opts:
+    headers:
+      Host: lg10.cfcdn1.xyz
+    path: /A2DJOPFT
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-23.227.38.39-0081
+  network: ws
+  port: 443
+  server: 23.227.38.39
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-opts:
+    headers:
+      Host: opfr1.v2rayfree1.xyz
+    path: /IYKLD53M
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-103.224.182.210-0590
+  network: ws
+  port: 10010
+  server: az.hk01.paopaocloud.cyou
   skip-cert-verify: false
   tls: true
   type: vmess
   uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
   ws-opts:
     headers:
-      Host: paopao.v2.hk02.paopaocloud.cyou
+      Host: paopao.v2.az01.paopaocloud.cyou
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW-165.154.246.71-1122
-  network: ws
-  port: 80
-  server: 165.154.246.71
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 13581ae8-65c9-4fbe-9c78-77fac9ca503a
-  ws-opts:
-    headers:
-      Host: 165.154.246.71
-    path: ?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG-139.99.61.154-2037
-  network: ws
-  port: 80
-  server: 139.99.61.154
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US-149.30.232.103-5051
-  network: ws
-  port: 15097
-  server: 149.30.232.103
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 460908b8-de16-42e9-bd0d-191522ab92a5
-  ws-opts:
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇲🇾MY-47.250.112.93-7232
-  network: ws
-  port: 20522
-  server: 47.250.112.93
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 65ffb070-d263-4e0d-b8c1-2c04a643d29b
-  ws-opts:
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 🇸🇬SG-202.79.160.164-7486
+  name: 🏁RELAY-141.101.114.102-0658
   network: ws
   port: 443
-  server: 202.79.160.164
+  server: 141.101.114.102
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   ws-opts:
     headers:
-      Host: www.20850772.xyz
+      Host: clash6.ssr-free.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.66.40.10-0647
+  network: ws
+  port: 443
+  server: 172.66.40.10
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 38.72img.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇪🇸ES-67.220.66.194-7504
+  name: 🏁RELAY-141.193.213.20-0737
   network: ws
   port: 443
-  server: 67.220.66.194
+  server: news.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-opts:
+    headers:
+      Host: oplg1.zhujicn2.com
+    path: /5QNROSRV
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-172.239.57.117-0785
+  network: ws
+  port: 443
+  server: vuk1.0bad.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: vuk1.0bad.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-13.248.169.48-0824
+  network: ws
+  port: 443
+  server: new3.hucloud-dns.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 2926bbcf-eef0-4d0d-d8a7-400e417608aa
+  ws-opts:
+    headers:
+      Host: new3.hucloud-dns.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-170.114.45.6-0889
+  network: ws
+  port: 8080
+  server: support.zoom.us
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+  ws-opts:
+    headers:
+      Host: support.zoom.us
+    path: /@Malinda6104
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP-141.147.181.219-1641
+  network: ws
+  port: 443
+  server: 141.147.181.219
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 0b873cff-11ab-4716-c41a-04f886135091
+  ws-opts:
+    path: /roewesu
+- alterId: 0
+  cipher: auto
+  name: 🇫🇮FI-65.109.134.191-3988
+  network: ws
+  port: 80
+  server: 65.109.134.191
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 91698747-92b3-4a07-b5da-22694edbea82
+  ws-opts:
+    path: /graphql
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼TW-211.72.35.110-4148
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  servername: woideneu4.jsworld.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: cb6448e3-08e1-413d-bc17-d3b0dba9aae9
+  ws-opts:
+    headers:
+      Host: woideneu4.jsworld.eu.org
+    path: /nishikata
+- alterId: 4
+  cipher: auto
+  name: 🇺🇸US-192.186.129.66-4480
+  network: ws
+  port: 443
+  server: 192.186.129.66
+  servername: usa-buffalo.lvuft.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: usa-buffalo.lvuft.com
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-107.172.82.41-7152
+  network: ws
+  port: 11814
+  server: 107.172.82.41
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4f34f242-b5a7-48c1-c258-f019be3bf9c7
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-91.134.8.93-7174
+  network: ws
+  port: 443
+  server: 91.134.8.93
   skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: 67.220.66.194
+      Host: pelang.org
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.21.94.64-7593
+  name: 🇫🇷FR-57.128.189.222-7176
   network: ws
   port: 443
-  server: 104.21.94.64
-  servername: linja05.hwcar.sbs
+  server: 57.128.189.222
+  servername: lammaland.org
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: linja05.hwcar.sbs
-    path: /linkws
+      Host: lammaland.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-57.129.28.216-7190
+  network: ws
+  port: 443
+  server: 57.129.28.216
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: fapeng.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.76.246.12-7263
+  network: ws
+  port: 42669
+  server: 47.76.246.12
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 13709d57-530e-4f9c-97d7-ebc774bdfc6c
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.168.211-7234
+  network: ws
+  port: 24680
+  server: 47.243.168.211
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 33cb9737-88a5-4372-9db0-84255e243c1d
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-144.24.200.164-7514
+  network: ws
+  port: 443
+  server: 144.24.200.164
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /
 - alterId: 64
   cipher: auto
-  name: 🇺🇸US-38.33.56.16-7741
+  name: 🇺🇸US-38.33.56.47-7678
   network: ws
-  port: 38002
-  server: 38.33.56.16
+  port: 37001
+  server: 38.33.56.47
   skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.56994187.xyz
+      Host: www.36790472.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇬🇷GR-46.20.109.113-7780
+  name: 🇰🇷KR-119.195.219.150-7940
   network: ws
-  port: 25228
-  server: cu.awslcn.info
+  port: 18050
+  server: 119.195.219.150
+  servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: cu.awslcn.info
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸US-38.33.56.45-7877
-  network: ws
-  port: 37000
-  server: 38.33.56.45
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE-91.195.240.94-8211
-  network: ws
-  port: 2095
-  server: amszxc.66666654.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-  ws-opts:
-    headers:
-      Host: amszxc.66666654.xyz
-    path: /hgcefomn
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-203.23.104.190-8565
-  network: ws
-  port: 443
-  server: 203.23.104.190
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
-  ws-opts:
-    path: /11201
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.18.247-8714
-  network: ws
-  port: 2095
-  server: 172.67.18.247
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-  ws-opts:
-    path: /hgcefomn
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.188.110-8711
-  network: ws
-  port: 2095
-  server: 172.67.188.110
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-  ws-opts:
-    path: /hgcefomn
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.64.193.102-8758
-  network: ws
-  port: 80
-  server: 172.64.193.102
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
-  ws-opts:
-    path: 4a47e680
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-154.92.9.29-8843
-  network: ws
-  port: 443
-  server: 154.92.9.29
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
-  ws-opts:
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.24.189.34-9097
-  network: ws
-  port: 443
-  server: 104.24.189.34
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 824c58b1-65ba-4680-a609-663a000dbb92
-  ws-opts:
-    path: /wss13889
-- flow: xtls-rprx-vision
-  name: DK_speednode_0003
-  port: 443
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-  server: 159.195.26.28
-  servername: live.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 84f66368-8a37-468e-ae95-5622255fd4db
-- name: GB_speednode_0009
+      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+    path: /obdii.cfd:443/linkws
+- name: GB_speednode_0005
   network: ws
   port: 2053
   server: 25.129.197.138
@@ -3049,7 +2702,7 @@ proxies:
     headers:
       Host: KhAmeneI.DPdNs.OrG
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-- name: GB_speednode_0012
+- name: GB_speednode_0007
   network: ws
   port: 2053
   server: 25.129.197.138
@@ -3061,10 +2714,24 @@ proxies:
   uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
   ws-opts:
     headers:
+      Host: KhAmeneI.DPdNs.OrG
+    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+- name: GB_speednode_0009
+  network: ws
+  port: 2053
+  server: 25.129.197.138
+  servername: khamenei.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+  ws-opts:
+    headers:
       Host: khamenei.dpdns.org
     path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
 - flow: xtls-rprx-vision
-  name: GR_speednode_0013
+  name: GR_speednode_0011
   port: 443
   reality-opts:
     public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ
@@ -3076,37 +2743,82 @@ proxies:
   type: vless
   udp: true
   uuid: dd92c4f8-be88-4c61-84eb-d261f798071e
-- alpn:
-  - h3
-  client-fingerprint: random
-  name: NL_speednode_0016
+- alterId: 2
+  cipher: auto
+  name: HK_speednode_0012
   network: ws
-  port: 25059
-  server: 77.93.89.171
-  servername: snippet.danfeng.de5.net
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  name: HK_speednode_0013
+  network: ws
+  port: 80
+  server: b4c044e6-t70f40-t9byd7-1jfvb.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  name: HK_speednode_0014
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9
+- alterId: 2
+  cipher: auto
+  name: HK_speednode_0016
+  network: ws
+  port: 80
+  server: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+- name: IR_speednode_0018
+  network: ws
+  port: 80
+  server: oon.visaups.ir
+  servername: oon.visaups.ir
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
+  uuid: 087d8602-503b-4091-9f05-44c20792083c
   ws-opts:
     headers:
-      Host: snippet.danfeng.de5.net
-    path: /?ed=2560
+      Host: oon.visaups.ir
+    path: /
 - flow: xtls-rprx-vision
-  name: RU_speednode_0021
+  name: RU_speednode_0020
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 158.160.135.161
-  servername: api-maps.yandex.ru
+    public-key: iAI3AU1ymQksBudcPndvOpV-mFWn-ECQKF0K42qb12k
+    short-id: '5e93929f12f446fe'
+  server: ru.fasti.win
+  servername: ru.fasti.win
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+  uuid: 7005f499-036f-4570-a2a1-29761cfbbd9e
 - flow: xtls-rprx-vision
-  name: RU_speednode_0029
+  name: RU_speednode_0021
   port: 443
   reality-opts:
     public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
@@ -3118,114 +2830,42 @@ proxies:
   type: vless
   udp: true
   uuid: 3d29bd40-5f23-4024-aab6-17258cd55a7e
-- flow: xtls-rprx-vision
-  name: RU_speednode_0030
+- name: US_speednode_0023
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 217.198.13.50
-  servername: fi.reality.tv123.ru
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '2da72ce6'
+  server: 136.175.178.165
+  servername: navi.bankrate.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- flow: xtls-rprx-vision
-  name: RU_speednode_0033
+  uuid: 147ccf68-ca08-4ce9-a507-b0f0d5af119c
+- name: US_speednode_0024
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: bridge2.pool.sssrvpn.pro
-  servername: fi.reality.tv123.ru
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '2da72ce6'
+  server: 136.175.178.165
+  servername: navi.bankrate.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- name: US_speednode_0039
-  network: ws
+  uuid: 1b2b763f-12f2-4cab-b63c-17b335ed63c7
+- name: US_speednode_0025
   port: 443
-  server: 104.17.25.173
-  servername: l.ayovo.netlib.re
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: '2da72ce6'
+  server: 136.175.178.165
+  servername: navi.bankrate.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- name: US_speednode_0040
-  network: ws
-  port: 443
-  server: cloudflare.182682.xyz
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
-- name: US_speednode_0041
-  network: ws
-  port: 443
-  server: cloudflare.182682.xyz
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- name: US_speednode_0042
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  servername: mitivpn.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-    path: /--@V2rayAlpha--V2rayAlpha--V2rayAlpha--V2rayAlpha
-- name: US_speednode_0044
-  network: ws
-  port: 80
-  server: 151.101.3.8
-  servername: mitivpn.global.ssl.fastly.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-  ws-opts:
-    headers:
-      Host: mitivpn.global.ssl.fastly.net
-    path: /@freeOnlineVPNV2rayAlphaV2rayAlphaV2rayAlpha
-- name: US_speednode_0045
-  network: ws
-  port: 443
-  server: adf.ly
-  servername: rAyAn-007.pArViN.DpDnS.OrG
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
-  ws-opts:
-    headers:
-      Host: rAyAn-007.pArViN.DpDnS.OrG
-    path: /?ed=2560
+  uuid: 28a825dd-81d7-47a9-93fa-d7ff003241f6
 sniffer:
   enable: true
   skip-domain:
