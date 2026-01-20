@@ -123,7 +123,7 @@ proxies:
   type: vmess
   uuid: f532aadf-16c9-4919-9543-3b3d9e8a4cc7
 - alterId: 0
-  name: '🟡_🇨🇳:🇭🇰_📶_github.com/Ruk1ng001... #2'
+  name: 🇭🇰HK_1|2.1MB/s
   network: tcp
   password: BxceQaOe
   port: 443
@@ -238,7 +238,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇲🇾MY_1|5.1MB/s
+  name: ❓_🇲🇾_💻_github.com/Ruk1ng001_38...
   network: none
   port: 33651
   server: 23.27.28.125
@@ -502,7 +502,7 @@ proxies:
 - name: end-gfw.com11@jp89
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6688
-  server: 13.114.189.0
+  server: 13.231.60.198
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
@@ -511,7 +511,7 @@ proxies:
   name: end-gfw.com12@jp89
   network: ws
   port: 8686
-  server: 13.114.189.0
+  server: 13.231.60.198
   servername: baidu.com
   tls: false
   type: vmess
@@ -523,7 +523,7 @@ proxies:
 - name: end-gfw.com21@kr64
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6688
-  server: 13.124.70.14
+  server: 15.164.245.60
   skip-cert-verify: true
   sni: baidu.com
   type: trojan
@@ -532,7 +532,7 @@ proxies:
   name: end-gfw.com22@kr64
   network: ws
   port: 8686
-  server: 13.124.70.14
+  server: 15.164.245.60
   servername: baidu.com
   tls: false
   type: vmess
@@ -631,39 +631,88 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 🇺🇸US-209.126.84.189-171
-  network: ws
-  port: 443
-  server: 209.126.84.189
+  name: 🇺🇸US_3|1018KB/s
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇲🇾MY-47.250.45.234-133
+  network: ws
+  port: 43063
+  server: 47.250.45.234
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   ws-opts:
-    headers:
-      Host: 209.126.84.189
     path: /
 - alterId: 0
   cipher: auto
-  name: 06-0050-CN
+  name: 🇫🇷FR-57.128.189.240-104
   network: ws
-  port: 45072
-  server: haa.dashuai.cyou
+  port: 443
+  server: 57.128.189.240
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-91.134.8.101-096
+  network: ws
+  port: 443
+  server: 91.134.8.101
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.236.186.72-134
+  network: ws
+  port: 80
+  server: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+  servername: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 06-0046-CN
+  network: ws
+  port: 45071
+  server: xdd.dashuai.cyou
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 4a5b77fc-48e7-4598-bb14-e6632461c5e0
   ws-opts:
-    host: haa.dashuai.cyou
+    host: xdd.dashuai.cyou
     path: /
 - alterId: 0
   cipher: auto
-  name: 06-0090-CN
+  name: 06-0048-CN
   network: ws
-  port: 45054
+  port: 45072
   server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
@@ -675,9 +724,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 06-0112-CN
+  name: 06-0070-CN
   network: ws
-  port: 45052
+  port: 45074
   server: haa.dashuai.cyou
   skip-cert-verify: true
   tls: false
@@ -689,139 +738,358 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP-40.74.100.129-0528
+  name: 06-0084-CN
+  network: ws
+  port: 45076
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 46daf2b3-2475-4ec8-b91c-398e8ca867ba
+  ws-opts:
+    host: haa.dashuai.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 08-0233-HK
   network: ws
   port: 443
-  server: fullaccesstojapannetsubnode1.azurewebsites.net
-  servername: fullaccesstojapannetsubnode1.azurewebsites.net
+  server: 219.76.13.166
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
+  ws-opts:
+    host: 219.76.13.166
+    path: /qq
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-141.193.213.20-0014
+  network: ws
+  port: 443
+  server: 141.193.213.20
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  ws-opts:
+    headers:
+      Host: opfr1.v2rayfree1.xyz
+    path: /IYKLD53M
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.164.123-0042
+  network: ws
+  port: 443
+  server: 172.67.164.123
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-207.46.147.148-0116
+  network: ws
+  port: 443
+  server: fullaccesstohongkongnet.azurewebsites.net
   skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
   ws-opts:
     headers:
-      Host: fullaccesstojapannetsubnode1.azurewebsites.net
+      Host: fullaccesstohongkongnet.azurewebsites.net
     path: /ws
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇭🇰HK-47.243.185.128-1400
-  network: http
-  port: 47365
-  server: 47.243.185.128
+  name: 🇦🇺AU-103.224.212.210-0503
+  network: ws
+  port: 443
+  server: v2.kdanmmgmasz.xyz
+  servername: v2.kdanmmgmasz.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: ae0b2b4a-47ac-4d72-b03c-524f959d5a1a
+  ws-opts:
+    headers:
+      Host: v2.kdanmmgmasz.xyz
+    path: /zksna
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.18.6.82-0538
+  network: ws
+  port: 443
+  server: 104.18.6.82
+  servername: jp.binghe.design
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 5ce9cb0d-6b12-4dbd-9114-74fd11dc6f35
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺AU-103.224.212.211-0635
+  network: ws
+  port: 443
+  server: 34.72img.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    headers:
+      Host: 34.72img.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.64.152.150-0653
+  network: ws
+  port: 443
+  server: 172.64.152.150
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-opts:
+    headers:
+      Host: clash6.ssr-free.xyz
+    path: /dongtaiwang.com
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK-119.236.186.72-0857
+  network: ws
+  port: 80
+  server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: fb695171-6b24-4255-9893-8921f53a0548
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR-57.128.189.143-7058
-  network: ws
-  port: 443
-  server: 57.128.189.143
-  servername: lammaland.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
   ws-opts:
     headers:
-      Host: lammaland.org
-    path: linkvws
+      Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.21.82.17-7518
+  name: 🇷🇺RU-45.136.245.240-1825
   network: ws
-  port: 443
-  server: 104.21.82.17
-  servername: gwdef.sbs
+  port: 12910
+  server: 45.136.245.240
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: gwdef.sbs
-    path: /linkws
-- alterId: 1
-  cipher: auto
-  name: 🇬🇧GB-149.7.16.194-7650
-  network: ws
-  port: 443
-  server: 149.7.16.194
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP-172.105.223.136-4204
+  network: ws
+  port: 443
+  server: 172.105.223.136
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 8964ea79-1422-460e-b6e2-a16e83a22aab
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇷🇺RU-195.133.53.192-4157
+  network: ws
+  port: 43688
+  server: 195.133.53.192
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41
+  ws-opts:
+    headers:
+      Host: YouTube-aweikeji
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-91.195.240.12-4396
+  network: ws
+  port: 443
+  server: oz.moonfree.top
+  servername: oz.moonfree.top
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d
+  ws-opts:
+    headers:
+      Host: oz.moonfree.top
+    path: /
+- alterId: 4
+  cipher: auto
+  name: 🇺🇸US-54.205.8.205-4569
+  network: ws
+  port: 443
+  server: mycfwork.herokuapp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 07a3a1e3-d52e-4acc-958e-c301681b5f09
+  ws-opts:
+    headers:
+      Host: mycfwork.herokuapp.com
+    path: /07a3a1e3-d52e-4acc-958e-c301681b5f09-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦CA-15.235.50.172-4741
+  network: ws
+  port: 443
+  server: 15.235.50.172
+  servername: baradiha.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG-8.219.120.168-6991
+  network: ws
+  port: 443
+  server: 8.219.120.168
+  servername: p3.chigua.tk
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-57.129.59.193-7051
+  network: ws
+  port: 443
+  server: 57.129.59.193
+  servername: serkat.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: serkat.org/?Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇧🇪BE-192.121.170.52-7189
+  network: ws
+  port: 20522
+  server: 192.121.170.52
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 08f870ed-520c-483a-bdec-c4884aad4665
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US-172.104.21.220-7364
+  network: ws
+  port: 30807
+  server: v7.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.21.83.115-7687
+  network: ws
+  port: 443
+  server: 104.21.83.115
+  servername: hms02.fxiaomi.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: hms02.fxiaomi.sbs
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-173.245.58.5-7741
+  network: ws
+  port: 443
+  server: 173.245.58.5
+  servername: worker-bitter-math-2af8.waxoha3621.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: worker-bitter-math-2af8.waxoha3621.workers.dev
+    path: /glweidf.sbs/linkws
 - alterId: 64
   cipher: auto
-  name: 🇺🇸US-38.33.57.20-7725
+  name: 🇸🇬SG-134.122.184.117-7894
   network: ws
-  port: 38003
-  server: 38.33.57.20
+  port: 30002
+  server: 134.122.184.117
+  servername: www.31402191.xyz
   skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.43539481.xyz
-    path: /
+      Host: www.31402191.xyz
+    path: /path/351212081517
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.21.74.239-7777
+  name: 🏁RELAY-188.114.99.29-8501
   network: ws
   port: 443
-  server: 104.21.74.239
-  servername: afrhms07.xfixedfloat.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-  ws-opts:
-    headers:
-      Host: afrhms07.xfixedfloat.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US-69.84.182.16-7812
-  network: ws
-  port: 443
-  server: 69.84.182.16
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 🏁RELAY-104.21.79.246-9002
-  network: ws
-  port: 443
-  server: 104.21.79.246
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: e35026da-e985-49ca-b43b-276062a535a6
-  ws-opts:
-    path: /pNV7izRFLO8rGCkIH66kMFPa
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.24.145.43-8993
-  network: ws
-  port: 443
-  server: 104.24.145.43
+  server: 188.114.99.29
   skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 824c58b1-65ba-4680-a609-663a000dbb92
   ws-opts:
     path: /wss13889
+- alterId: 64
+  cipher: auto
+  name: 🇭🇰HK-156.225.67.81-8710
+  network: ws
+  port: 443
+  server: 156.225.67.81
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
+  ws-opts:
+    path: /path/1689767805929
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.31.16.37-8925
+  network: ws
+  port: 80
+  server: 104.31.16.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  ws-opts:
+    path: /i99LgvSaslbsPLLQQ7j6Z
