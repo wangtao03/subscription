@@ -1,4 +1,4 @@
-# Update: 2026-05-27 16:59
+# Update: 2026-05-27 22:52
 allow-lan: true
 dns:
   enable: true
@@ -171,6 +171,58 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: KR_speednode_0029
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 30303
+  server: 121.191.33.84
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- name: KR_speednode_0030
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 12345
+  server: 59.30.42.194
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- name: KR_speednode_0031
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18000
+  server: 121.154.96.50
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- name: KR_speednode_0032
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 29999
+  server: 14.53.107.138
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
 - name: 🇨🇳_CN_中国->🇯🇵_JP_日本
   password: BxceQaOe
   port: 26876
@@ -282,14 +334,17 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
+  name: CH_speednode_0008
   port: 9002
   server: world.t.51guangtaobao.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: true
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: '🇭🇰HK_1|2.0MB/s #1'
+  name: 🇭🇰HK_1|2.0MB/s
   network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -299,10 +354,13 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: 'B - 🇭🇰 HK 07 TG: @nodpai'
+  name: CH_speednode_0009
   port: 6012
   server: world.t.51guangtaobao.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: true
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
@@ -320,14 +378,17 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 'A - 🇸🇬 SG 01 TG: @nodpai'
+  name: CH_speednode_0010
   port: 2504
   server: world.t.51guangtaobao.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: true
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: 'A - 🇸🇬 SG 02 TG: @nodpai'
+  name: US_speednode_0072
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -441,31 +502,34 @@ proxies:
     path: /trojan
 - alterId: 0
   cipher: auto
-  name: 'A - 🇬🇧 GB 01 TG: @nodpai'
+  name: CH_speednode_0012
   port: 6009
   server: world.t.51guangtaobao.com
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇰🇷 KR 02 TG: @nodpai'
-  port: 9020
-  server: world.t.51guangtaobao.com
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0006
-  port: 180
-  server: 82.198.246.214
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- alterId: 0
+  cipher: auto
+  name: CH_speednode_0011
+  port: 9020
+  server: world.t.51guangtaobao.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
+  port: 180
+  server: 82.198.246.214
+  type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '🇺🇸US_14|1.4MB/s #1'
+  name: 🇺🇸US_14|1.4MB/s
   network: raw
   port: '180'
   server: 82.198.246.37
@@ -477,7 +541,7 @@ proxies:
   xudp: true
 - alterId: 2
   cipher: auto
-  name: '🇺🇸US_15|1.8MB/s #1'
+  name: 🇺🇸US_15|1.8MB/s
   port: 30829
   server: v29.hdacd.com
   skip-cert-verify: false
@@ -485,7 +549,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '🇺🇸US_18|1.6MB/s #1'
+- name: 🇺🇸US_18|1.6MB/s
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
   port: 18080
@@ -495,91 +559,160 @@ proxies:
   type: trojan
   ws-opts:
     path: /trojan
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_1|1.0MB/s
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇸🇬SG_5|2.4MB/s
+  network: tcp
+  port: 2504
+  server: world.t.51guangtaobao.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-203.30.191.19-0554
+  name: 🏁RELAY-172.65.211.209-0373
+  network: ws
+  port: 80
+  server: mx1.v2rayserv.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 01e1554e-aebf-49e5-ac33-c13155840a5d
+  ws-opts:
+    headers:
+      Host: mx1.v2rayserv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-141.101.115.2-0444
   network: ws
   port: 443
-  server: 203.30.191.19
+  server: 141.101.115.2
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: a5ba8b2b-8fc5-4521-a35e-9281be61c1c3
   ws-opts:
     headers:
-      Host: clash6.ssr-free.xyz
+      Host: lg1.zhujicn2.com
     path: /dongtaiwang.com
+- alterId: 233
+  cipher: auto
+  name: 🇺🇸US-76.223.54.146-0832
+  network: ws
+  port: 80
+  server: free-russian01-cdn.xiaohouzi.club
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3d31728e-064d-42b8-b945-f79c008f73fc
+  ws-opts:
+    headers:
+      Host: free-russian01-cdn.xiaohouzi.club
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.132.15-0677
+  name: 🇰🇷KR-52.231.200.179-1412
   network: ws
   port: 443
-  server: 172.67.132.15
+  server: fullaccesstokoreannetsubnode1.azurewebsites.net
+  servername: fullaccesstokoreannetsubnode1.azurewebsites.net
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
   ws-opts:
     headers:
-      Host: ming2.kiwireich.com
-    path: /ray
+      Host: fullaccesstokoreannetsubnode1.azurewebsites.net
+    path: /ws
 - alterId: 0
   cipher: auto
-  name: 🇩🇪DE-57.129.24.125-7048
+  name: 🏁RELAY-154.92.9.70-8670
   network: ws
   port: 443
-  server: 57.129.24.125
+  server: 154.92.9.70
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
   ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /linkvws
-- alterId: 64
+    path: /blue
+- alterId: 0
   cipher: auto
-  name: 🇺🇸US-192.74.236.131-7627
+  name: 🏁RELAY-104.17.77.94-8989
   network: ws
-  port: 30004
-  server: 192.74.236.131
+  port: 2053
+  server: 104.17.77.94
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
   ws-opts:
-    headers:
-      Host: www.59833770.xyz
-    path: /
-- alterId: 64
+    path: /?ed=2048
+- alterId: 0
   cipher: auto
-  name: 🇺🇸US-38.11.9.173-7655
+  name: 🇭🇰HK-203.218.71.40-9043
   network: ws
-  port: 37008
-  server: 38.11.9.173
+  port: 80
+  server: 081d1aad-rwcsg0-1n7jq.bn.p5pv.com
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 4a75c3ba-f2e9-11ed-bf1b-f23c91369f2d
   ws-opts:
     headers:
-      Host: www.42067459.xyz
+      Host: 081d1aad-rwcsg0-1n7jq.bn.p5pv.com
     path: /
+- alterId: 0
+  cipher: aes-128-gcm
+  name: GB_speednode_0018
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /ABCDE
-  name: TW_speednode_0031
+  name: TW_speednode_0048
   network: http
-  port: 53229
-  server: 103.127.243.54
+  port: 55386
+  server: 103.127.243.60
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0070
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 sniffer:
   enable: true
   skip-domain:
