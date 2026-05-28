@@ -1,4 +1,4 @@
-# Update: 2026-05-28 23:24
+# Update: 2026-05-29 04:04
 allow-lan: true
 dns:
   enable: true
@@ -43,7 +43,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 13.212.73.67
+  server: 18.141.163.221
   servername: www.apple.com
   tls: true
   type: vless
@@ -54,7 +54,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 3.35.22.130
+  server: 13.209.88.239
   servername: www.apple.com
   tls: true
   type: vless
@@ -151,52 +151,6 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0002
-  port: 11104
-  server: dotu-hkv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0005
-  port: 11105
-  server: dotu-hkv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0003
-  port: 11103
-  server: dotu-hkv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0014
-  network: ws
-  port: 33411
-  server: ct2.ainivp.com
-  servername: ct2.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct2.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
   name: US_speednode_0043
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -207,26 +161,54 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0011
-  network: ws
-  port: 33414
-  server: cu7.ainivp.com
-  servername: cu7.ainivp.com
+  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
+  port: 11143
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 2
+  cipher: auto
+  name: 'C - 🇭🇰 HK 04 TG: @nodpai'
+  port: 30809
+  server: v9.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 05 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇭🇰 HK 06 TG: @nodpai'
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇹🇼 TW 01 TG: @nodpai'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0004
+  port: 11111
+  server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
-  tfo: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: cu7.ainivp.com
-    path: /ray
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+  name: 'B - 🇹🇼 TW 03 TG: @nodpai'
   network: tcp
   port: 11112
   server: dotu-twv1.kunlun03dns.com
@@ -236,13 +218,48 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
+- name: 'B - 🇹🇼 TW 05 TG: @nodpai'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 01 TG: @nodpai'
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 02 TG: @nodpai'
   network: tcp
-  port: 11121
+  port: 11122
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 03 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  network: tcp
+  port: 11119
   server: dotu-jpv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -252,21 +269,48 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 'C - 🇭🇰 HK 10 TG: @nodpai'
-  port: 51556
-  server: 103.181.164.145
+  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  network: ws
+  port: 38404
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: e1cc26b3-df0b-477b-afb0-53659a25e978
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 02 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 06 TG: @nodpai'
+  network: ws
+  port: 33103
+  server: cu3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: cu3.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  network: ws
+  port: 63171
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: e3cb685e-7840-45cb-9d64-b2028d9b635e
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
   network: ws
   port: 33108
   server: cu3.ainivp.com
@@ -280,27 +324,266 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 03 TG: @nodpai'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  network: ws
+  port: 19241
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
   type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 'B - 🇯🇵 JP 04 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 10 TG: @nodpai'
   network: ws
-  port: 33103
-  server: cu3.ainivp.com
+  port: 64329
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
+  network: tcp
+  port: 11121
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  network: ws
+  port: 13473
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 13 TG: @nodpai'
+  network: ws
+  port: 29030
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: c09f13ce-2cca-49b6-ad1e-597566cc89c6
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  network: ws
+  port: 33203
+  server: cu2.ainivp.com
   tls: true
   type: vmess
   uuid: 9204afcd-026e-781f-1abc-c03efabd1344
   ws-opts:
     headers:
-      Host: cu3.ainivp.com
+      Host: cu2.ainivp.com
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+  network: ws
+  port: 53452
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: b01d1e26-2f84-48da-88a1-1d06a77857f3
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 17 TG: @nodpai'
+  network: ws
+  port: 11167
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: c50f9480-2e1d-40db-9458-630e79636663
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇯🇵 JP 18 TG: @nodpai'
+  network: ws
+  port: 49865
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇯🇵 JP 19 TG: @nodpai'
+  network: ws
+  port: 65440
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇯🇵 JP 20 TG: @nodpai'
+  network: ws
+  port: 35298
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇯🇵 JP 21 TG: @nodpai'
+  network: ws
+  port: 29913
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇯🇵 JP 22 TG: @nodpai'
+  network: ws
+  port: 32818
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 254551f6-ec28-4938-ad0e-0aa4aa1965ec
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇯🇵 JP 23 TG: @nodpai'
+  network: ws
+  port: 20291
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 6d600864-32da-49fd-baf4-7df051762454
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇯🇵 JP 24 TG: @nodpai'
+  network: ws
+  port: 35240
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇯🇵 JP 25 TG: @nodpai'
+  network: ws
+  port: 33991
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: b01d1e26-2f84-48da-88a1-1d06a77857f3
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 13 TG: @nodpai'
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: 'US_speednode_0049 #1'
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 104.18.20.213
+  skip-cert-verify: false
+  sni: www.app-cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /
+- name: 'SC_speednode_0041 #1'
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 45.130.125.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.app-cloud.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
   network: ws
   port: 33402
   server: yd3.ainivp.com
@@ -313,69 +596,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 10 TG: @nodpai'
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_3|2.5MB/s
-  network: ws
-  password: mitivpn
-  port: '443'
-  server: 104.18.20.213
-  skip-cert-verify: false
-  sni: www.app-cloud.ir
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_5|2.1MB/s
-  network: ws
-  password: mitivpn
-  port: '443'
-  server: 14.102.228.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_6|3.3MB/s
-  network: ws
-  password: mitivpn
-  port: '443'
-  server: 45.130.125.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 27 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 22 TG: @nodpai'
   port: 11137
   server: dotu-sgv1.kunlun03dns.com
   type: vmess
@@ -393,6 +614,16 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
+  name: CN_speednode_0007
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
   name: CN_speednode_0008
   port: 11128
   server: dotu-usv1.kunlun03dns.com
@@ -401,47 +632,37 @@ proxies:
   type: vmess
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  network: tcp
-  port: 11130
-  server: dotu-usv1.kunlun03dns.com
+- name: 'B - 🇺🇸 US 15 TG: @nodpai'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 30303
+  server: 121.191.33.84
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: vpn.rnmcnm.com
+  type: trojan
   udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
 - alterId: 0
   cipher: auto
-  name: GB_speednode_0021
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 'B - 🇺🇸 US 15 TG: @nodpai'
-  network: tcp
-  port: 11119
+  name: 'B - 🇺🇸 US 17 TG: @nodpai'
+  port: 11120
   server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
   type: vmess
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alterId: 0
+- alterId: 2
   cipher: auto
   name: 'C - 🇺🇸 US 21 TG: @nodpai'
+  port: 30829
+  server: v29.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇺🇸 US 22 TG: @nodpai'
   network: ws
   port: 16648
   server: planb.mojcn.com
@@ -451,14 +672,6 @@ proxies:
     headers:
       Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇰🇷 KR 01 TG: @nodpai'
-  port: 11144
-  server: dotu-krv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
   name: CN_speednode_0013
@@ -477,25 +690,14 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 'B - 🇰🇷 KR 03 TG: @nodpai'
-  port: 11146
-  server: dotu-krv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇰🇷 KR 04 TG: @nodpai'
+  name: 'B - 🇨🇦 CA 01 TG: @nodpai'
   network: ws
-  port: 33201
-  server: yd2.ainivp.com
-  tls: true
+  port: 80
+  server: 158.69.208.120
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: bed62ee5-2b42-41b0-aeae-e95d043da869
   ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
+    path: /api/v1
 - alterId: 2
   cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
@@ -603,6 +805,16 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: GB_speednode_0021
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: '🇺🇸 美国5|@ripaojiedian #1'
   port: 180
   server: 82.198.246.233
@@ -620,19 +832,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 🇺🇸US_4|1.1MB/s
+  name: 美国4|@ripaojiedian
   network: tcp
   port: '180'
   server: 82.198.246.250
   servername: ''
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - alterId: 0
   cipher: auto
   name: 美国5|@ripaojiedian
@@ -643,166 +852,152 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_2|1.7MB/s
-  network: tcp
-  port: '180'
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- alpn:
+  - http/1.1
+  name: '🇸🇬SG_1|2.1MB/s #1'
+  network: ws
+  password: mitivpn
+  port: '2096'
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  type: trojan
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '🇸🇬SG_2|2.8MB/s #1'
+  network: ws
+  password: mitivpn
+  port: '8443'
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /?ed=2048
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 🇯🇵JP_1|1.5MB/s
-  network: tcp
-  port: 11122
-  server: dotu-jpv1.kunlun03dns.com
+  name: '🇨🇾CY_1|2.5MB/s #1'
+  network: ws
+  port: '80'
+  server: 45.128.72.44
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  uuid: a2170d39-140a-47f9-85b8-084078856c36
+  ws-opts:
+    headers: {}
+    path: /api/v1
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🇩🇪DE_14|2.5MB/s
-  network: ws
-  password: shabrangvpn
-  port: '443'
-  server: 8.6.112.51
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰HK_1|1.7MB/s #1'
+  network: raw
+  port: '6001'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
-  sni: shabrangvpn.anarcloud.ir
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬SG_3|1.6MB/s #1'
+  network: raw
+  port: '6004'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  xudp: true
+- name: 'SC_speednode_0040 #1'
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 45.130.125.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
+      Host: www.app-cloud.ir
     path: /?ed=2048
-- name: KR_speednode_0029
+- name: 'US_speednode_0045 #1'
   network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 30303
-  server: 121.191.33.84
+  password: mitivpn
+  port: 443
+  server: 104.18.20.213
   skip-cert-verify: false
-  sni: vpn.rnmcnm.com
+  sni: www.app-cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
-- name: KR_speednode_0030
+      Host: www.app-cloud.ir
+    path: /?ed=2048
+- name: 'US_speednode_0046 #1'
   network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 12345
-  server: 59.30.42.194
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
+  password: mitivpn
+  port: 443
+  server: 14.102.228.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
-- name: KR_speednode_0031
+      Host: www.app-cloud.ir
+    path: /?ed=2048
+- name: 'US_speednode_0048 #1'
   network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 18000
-  server: 121.154.96.50
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
+  password: mitivpn
+  port: 443
+  server: 14.102.228.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
-- name: KR_speednode_0032
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 29999
-  server: 14.53.107.138
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vpn.rnmcnm.com
-    path: /trojan
+      Host: www.app-cloud.ir
+    path: /
 - alpn:
   - h2
   - http/1.1
   encryption: none
-  name: 🇩🇪DE_1|2.1MB/s
-  network: xhttp
-  port: '443'
-  server: 45.131.6.203
-  servername: p4r34m.hendevaneh.sbs
+  grpc-opts:
+    grpc-service-name: khabaronline.ir.iranprimer.usip.org.entekhab.ir.alalamtv.net.kayhan.ir.fararu.com.irna.ir
+  name: 🇩🇪DE_1|3.3MB/s
+  network: grpc
+  port: '2096'
+  server: 104.18.32.47
+  servername: poWeRFUL-HIStORym1zX7jVJwb.cARbonbLAckBmw.Ir
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: p4r34m.hendevaneh.sbs
-    mode: auto
-    path: /p4r34m
-  xudp: true
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: 🇨🇭CH_1|1.4MB/s
-  network: http
-  port: '22'
-  server: 172.65.111.43
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_2|1.3MB/s
-  network: ws
-  port: 33407
-  server: yd3.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: yd3.ainivp.com
-    path: /ray
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL_1|1.2MB/s
-  network: tcp
-  port: '443'
-  server: 37.49.225.189
-  servername: sub.sbrf-cdn342.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f
+  uuid: 629325d2-7e7b-47e8-a503-301677a59589
   xudp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|1.2MB/s
+  name: 🇿🇦ZA_1|3.0MB/s
   password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
+  port: 28866
+  server: 45.221.98.11
   transport: TCP
   type: mieru
   username: dongtaiwang.com
@@ -810,44 +1005,42 @@ proxies:
   - h2
   - http/1.1
   encryption: none
-  name: 🇫🇷FR_1|1.3MB/s
-  network: xhttp
-  port: 2087
-  server: 165.215.250.14
-  servername: ws.kheybar.store
-  skip-cert-verify: false
+  grpc-opts:
+    grpc-service-name: presstv.ir.iribnews.ir.tasnimnews.com.irannewsdaily.com.ifpnews.com.kayhan.ir.irdiplomacy.ir
+  name: 🇩🇪DE_2|3.4MB/s
+  network: grpc
+  port: '2096'
+  server: 104.18.32.47
+  servername: cOMpASSioNAte-INtEntIOnr55Et2c87l.carbONBLACKBMW.IR
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: ws.kheybar.store
-    mode: auto
-    path: /login
+  uuid: 0e0bd555-4d21-485c-90a4-bb0b497c002a
   xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: RO_speednode_0032
-  network: tcp
-  port: 443
-  server: 87.120.93.243
-  servername: sub.sbrf-cdn342.ru
-  skip-cert-verify: false
+- alpn:
+  - h2
+  - http/1.1
+  encryption: none
+  grpc-opts:
+    grpc-service-name: asriran.com.tasnimnews.com.sharghdaily.com.entekhab.ir.farsnews.ir.isna.ir.irdiplomacy.ir
+  name: 🇩🇪DE_3|3.7MB/s
+  network: grpc
+  port: '2096'
+  server: 104.18.32.47
+  servername: bItTEr-BreADh48GRdp1Bf.cARBONBLacKBMW.IR
   tls: true
   type: vless
   udp: true
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+  uuid: 266f49ab-e823-4497-b7a9-78ff51809f2d
   xudp: true
 - alpn:
   - h2
   client-fingerprint: firefox
   encryption: none
-  name: 🇩🇪DE_4|1.1MB/s
+  name: 🇳🇱NL_1|2.5MB/s
   network: xhttp
-  port: 443
-  server: 89.144.30.104
-  servername: dey.lnmarketplace.net
-  skip-cert-verify: false
+  port: '443'
+  server: dey.lnmarketplace.net
   tls: true
   type: vless
   udp: true
@@ -857,50 +1050,273 @@ proxies:
     mode: stream-one
     path: /kavir
   xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|1.7MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: 'c1a7e9b4711d5f60'
-  server: 193.168.46.180
-  servername: rruu.persik.host
+- alpn:
+  - h2
+  - http/1.1
+  encryption: none
+  grpc-opts:
+    grpc-service-name: irannewsdaily.com.hamshahrionline.ir.irdiplomacy.ir.irandaily.ir.alef.ir.rajanews.com.irannewsdaily.com
+  name: 🇩🇪DE_4|3.2MB/s
+  network: grpc
+  port: '2096'
+  server: 45.130.125.69
+  servername: bad-AppLicatIon22nBd8j5OK.CArBoNbLaCkBmw.Ir
   tls: true
   type: vless
   udp: true
-  uuid: 3d48f115-144a-4275-96bf-8ff67c330ce4
+  uuid: 5e8c894b-1efa-48d4-85ee-9daf5d574c16
+  xudp: true
+- flow: xtls-rprx-vision
+  name: 🇲🇩MD_1|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: vYAxsSvDFRv3AFxbenjrq3jRG_p8o_wER-I8x-7aSwU
+    short-id: '062f'
+  server: 91.225.217.94
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a2af58-d74a-44ca-864a-e09b493f4274
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_2|1.4MB/s
+  name: 🇲🇩MD_2|2.4MB/s
   network: tcp
-  port: '443'
+  port: '1443'
   reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: 'c1a7e9b4711d5f60'
-  server: 193.168.46.180
-  servername: rruu.persik.host
+    public-key: Ej_PPr2iomuIl23svqB6FgWf2Sw6FMC6ipavO5w5OXY
+    short-id: '099755ac7b731e9e'
+  server: api.chat.video.cdn.vles.space
+  servername: botapi.max.ru
   tls: true
   type: vless
   udp: true
-  uuid: e30d8712-00f5-4223-873e-47e31d4fda17
+  uuid: 8cddd533-9611-4fc4-adda-7d629743b4b2
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_1|1.5MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: AhQkw1Ydp_ZkXnE7UbIZvwHk9KE_Bf5_TkojYZZUuGs
+    short-id: '2da46294d6a521B2'
+  server: 155.212.146.195
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
+  xhttp-opts:
+    host: ads.x5.ru
+    path: /api/v3/f29479507adb
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_5|1.6MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: AhQkw1Ydp_ZkXnE7UbIZvwHk9KE_Bf5_TkojYZZUuGs
+    short-id: '2da46294d6a521b2'
+  server: 62.217.179.4
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
+  xhttp-opts:
+    host: ads.x5.ru
+    mode: auto
+    path: /api/v3/f29479507adb
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_3|2.1MB/s
+  name: 🇳🇱NL_2|2.5MB/s
   network: tcp
   port: '443'
   reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: 'c1a7e9b4711d5f60'
-  server: 193.168.46.180-ia1nrwec.nike77prime.ru
-  servername: rruu.persik.host
+    public-key: 9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg
+    short-id: '19aa22f681923dc8'
+  server: ninka.api.dznn.net
+  servername: ninka.api.dznn.net
   tls: true
   type: vless
   udp: true
-  uuid: 3d48f115-144a-4275-96bf-8ff67c330ce4
+  uuid: 9bc46020-c550-439a-86c5-38f64abc1ffd
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: CZ_speednode_0016
+  network: raw
+  port: 8443
+  reality-opts:
+    public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
+    short-id: '92d0c4089b6c1da3'
+  server: 95.85.228.146
+  servername: io.ozone.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a67e3045-626c-42c9-8cc0-a5afa6b18b05
+  xudp: true
+- name: 🇳🇱NL_3|2.4MB/s
+  network: tcp
+  port: '33471'
+  server: 95.179.149.199
+  type: vless
+  udp: true
+  uuid: aa8779b9-a6b6-4633-b47d-bff2e1776994
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  encryption: none
+  grpc-opts:
+    grpc-service-name: fararu.com.parstoday.com.ilna.news.financialtribune.com.presstv.ir.jamejamonline.ir.alalamtv.net
+  name: 🇩🇪DE_6|3.1MB/s
+  network: grpc
+  port: '2096'
+  server: 104.18.32.47
+  servername: eVoLVIng-CHAnCeR6CS39rs25.caRBoNblAcKbMw.Ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac0517ac-af76-4436-bfa4-0a8b2b6bb433
+  xudp: true
+- flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|2.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: -ZGvjjYToghwA3TZfntrabePL-dWYt-i5C_SO8pSRWY
+    short-id: ''
+  server: fran.ummapeople.online
+  servername: fran.ummapeople.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac195240-6005-412b-9829-1e56e5d5c52a
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: RU_speednode_0037
+  network: raw
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_7|2.5MB/s
+  network: ws
+  port: '443'
+  server: support.zoom.us.cyylr.eu.cc
+  servername: support.zoom.us.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /sg-melbi
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_8|2.6MB/s
+  network: ws
+  port: '2086'
+  server: 104.17.150.76
+  type: vless
+  udp: true
+  uuid: de989f46-ce7c-4d94-9c58-5ccd80e8d7a1
+  ws-opts:
+    headers:
+      Host: war2.unlimiteddev-service2881.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_3|2.5MB/s
+  network: tcp
+  port: '12443'
+  reality-opts:
+    public-key: D3bNJPmy4YJqhWQ3Xv1Fu3Z1danrTzswShytnkkG9Q4
+    short-id: 'ca4a1317e03791b3'
+  server: 31.58.87.71
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  encryption: none
+  grpc-opts:
+    grpc-service-name: donya-e-eqtesad.com.tasnimnews.com.alef.ir.en.mehrnews.com.entekhab.ir.tasnimnews.com.tehrantimes.com
+  name: 🇩🇪DE_9|3.2MB/s
+  network: grpc
+  port: '2096'
+  server: 104.18.32.47
+  servername: Humble-FigUREFnHk81kxjx.CarboNblaCkBmw.iR
+  tls: true
+  type: vless
+  udp: true
+  uuid: fad00171-5df8-442e-a208-54dea7f474f2
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_1|2.5MB/s
+  network: tcp
+  port: '443'
+  server: wolf.ilovezhenjiu.top
+  servername: wolf.ilovezhenjiu.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 053909d6-5091-4a1b-95e3-a726c5e49e37
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_2|1.9MB/s
+  network: tcp
+  port: '13103'
+  reality-opts:
+    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
+    short-id: 'a1b2c3d4'
+  server: zzjp2.ainivp.com
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  xudp: true
+- client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+    short-id: ''
+  server: 185.139.214.254
+  servername: cloudcdn-m9-15.cdn.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
   xudp: true
 - encryption: none
   fp: chrome
@@ -924,233 +1340,135 @@ proxies:
   skip-cert-verify: true
   sni: www.microsoft.com
   type: hysteria2
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 🇻🇳VN-103.166.183.226-0344
-  network: ws
-  port: 80
-  server: 103.166.183.226
-  servername: dl.kgvn.garenanow.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
-  ws-opts:
-    path: /tandung288.click
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺RU-45.136.244.181-0371
-  network: ws
-  port: 80
-  server: 45.136.244.181
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  ws-opts:
-    path: /fr-unlimitxxx
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US-128.14.162.48-0478
+  name: 🇳🇱NL-46.182.107.45-0445
   network: ws
   port: 443
-  server: 128.14.162.48
+  server: 46.182.107.45
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  ws-opts:
-    headers:
-      Host: clash6.ssr-free.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-141.101.114.150-0485
-  network: ws
-  port: 443
-  server: 141.101.114.150
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  ws-opts:
-    headers:
-      Host: clash6.ssr-free.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳IN-155.248.241.52-0508
-  network: ws
-  port: 443
-  server: 155.248.241.52
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  uuid: fe5f69e7-e183-439b-950b-9661ef0651f2
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.115.249-0590
-  network: ws
-  port: 8443
-  server: 172.67.115.249
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  ws-opts:
-    path: /8cda48b3
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-173.245.49.10-0597
-  network: ws
-  port: 8443
-  server: 173.245.49.10
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  ws-opts:
-    path: /8cda48b3
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US-91.149.239.165-0715
+  name: 🏁RELAY-188.114.99.10-0636
   network: ws
   port: 443
-  server: cg1c14.waimaojd.com
+  server: 188.114.99.10
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   ws-opts:
     headers:
-      Host: cg1c14.waimaojd.com
-    path: /api/v1/graphql
+      Host: oplg1.zhujicn2.com
+    path: /5QNROSRV
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.66.154.167-0917
+  network: ws
+  port: 2086
+  server: RACKNERD.COM
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c2a55def-e91e-4132-c504-0f276c4c3a1e
+  ws-opts:
+    headers:
+      Host: RACKNERD.COM
+    path: /aries
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: 🇭🇰HK-8.210.248.210-1445
+  name: 🇺🇸US-192.210.207.213-1852
   network: http
-  port: 54570
-  server: 8.210.248.210
+  port: 5806
+  server: 192.210.207.213
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: aa1d02a4-60e6-4671-8107-4d5e6bacd265
+  uuid: 13b73114-f3a4-4a1a-f083-b4621cf73275
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇭🇰HK-47.242.52.13-1961
-  network: http
-  port: 31152
-  server: 47.242.52.13
+  name: 🏁RELAY-104.17.103.249-2376
+  network: ws
+  port: 2086
+  server: 104.17.103.249
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 59cf21e6-d029-47d8-9c37-7ef34280b9d1
+  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+  ws-opts:
+    path: /aries
 - alterId: 0
   cipher: auto
-  name: 🇨🇦CA-158.51.121.63-6799
+  name: 🇺🇸US-51.81.220.34-3469
+  network: ws
+  port: 80
+  server: 51.81.220.34
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0842be25-d718-491a-bca8-5e9d080150e6
+  ws-opts:
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-91.134.8.100-6809
   network: ws
   port: 443
-  server: 158.51.121.63
-  servername: seribus.org
+  server: 91.134.8.100
   skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: seribus.org
-    path: linkvws
+      Host: kampong.org
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.239.102.115-6979
+  name: 🇭🇰HK-47.76.157.234-7055
   network: ws
-  port: 5361
-  server: 47.239.102.115
+  port: 14479
+  server: 47.76.157.234
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: a053682e-9373-4fe7-8277-1de3f8d1eacd
+  uuid: 90606c14-cba4-43ff-9586-9edd8bef21a4
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇸🇨SC-45.192.98.205-7044
-  network: ws
-  port: 31084
-  server: 45.192.98.205
+  name: CN_speednode_0002
+  port: 11104
+  server: dotu-hkv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: bed083f8-a4df-4293-a46d-f158a27b5d5c
-  ws-opts:
-    path: /
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.21.18.227-7307
-  network: ws
-  port: 443
-  server: 104.21.18.227
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸US-137.175.42.253-7414
-  network: ws
-  port: 30001
-  server: 137.175.42.253
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.94346384.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-162.159.135.251-8452
-  network: ws
-  port: 2095
-  server: 162.159.135.251
+  name: CN_speednode_0003
+  port: 11103
+  server: dotu-hkv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-  ws-opts:
-    path: /hgcefomn
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-162.159.194.135-8450
-  network: ws
-  port: 2095
-  server: 162.159.194.135
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-  ws-opts:
-    path: /hgcefomn
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0004
-  port: 11111
-  server: dotu-twv1.kunlun03dns.com
+  name: CN_speednode_0005
+  port: 11105
+  server: dotu-hkv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1160,16 +1478,6 @@ proxies:
   cipher: auto
   name: CN_speednode_0006
   port: 11129
-  server: dotu-usv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: CN_speednode_0007
-  port: 11127
   server: dotu-usv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -1198,6 +1506,21 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
+  name: CN_speednode_0011
+  network: ws
+  port: 33414
+  server: cu7.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: cu7.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
   name: CN_speednode_0012
   port: 11101
   server: dotu-hkv1.kunlun03dns.com
@@ -1206,19 +1529,21 @@ proxies:
   type: vmess
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- flow: xtls-rprx-vision
-  name: CZ_speednode_0016
-  port: 8443
-  reality-opts:
-    public-key: A9jwrodyycJJV-apFQ91_rrh1vfJ_hSzZGNP9GBPGCM
-    short-id: '92d0c4089b6c1da3'
-  server: 95.85.228.146
-  servername: io.ozone.ru
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0014
+  network: ws
+  port: 33411
+  server: ct2.ainivp.com
   skip-cert-verify: false
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: a67e3045-626c-42c9-8cc0-a5afa6b18b05
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct2.ainivp.com
+    path: /ray
 - flow: xtls-rprx-vision
   name: GB_speednode_0020
   port: 443
@@ -1307,16 +1632,17 @@ proxies:
   type: vless
   udp: true
   uuid: d78c12c4-6927-40b8-8550-ed9be00334da
-- flow: xtls-rprx-vision
-  name: RU_speednode_0037
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: RO_speednode_0032
+  port: 443
+  server: 87.120.93.243
+  servername: sub.sbrf-cdn342.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: RU_speednode_0036
@@ -1351,32 +1677,6 @@ proxies:
   type: vless
   udp: true
   uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
-- name: SC_speednode_0040
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 45.130.125.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /?ed=2048
-- name: SC_speednode_0041
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 45.130.125.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /
 - name: US_speednode_0042
   port: 7070
   server: 20.83.154.79
@@ -1395,32 +1695,6 @@ proxies:
   type: vless
   udp: true
   uuid: 2042c7c4-f0c8-48ec-926b-65112b064e2c
-- name: US_speednode_0045
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 104.18.20.213
-  skip-cert-verify: false
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /?ed=2048
-- name: US_speednode_0046
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 14.102.228.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /?ed=2048
 - alpn:
   - h2
   - http/1.1
@@ -1433,32 +1707,6 @@ proxies:
   type: vless
   udp: true
   uuid: 2ee2b77f-e4cd-4e5d-af22-f9d919eeadd5
-- name: US_speednode_0048
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 14.102.228.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /
-- name: US_speednode_0049
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 104.18.20.213
-  skip-cert-verify: false
-  sni: www.app-cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.app-cloud.ir
-    path: /
 - client-fingerprint: firefox
   name: US_speednode_0050
   network: ws
