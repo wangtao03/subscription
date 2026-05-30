@@ -1,4 +1,32 @@
 proxies:
+- aead: true
+  alterId: 0
+  cipher: auto
+  flow: ''
+  name: 月付2块钱1000G
+  network: tcp
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- aead: true
+  alterId: 0
+  cipher: auto
+  flow: ''
+  name: 官网https://kelayun.notepin.co
+  network: tcp
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - name: 🇨🇳_CN_中国->🇯🇵_JP_日本
   password: BxceQaOe
   port: 26876
@@ -213,14 +241,15 @@ proxies:
   sni: gh.01.naiun.bilibili.com
   tls: true
   type: trojan
-- name: 'B - 🇺🇸 US 36 TG: @nodpai'
+- name: '🇭🇰HK_1|1.4MB/s #1'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
+  port: '47909'
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
   tls: true
   type: trojan
+  udp: true
 - name: 'B - 🇺🇸 US 37 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
@@ -239,23 +268,16 @@ proxies:
   type: trojan
   ws-opts:
     path: /trojan
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
-  name: '🇺🇸US_3|1.9MB/s #1'
+  name: 'C - 🇺🇸 US 46 TG: @nodpai'
   network: ws
-  port: '52620'
+  port: 52620
   server: 38.60.176.80
-  skip-cert-verify: false
-  tls: false
   type: vmess
-  udp: true
   uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
   ws-opts:
-    headers: {}
     path: /8704a4ad
-  xudp: true
 - alterId: 2
   cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
@@ -273,7 +295,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '🇭🇰HK_1|3.5MB/s #1'
+- name: 🇭🇰 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 50712
@@ -289,7 +311,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '🇯🇵JP_2|3.6MB/s #1'
+- name: 🇯🇵 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 53307
@@ -410,75 +432,103 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '🇺🇸US_5|1.5MB/s #1'
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: '30303'
-  server: 121.191.33.84
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    path: /trojan
-- alterId: 2
-  cipher: auto
-  name: '🇸🇬SG_1|2.5MB/s #1'
-  port: 30845
-  server: v45.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  client-fingerprint: ''
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '🇲🇩MD_1|2.1MB/s #1'
-  network: http
-  port: 2087
-  server: 62.3.12.140
+  name: '🇭🇰HK_2|1.2MB/s #1'
+  network: ws
+  port: 33410
+  server: ct3.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 🇻🇳VN-103.75.186.153-0398
+  network: ws
+  port: 80
+  server: 103.75.186.153
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 90a7a201-de71-4696-be44-f2c04aa36348
-- name: '🇯🇵JP_3|1.9MB/s #1'
-  network: tcp
-  password: q6UYkw9nUn6MYZz8Sp
-  port: '443'
-  server: ty-2.tr202604.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
+  ws-opts:
+    path: /tandung288.click
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US-64.112.42.73-0421
+  name: 🏁RELAY-172.65.211.209-1138
   network: ws
-  port: 443
-  server: 64.112.42.73
+  port: 30041
+  server: v02.gutingting.com
+  servername: sh01.fastcloud.club
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 4946f776-0af3-49f3-acad-d157475d253e
+  uuid: d3d90998-7bfd-4fc6-930e-35bf96083d8b
   ws-opts:
     headers:
-      Host: www.shunxin.ml
-    path: /P0S5U7NK
+      Host: v02.gutingting.com
+    path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-103.21.244.238-3604
+  name: 🏁RELAY-172.64.153.150-1422
   network: ws
-  port: 8443
-  server: 103.21.244.238
+  port: 443
+  server: 172.64.153.150
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   ws-opts:
-    path: /8cda48b3
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.244.191-7117
+  network: ws
+  port: 443
+  server: 172.67.244.191
+  servername: gwdef.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧GB-149.7.16.248-7182
+  network: ws
+  port: 443
+  server: 149.7.16.248
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 149.7.16.248
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.131.216-7579
+  network: ws
+  port: 443
+  server: btbu996.icu
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 16702ec2-3808-46e6-a7b5-582c062be13d
+  ws-opts:
+    headers:
+      Host: btbu996.icu
+    path: /
 - alterId: 0
   cipher: auto
   name: GB_speednode_0008
