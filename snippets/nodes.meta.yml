@@ -1,4 +1,153 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  flow: ''
+  name: GB_speednode_0012
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 月付2块钱1000G
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
+  servername: t.me%2Fripaojiedian
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: 🇭🇰 香港 | HKG 2
+  password: BxceQaOe
+  port: 17801
+  server: 95.40.68.192
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本 | JPN
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 1180
+  server: 18.181.199.223
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: RU_speednode_0039
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0040
+  network: tcp
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: RU_speednode_0043
+  network: tcp
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alpn:
+  - h3
+  name: 🇰🇷_KR_韩国
+  password: ff488c48-b745-4d65-a6a1-0339be0b7fd7
+  port: 15219
+  server: okrs01.7770123.xyz
+  skip-cert-verify: false
+  sni: okrs01.7770123.xyz
+  type: hysteria2
+  udp: true
+- name: 🇺🇸_US_美国->🇩🇪_DE_德国
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: false
+  type: trojan
+  udp: true
+- alterId: 0
+  name: us|6817|puddincat07@Telegram
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: true
+  sni: www.mitivpn.in.net
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  name: us|5075|puddincat07@Telegram
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 155.117.198.83
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- name: 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: false
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: tw|1929|puddincat07@Telegram
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: 211.76.176.98
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan
+  udp: true
+- name: de|2a96|puddincat07@Telegram
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.122.135.247
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: xx|7ffb|puddincat07@Telegram
+  password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf
+  port: 2053
+  server: at1.trojanvpn.de
+  skip-cert-verify: true
+  sni: ftp.debian.org
+  type: trojan
+  udp: true
 - encryption: none
   name: 🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001...
   network: ws
@@ -20,7 +169,7 @@ proxies:
     headers:
       Host: purnet.gmijcp.workers.dev
     path: /?ed=2048
-- name: 🇺🇸US_8|2.7MB/s
+- name: '🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
   network: ws
   port: 80
   server: 104.17.220.242
@@ -30,42 +179,13 @@ proxies:
     headers:
       Host: purnet.gmijcp.workers.dev
     path: /?ed=2048
-- down: ''
-  fingerprint: ''
-  name: 🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_...
-  obfs: ''
-  obfs-password: ''
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 49068
-  server: hkt1.jueduibupao.top
+- name: 🟡🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_...
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 8300
+  server: 56518553-te8ao0-tfnl0i-au6.hkt.east.wctype.com
   skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #1'
-  obfs: ''
-  obfs-password: ''
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 44587
-  server: hkt1.jueduibupao.top
-  skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #2'
-  obfs: ''
-  obfs-password: ''
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 44153
-  server: hkt1.jueduibupao.top
-  skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
+  type: anytls
+  udp: true
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -98,31 +218,6 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
-- encryption: none
-  name: ⚪🏳️_github.com/Ruk1ng001_520b7...
-  network: ws
-  port: 443
-  server: 124.244.50.35
-  servername: sn1.skylee5.cloudns.ch
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sn1.skylee5.cloudns.ch
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /proxyip=ProxyIP.CMLiussss.net
-  xudp: true
-- name: 🟡🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001...
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 8300
-  server: a0ef01f1-t9w4g0-tedj2a-1glq.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: a0ef01f1-t9w4g0-tedj2a-1glq.hkt.east.wctype.com
-  type: anytls
-  udp: true
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -155,6 +250,14 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
+- name: 🟡🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001...
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 8300
+  server: 4d060537-t9xz40-tb70mp-4550.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 4d060537-t9xz40-tb70mp-4550.hkt.east.wctype.com
+  type: anytls
+  udp: true
 - encryption: none
   flow: xtls-rprx-vision
   name: '🟢🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
@@ -170,10 +273,18 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
+- name: 🟡🇭🇰[🎬📺]_github.com/Ruk1ng001_c...
+  password: 06c625ea-5902-11ee-9e87-f23c9313b177
+  port: 8300
+  server: 1b5a3305-t9nhc0-tbomae-4mce.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 1b5a3305-t9nhc0-tbomae-4mce.hkt.east.wctype.com
+  type: anytls
+  udp: true
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #3'
+  name: 🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_...
   network: tcp
   port: 35599
   reality-opts:
@@ -198,23 +309,12 @@ proxies:
   sni: y06pz2.yydzx.xyz
   type: tuic
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- name: 🟡🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_...
-  password: 06c625ea-5902-11ee-9e87-f23c9313b177
+- name: '🟡🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #1'
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 8300
-  server: 85677df4-t9w4g0-tbo02e-4mce.hkt.east.wctype.com
+  server: 686e7463-t9lmo0-tdtx5w-au6.hkt.east.wctype.com
   skip-cert-verify: true
-  sni: 85677df4-t9w4g0-tbo02e-4mce.hkt.east.wctype.com
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: wd93u1.yytls.top
-  skip-cert-verify: false
-  sni: wd93u1.yytls.top
+  sni: 686e7463-t9lmo0-tdtx5w-au6.hkt.east.wctype.com
   type: anytls
   udp: true
 - alpn:
@@ -258,17 +358,6 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇹🇭[🎬🤖📺]_github.com/Ruk1ng001_...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27007
-  server: pl5non.yytls.top
-  skip-cert-verify: false
-  sni: pl5non.yytls.top
-  type: anytls
-  udp: true
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -285,24 +374,6 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
-- flow: xtls-rprx-vision
-  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001...
-  port: 443
-  reality-opts:
-    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-  security: reality
-  server: t13.qifei.app
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
-- name: '🟡🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #1'
-  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-  port: 8443
-  server: 199dc802-te5ts0-twuk0i-1hzyr.hkt2.cdnhuawei.com
-  skip-cert-verify: true
-  sni: 199dc802-te5ts0-twuk0i-1hzyr.hkt2.cdnhuawei.com
-  type: anytls
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -321,7 +392,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #4'
+  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #1'
   network: ws
   port: 16622
   server: planb.mojcn.com
@@ -335,50 +406,6 @@ proxies:
       Host: e35f90811b45f78e13b04357ef766c24.mobgslb.tbcache.com
     path: /
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇰🇷[🎬🤖📺]_github.com/Ruk1ng001_...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: yw1v0p.yytls.top
-  skip-cert-verify: false
-  sni: yw1v0p.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27002
-  server: ljqkmb.yytls.top
-  skip-cert-verify: false
-  sni: ljqkmb.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27108
-  reduce-rtt: false
-  server: p0aq7o.yydzx.xyz
-  sni: p0aq7o.yydzx.xyz
-  type: tuic
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾
-  port: 2510
-  server: world.t.51guangtaobao.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -411,80 +438,10 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27005
-  server: hqh1co.yytls.top
-  skip-cert-verify: false
-  sni: hqh1co.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: yzhkzx.yytls.top
-  skip-cert-verify: false
-  sni: yzhkzx.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #5'
-  obfs: ''
-  obfs-password: ''
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 44640
-  server: hkt1.jueduibupao.top
-  skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20771
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20481
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #6'
-  obfs: ''
-  obfs-password: ''
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 47964
-  server: hkt1.jueduibupao.top
-  skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
-  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
+  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
   network: tcp
   port: 51199
   reality-opts:
@@ -512,41 +469,6 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20034
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇰🇷[🎬🤖📺]_github.com/Ruk1ng001_... #1'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: dbs5wu.yytls.top
-  skip-cert-verify: false
-  sni: dbs5wu.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20325
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
 - alpn:
   - h3
   congestion-controller: bbr
@@ -559,41 +481,6 @@ proxies:
   sni: qpgfoj.yydzx.xyz
   type: tuic
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- down: ''
-  fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #7'
-  obfs: ''
-  obfs-password: ''
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 42247
-  server: hkt1.jueduibupao.top
-  skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27108
-  reduce-rtt: false
-  server: m7f55e.yydzx.xyz
-  sni: m7f55e.yydzx.xyz
-  type: tuic
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇲🇴[🎬📺🔍]_github.com/Ruk1ng001_...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27013
-  server: uz75fq.yytls.top
-  skip-cert-verify: false
-  sni: uz75fq.yytls.top
-  type: anytls
-  udp: true
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -610,127 +497,10 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇮🇩[🎬🤖]_github.com/Ruk1ng001_4...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27016
-  server: lrogte.yytls.top
-  skip-cert-verify: false
-  sni: lrogte.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20659
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #6'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20171
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '🔴🇲🇴[🎬📺🔍]_github.com/Ruk1ng001_... #1'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27113
-  reduce-rtt: false
-  server: pgy52i.yydzx.xyz
-  sni: pgy52i.yydzx.xyz
-  type: tuic
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇮🇩[🎬🤖📺🔍]_github.com/Ruk1ng001...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27016
-  server: rws46y.yytls.top
-  skip-cert-verify: false
-  sni: rws46y.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇲🇾[🎬🤖]_github.com/Ruk1ng001_b...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27014
-  server: k8qncg.yytls.top
-  skip-cert-verify: false
-  sni: k8qncg.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: 🔴🇯🇵[🤖📺🔍]_github.com/Ruk1ng001_...
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20159
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #7'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20121
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #8'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20075
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #9'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20390
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
+  name: 🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001...
   network: tcp
   port: 36699
   reality-opts:
@@ -743,124 +513,6 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20867
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #10'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20809
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇲🇴[🎬📺🔍]_github.com/Ruk1ng001_... #2'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27013
-  server: tftv2u.yytls.top
-  skip-cert-verify: false
-  sni: tftv2u.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20615
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #11'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20748
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #12'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20905
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- encryption: none
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
-  network: ws
-  port: 14573
-  server: 172.237.90.117
-  type: vless
-  uuid: a6dd0cc9-eeb0-4226-9623-b3fc6e1b0b98
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /FREE By Tharuwa (0767597317)
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #13'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20515
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #14'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20775
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20940
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
 - alpn:
   - h2
   - http/1.1
@@ -872,23 +524,11 @@ proxies:
   sni: ohsldu.yytls.top
   type: anytls
   udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #15'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20330
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
 - alpn:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: '🔴🇲🇴[🎬📺🔍]_github.com/Ruk1ng001_... #3'
+  name: 🔴🇲🇴[🎬📺🔍]_github.com/Ruk1ng001_...
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27113
   reduce-rtt: false
@@ -896,148 +536,24 @@ proxies:
   sni: t1vbn7.yydzx.xyz
   type: tuic
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- name: '🟡🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #2'
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 8300
+  server: 0a34c055-t9t1c0-tb7mup-4550.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 0a34c055-t9t1c0-tb7mup-4550.hkt.east.wctype.com
+  type: anytls
+  udp: true
 - down: ''
   fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #6'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20995
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #7'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20973
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #8'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20795
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #9'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20873
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #8'
+  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
   obfs: ''
   obfs-password: ''
   password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 44511
-  server: hkt2.jueduibupao.top
+  port: 44861
+  server: tw3.jueduibupao.top
   skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #16'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20858
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #17'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20233
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #10'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20658
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #11'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20720
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #18'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20625
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #9'
-  obfs: ''
-  obfs-password: ''
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 43270
-  server: hkt2.jueduibupao.top
-  skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #12'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20619
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
+  sni: tw3.jueduibupao.top
   type: hysteria2
   up: ''
 - alpn:
@@ -1053,157 +569,26 @@ proxies:
   udp: true
 - down: ''
   fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #19'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20119
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
+  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
+  obfs: ''
+  obfs-password: ''
+  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
+  port: 49357
+  server: tw3.jueduibupao.top
+  skip-cert-verify: true
+  sni: tw3.jueduibupao.top
   type: hysteria2
   up: ''
 - down: ''
   fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #20'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20145
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #13'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20809
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇲🇴[🎬📺🔍]_github.com/Ruk1ng001_... #4'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27013
-  server: m0axrt.yytls.top
-  skip-cert-verify: false
-  sni: m0axrt.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #14'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20945
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #15'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20963
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #21'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20186
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #16'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20916
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #17'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20842
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #22'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20269
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #18'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20633
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #23'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20126
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #24'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20914
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
+  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
+  obfs: ''
+  obfs-password: ''
+  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
+  port: 46173
+  server: tw3.jueduibupao.top
+  skip-cert-verify: true
+  sni: tw3.jueduibupao.top
   type: hysteria2
   up: ''
 - alpn:
@@ -1218,101 +603,6 @@ proxies:
   sni: qs86kg.yydzx.xyz
   type: tuic
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #19'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20730
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #25'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20590
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #26'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20035
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #20'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20618
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #27'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20986
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #21'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20670
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #22'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20727
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇮🇩[🎬🤖📺]_github.com/Ruk1ng001_...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27016
-  server: g0wav6.yytls.top
-  skip-cert-verify: false
-  sni: g0wav6.yytls.top
-  type: anytls
-  udp: true
 - alpn:
   - h2
   - http/1.1
@@ -1322,245 +612,6 @@ proxies:
   server: n00a9g.yytls.top
   skip-cert-verify: false
   sni: n00a9g.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #23'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20972
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #24'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20625
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #28'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20315
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #29'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20128
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #25'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20739
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #26'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20779
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #10'
-  obfs: ''
-  obfs-password: ''
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 48792
-  server: hkt2.jueduibupao.top
-  skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #27'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20803
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #28'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20776
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #29'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20611
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #30'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20340
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #30'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20780
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #31'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20889
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #31'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20629
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #32'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20699
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #33'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20759
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #11'
-  obfs: ''
-  obfs-password: ''
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 49186
-  server: hkt2.jueduibupao.top
-  skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #34'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20813
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #32'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20778
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇮🇩_github.com/Ruk1ng001_46b78...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27016
-  server: zceo9t.yytls.top
-  skip-cert-verify: false
-  sni: zceo9t.yytls.top
   type: anytls
   udp: true
 - client-fingerprint: ios
@@ -1579,189 +630,10 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #33'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20532
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #34'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20902
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #35'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20810
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #36'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20790
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #35'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20850
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #37'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20831
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #38'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20642
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #39'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20692
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #36'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20841
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #37'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20214
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #40'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20672
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #38'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20061
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #39'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20226
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #40'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20875
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇰🇷[🤖📺🔍]_github.com/Ruk1ng001_...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: qw3puo.yytls.top
-  skip-cert-verify: false
-  sni: qw3puo.yytls.top
-  type: anytls
-  udp: true
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
-  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
+  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
   network: tcp
   port: 38899
   reality-opts:
@@ -1774,496 +646,6 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #41'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20046
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #41'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20612
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #42'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20084
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #42'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20674
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #43'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20614
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #43'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20117
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #44'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20021
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #44'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20886
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #45'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20624
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #46'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20213
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #47'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20008
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #48'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20167
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #49'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20901
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #45'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20743
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #50'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20641
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: qeestf.yytls.top
-  skip-cert-verify: false
-  sni: qeestf.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #51'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20980
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #52'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20354
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #46'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20913
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #53'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20567
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #54'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20531
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #47'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20905
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #55'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20185
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #56'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20868
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #57'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20160
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #58'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20540
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #48'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20769
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #59'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20893
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #49'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20967
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #50'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20640
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #51'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20789
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: s0v5hk.yytls.top
-  skip-cert-verify: false
-  sni: s0v5hk.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #60'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20178
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #61'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20799
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #62'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20806
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #63'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20714
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #64'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20628
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #65'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20139
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #52'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20752
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #66'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20071
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #67'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20259
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
 - encryption: none
   flow: xtls-rprx-vision
   name: '🟢🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
@@ -2279,112 +661,31 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: '🟢🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+    short-id: '96e03e0f184639ef'
+  server: 45.145.154.8
+  servername: peer.pan.baidu.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
 - down: ''
   fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #53'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20682
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #68'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20155
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #69'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20057
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #54'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20638
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #70'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20158
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #71'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20087
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #55'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20624
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #56'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20626
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #72'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20342
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
+  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #6'
+  obfs: ''
+  obfs-password: ''
+  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
+  port: 44820
+  server: tw3.jueduibupao.top
+  skip-cert-verify: true
+  sni: tw3.jueduibupao.top
   type: hysteria2
   up: ''
 - client-fingerprint: ios
@@ -2403,65 +704,6 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #73'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20056
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #74'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20092
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #75'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20279
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #57'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20975
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇲🇾[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27014
-  server: var9g0.yytls.top
-  skip-cert-verify: false
-  sni: var9g0.yytls.top
-  type: anytls
-  udp: true
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -2497,126 +739,18 @@ proxies:
 - alpn:
   - h2
   - http/1.1
-  name: 🔴🇸🇬[🎬🤖📺]_github.com/Ruk1ng001_...
+  name: 🔴🇮🇩[🤖]_github.com/Ruk1ng001_10...
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: tefrea.yytls.top
+  port: 27016
+  server: pm778s.yytls.top
   skip-cert-verify: false
-  sni: tefrea.yytls.top
+  sni: pm778s.yytls.top
   type: anytls
   udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #76'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20252
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #77'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20194
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #78'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20890
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #79'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20335
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #80'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20154
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #81'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20157
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #82'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20493
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #83'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20750
-  server: jp4.dexlos.com
-  skip-cert-verify: false
-  sni: jp4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #84'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20164
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
-  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
+  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #7'
   network: tcp
   port: 36699
   reality-opts:
@@ -2629,52 +763,6 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #58'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20961
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #59'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20785
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇮🇩[🤖]_github.com/Ruk1ng001_10...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27016
-  server: pm778s.yytls.top
-  skip-cert-verify: false
-  sni: pm778s.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇵🇭[🎬🤖📺🔍]_github.com/Ruk1ng001...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27020
-  server: aohsko.yytls.top
-  skip-cert-verify: false
-  sni: aohsko.yytls.top
-  type: anytls
-  udp: true
 - alpn:
   - h3
   congestion-controller: bbr
@@ -2687,109 +775,27 @@ proxies:
   sni: yhl33g.yydzx.xyz
   type: tuic
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #85'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20911
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #86'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20143
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #87'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20529
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #60'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20731
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #88'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20016
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #89'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20450
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- encryption: none
-  name: 🇩🇪DE_1|2.1MB/s
-  network: tcp
-  port: '443'
-  server: 109.120.138.95
+- flow: xtls-rprx-vision
+  name: 🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  port: 443
+  reality-opts:
+    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
+  security: reality
+  server: t13.qifei.app
+  servername: www.amazon.com
+  tls: true
   type: vless
-  udp: true
-  uuid: c2b6a323-19ec-4e4f-a95c-8b0e99aa7660
-  xudp: true
+  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
 - down: ''
   fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #90'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20058
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #91'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20456
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
+  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #8'
+  obfs: ''
+  obfs-password: ''
+  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
+  port: 45766
+  server: tw3.jueduibupao.top
+  skip-cert-verify: true
+  sni: tw3.jueduibupao.top
   type: hysteria2
   up: ''
 - alpn:
@@ -2803,18 +809,6 @@ proxies:
   sni: k0evya.yytls.top
   type: anytls
   udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #92'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20313
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
 - alpn:
   - h2
   - http/1.1
@@ -2839,38 +833,14 @@ proxies:
   udp: true
 - down: ''
   fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #93'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20115
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #61'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20637
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #94'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20166
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
+  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #9'
+  obfs: ''
+  obfs-password: ''
+  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
+  port: 42090
+  server: tw3.jueduibupao.top
+  skip-cert-verify: true
+  sni: tw3.jueduibupao.top
   type: hysteria2
   up: ''
 - client-fingerprint: random
@@ -2890,18 +860,6 @@ proxies:
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /?ed=2560
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #95'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20355
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -2922,7 +880,7 @@ proxies:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
+  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27105
   reduce-rtt: false
@@ -2963,56 +921,16 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #96'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20843
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #62'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20773
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #63'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20737
-  server: sg4.dexlos.com
-  skip-cert-verify: false
-  sni: sg4.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇯🇵[🎬🤖]_github.com/Ruk1ng001_b...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: it7lwz.yytls.top
-  skip-cert-verify: false
-  sni: it7lwz.yytls.top
+- name: '🟡🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #1'
+  password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  port: 8443
+  server: 199dc802-te5ts0-twuk0i-1hzyr.hkt2.cdnhuawei.com
+  skip-cert-verify: true
+  sni: 199dc802-te5ts0-twuk0i-1hzyr.hkt2.cdnhuawei.com
   type: anytls
-  udp: true
 - alterId: '0'
   cipher: auto
-  name: '🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
+  name: '🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
   network: ws
   port: 16632
   server: planb.mojcn.com
@@ -3026,22 +944,10 @@ proxies:
       Host: e35f90811b45f78e13b04357ef766c24.mobgslb.tbcache.com
     path: /
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #97'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20136
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
 - alpn:
   - h2
   - http/1.1
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #98'
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27004
   server: hxpu79.yytls.top
@@ -3060,139 +966,10 @@ proxies:
   sni: ure4ms.yytls.top
   type: anytls
   udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #99'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20041
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #100'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20519
-  server: jp3.dexlos.com
-  skip-cert-verify: false
-  sni: jp3.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #101'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20938
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #102'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20368
-  server: jp2.dexlos.com
-  skip-cert-verify: false
-  sni: jp2.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #64'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20970
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #65'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20998
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- name: '🟡🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #2'
-  password: 06c625ea-5902-11ee-9e87-f23c9313b177
-  port: 8300
-  server: 1b5a3305-t9nhc0-tbomae-4mce.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 1b5a3305-t9nhc0-tbomae-4mce.hkt.east.wctype.com
-  type: anytls
-  udp: true
-- encryption: none
-  name: 🔴🇭🇰_github.com/Ruk1ng001_f23ca...
-  network: ws
-  port: 80
-  server: freeyx.cloudflare88.eu.org
-  type: vless
-  udp: true
-  uuid: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
-  ws-opts:
-    headers:
-      Host: aa.beijng.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
-    path: /?ed=2048
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #103'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20148
-  server: jp1.dexlos.com
-  skip-cert-verify: false
-  sni: jp1.dexlos.com
-  type: hysteria2
-  up: ''
 - alpn:
   - h2
   - http/1.1
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #104'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: vdgf3f.yytls.top
-  skip-cert-verify: false
-  sni: vdgf3f.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇻🇳[🎬🤖]_github.com/Ruk1ng001_c...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27015
-  server: g3p68c.yytls.top
-  skip-cert-verify: false
-  sni: g3p68c.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #105'
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27004
   server: f4sdvg.yytls.top
@@ -3200,37 +977,14 @@ proxies:
   sni: f4sdvg.yytls.top
   type: anytls
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇯🇵[🎬🤖📺]_github.com/Ruk1ng001_... #3'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: vmz0my.yytls.top
-  skip-cert-verify: false
-  sni: vmz0my.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #66'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20923
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
-- name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #106'
+- name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
   password: cd479997-6eb1-4f6f-ac0e-febaeb2d50f8
   port: 20260
   server: jpordb.250809.xyz
   sni: jpordb.250809.xyz
   type: anytls
 - encryption: none
-  name: 🔴🇯🇵[🎬📺🔍]_github.com/Ruk1ng001_...
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
   network: ws
   port: 18836
   server: 172.237.12.208
@@ -3246,45 +1000,11 @@ proxies:
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: TW_speednode_0032
-  network: http
-  port: 53229
-  server: 103.127.243.54
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
-- name: '🟡🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #3'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 8300
-  server: 56518553-te8ao0-tfnl0i-au6.hkt.east.wctype.com
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #67'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20859
-  server: sg5.dexlos.com
-  skip-cert-verify: false
-  sni: sg5.dexlos.com
-  type: hysteria2
-  up: ''
 - alpn:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
+  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27105
   reduce-rtt: false
@@ -3293,7 +1013,7 @@ proxies:
   type: tuic
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - encryption: none
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #68'
+  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
   network: ws
   port: 4399
   server: 129.212.231.216
@@ -3321,7 +1041,7 @@ proxies:
   type: anytls
   udp: true
 - encryption: none
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #69'
+  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
   network: ws
   port: 28382
   server: 138.2.71.48
@@ -3336,41 +1056,6 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: '🟡🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #4'
-  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-  port: 8443
-  server: e0facf25-te9j40-tfo5nb-yjq0.hkt2.cdnhuawei.com
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #108'
-  network: ws
-  port: 42841
-  server: 43.165.134.106
-  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  skip-cert-verify: true
-  sni: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
-    path: /@Marisa_kristi
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27108
-  reduce-rtt: false
-  server: euqaef.yydzx.xyz
-  sni: euqaef.yydzx.xyz
-  type: tuic
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
 - alpn:
   - h2
   - http/1.1
@@ -3382,9 +1067,20 @@ proxies:
   sni: fl5l3o.yytls.top
   type: anytls
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇯🇵[🎬🤖]_github.com/Ruk1ng001_9...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27004
+  server: j92g0v.yytls.top
+  skip-cert-verify: false
+  sni: j92g0v.yytls.top
+  type: anytls
+  udp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
+  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
   network: tcp
   port: 443
   reality-opts:
@@ -3397,45 +1093,10 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇯🇵[🎬🤖]_github.com/Ruk1ng001_9...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: j92g0v.yytls.top
-  skip-cert-verify: false
-  sni: j92g0v.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #109'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20993
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #110'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20972
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
-  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
+  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #10'
   network: tcp
   port: 52299
   reality-opts:
@@ -3448,116 +1109,23 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #70'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27103
-  reduce-rtt: false
-  server: x1dsi9.yydzx.xyz
-  sni: x1dsi9.yydzx.xyz
-  type: tuic
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #6'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: e7rwdh.yytls.top
-  skip-cert-verify: false
-  sni: e7rwdh.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #7'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: v4gqxj.yytls.top
-  skip-cert-verify: false
-  sni: v4gqxj.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #8'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: in3oqg.yytls.top
-  skip-cert-verify: false
-  sni: in3oqg.yytls.top
-  type: anytls
-  udp: true
-- name: 🇺🇸_US_美国->🇩🇪_DE_德国
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: false
-  type: trojan
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇯🇵[🤖📺🔍]_github.com/Ruk1ng001_... #1'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: z7q0f5.yytls.top
-  skip-cert-verify: false
-  sni: z7q0f5.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #9'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: dahi0f.yytls.top
-  skip-cert-verify: false
-  sni: dahi0f.yytls.top
-  type: anytls
-  udp: true
-- name: '🟡🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #1'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 8300
-  server: 4d060537-t9xz40-tb70mp-4550.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 4d060537-t9xz40-tb70mp-4550.hkt.east.wctype.com
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #12'
-  obfs: ''
-  obfs-password: ''
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 40615
-  server: hkt2.jueduibupao.top
-  skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
-- name: ⚪🏳️_github.com/Ruk1ng001_79f37...
+- encryption: none
+  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
   network: ws
-  password: HutaoCloud
-  port: 11543
-  server: 185.220.238.77
-  skip-cert-verify: true
-  sni: 185.220.238.77
-  type: trojan
+  port: 20988
+  server: 158.178.240.208
+  servername: guslef2w8oz12wv.ymj.xx.kg
+  tls: true
+  type: vless
   udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
+      Host: guslef2w8oz12wv.ymj.xx.kg
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /api
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
 - alpn:
   - h2
   - http/1.1
@@ -3569,49 +1137,6 @@ proxies:
   sni: p09vvn.yytls.top
   type: anytls
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- name: 🔴🇬🇭[🎬🤖📺🔍]_github.com/Ruk1ng001...
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #10'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: j7cmih.yytls.top
-  skip-cert-verify: false
-  sni: j7cmih.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #13'
-  obfs: ''
-  obfs-password: ''
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 47583
-  server: hkt2.jueduibupao.top
-  skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
 - alpn:
   - h2
   - http/1.1
@@ -3623,18 +1148,9 @@ proxies:
   sni: unupd8.yytls.top
   type: anytls
   udp: true
-- name: 🇺🇸_US_美国->🇮🇸_IS_冰岛
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  tls: false
-  type: trojan
-  udp: true
 - down: ''
   fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #14'
+  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #2'
   obfs: ''
   obfs-password: ''
   password: 40c27143-452d-4405-a784-1d5f5f6a7c89
@@ -3644,21 +1160,9 @@ proxies:
   sni: hkt1.jueduibupao.top
   type: hysteria2
   up: ''
-- down: ''
-  fingerprint: ''
-  name: ⚪🏳️_github.com/Ruk1ng001_85a40...
-  obfs: ''
-  obfs-password: ''
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20857
-  server: hk5.dexlos.com
-  skip-cert-verify: false
-  sni: hk5.dexlos.com
-  type: hysteria2
-  up: ''
 - encryption: none
   flow: xtls-rprx-vision
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #15'
+  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #3'
   network: tcp
   port: 21002
   reality-opts:
@@ -3671,50 +1175,6 @@ proxies:
   udp: true
   uuid: 1876de3d-7efb-4488-bff6-241eaa137f87
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇯🇵[🎬🤖📺]_github.com/Ruk1ng001_... #4'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27004
-  server: mlvkbb.yytls.top
-  skip-cert-verify: false
-  sni: mlvkbb.yytls.top
-  type: anytls
-  udp: true
-- metadata:
-    cleanName: 新加坡4
-    flag: 🇸🇬
-    multiplier: 1
-    originalName: 新加坡4
-    region: 新加坡
-    tags: []
-  name: 🔴🇸🇬[🎬📺🔍]_github.com/Ruk1ng001_...
-  network: ws
-  port: 20205
-  server: 129.212.231.216
-  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-  sni: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-    path: /@Marisa_kristi
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇲🇾[🤖]_github.com/Ruk1ng001_25...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27014
-  server: olqjpz.yytls.top
-  skip-cert-verify: false
-  sni: olqjpz.yytls.top
-  type: anytls
-  udp: true
 - metadata:
     cleanName: 新加坡3
     flag: 🇸🇬
@@ -3722,7 +1182,7 @@ proxies:
     originalName: 新加坡3
     region: 新加坡
     tags: []
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #71'
+  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
   network: ws
   port: 25555
   server: 139.162.36.81
@@ -3740,6 +1200,17 @@ proxies:
 - alpn:
   - h2
   - http/1.1
+  name: 🔴🇲🇾[🤖]_github.com/Ruk1ng001_25...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27014
+  server: olqjpz.yytls.top
+  skip-cert-verify: false
+  sni: olqjpz.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
   name: 🔴🇯🇵[🎬🤖]_github.com/Ruk1ng001_1...
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27004
@@ -3748,29 +1219,23 @@ proxies:
   sni: phs8wb.yytls.top
   type: anytls
   udp: true
-- down: ''
-  fingerprint: ''
-  name: '🟡🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #5'
-  obfs: ''
-  obfs-password: ''
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20920
-  server: hk5.dexlos.com
-  skip-cert-verify: false
-  sni: hk5.dexlos.com
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇲🇳[🎬🤖]_github.com/Ruk1ng001_c...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27018
-  server: klbh47.yytls.top
-  skip-cert-verify: false
-  sni: klbh47.yytls.top
-  type: anytls
+- encryption: none
+  name: 🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_...
+  network: ws
+  port: 443
+  server: 172.64.155.209
+  servername: aio.zxcore.biz.id
+  tls: true
+  type: vless
   udp: true
+  uuid: da78f96e-01d3-4289-9d0b-fbbe3f0a5472
+  ws-opts:
+    headers:
+      Host: aio.zxcore.biz.id
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
+    path: /aioproxybot/124.153.168.248-50001
+  xudp: true
 - metadata:
     cleanName: 日本3
     flag: 🇯🇵
@@ -3778,7 +1243,7 @@ proxies:
     originalName: 日本3
     region: 日本
     tags: []
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #111'
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
   network: ws
   port: 48740
   server: 172.237.12.208
@@ -3794,7 +1259,7 @@ proxies:
       Host: nisav2de2t0ai8p-hd0.misa.cc.cd
     path: /@Marisa_kristi
 - encryption: none
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #72'
+  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
   network: ws
   port: 32225
   server: 174.138.24.153
@@ -3829,7 +1294,7 @@ proxies:
     originalName: 日本5
     region: 日本
     tags: []
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #112'
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #6'
   network: ws
   port: 9871
   server: 172.105.233.248
@@ -3844,17 +1309,45 @@ proxies:
     headers:
       Host: 7xbq35vdydie5sgv.cctg.xx.kg
     path: /@Marisa_kristi
-- name: 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  tls: false
-  type: trojan
+- metadata:
+    cleanName: 新加坡4
+    flag: 🇸🇬
+    multiplier: 1
+    originalName: 新加坡4
+    region: 新加坡
+    tags: []
+  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #6'
+  network: ws
+  port: 20205
+  server: 129.212.231.216
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  sni: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+    path: /@Marisa_kristi
 - encryption: none
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #113'
+  name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
+  network: ws
+  port: 443
+  security: tls
+  server: 43.169.19.179
+  servername: hzhz85123803.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b82777cd-13e8-456c-8e0e-5dd2bb5d3d5c
+  ws-opts:
+    headers:
+      Host: hzhz85123803.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- encryption: none
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #7'
   network: ws
   port: 27365
   server: 158.101.137.177
@@ -3874,7 +1367,7 @@ proxies:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: '🔴🇸🇬[🎬🤖📺]_github.com/Ruk1ng001_... #1'
+  name: 🔴🇸🇬[🎬🤖📺]_github.com/Ruk1ng001_...
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27103
   reduce-rtt: false
@@ -3882,22 +1375,10 @@ proxies:
   sni: eiqsji.yydzx.xyz
   type: tuic
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alterId: 2
-  cipher: auto
-  name: '🟡🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #6'
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
 - alpn:
   - h2
   - http/1.1
-  name: '🔴🇰🇷[🎬🤖📺]_github.com/Ruk1ng001_... #2'
+  name: 🔴🇰🇷[🎬🤖📺]_github.com/Ruk1ng001_...
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27008
   server: rlhiqb.yytls.top
@@ -3909,7 +1390,7 @@ proxies:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #6'
+  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27105
   reduce-rtt: false
@@ -3917,31 +1398,8 @@ proxies:
   sni: vqyuc4.yydzx.xyz
   type: tuic
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇸🇬[🎬🤖📺]_github.com/Ruk1ng001_... #2'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27003
-  server: r62a6e.yytls.top
-  skip-cert-verify: false
-  sni: r62a6e.yytls.top
-  type: anytls
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #16'
-  obfs: ''
-  obfs-password: ''
-  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
-  port: 40209
-  server: hkt2.jueduibupao.top
-  skip-cert-verify: true
-  sni: hkt1.jueduibupao.top
-  type: hysteria2
-  up: ''
 - encryption: none
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #114'
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #8'
   network: ws
   port: 39085
   server: 142.248.151.249
@@ -3961,7 +1419,7 @@ proxies:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #73'
+  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #7'
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27103
   reduce-rtt: false
@@ -3980,18 +1438,6 @@ proxies:
   sni: m8jwot.yytls.top
   type: anytls
   udp: true
-- down: ''
-  fingerprint: ''
-  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #115'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: 09213C69-2971-449A-8DC6-6C3B738E9D77
-  port: 20991
-  server: jp5.dexlos.com
-  skip-cert-verify: false
-  sni: jp5.dexlos.com
-  type: hysteria2
-  up: ''
 - alpn:
   - h2
   - http/1.1
@@ -4007,7 +1453,7 @@ proxies:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #74'
+  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #8'
   password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
   port: 27103
   reduce-rtt: false
@@ -4015,39 +1461,6 @@ proxies:
   sni: e4zpkn.yydzx.xyz
   type: tuic
   uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #11'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27008
-  server: is6hyl.yytls.top
-  skip-cert-verify: false
-  sni: is6hyl.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇦🇷[🎬🤖📺🔍]_github.com/Ruk1ng001...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27026
-  server: fpqdy6.yytls.top
-  skip-cert-verify: false
-  sni: fpqdy6.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: '🔴🇱🇦[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27028
-  server: hqz8c5.yytls.top
-  skip-cert-verify: false
-  sni: hqz8c5.yytls.top
-  type: anytls
-  udp: true
 - alpn:
   - h2
   - http/1.1
@@ -4075,6 +1488,17 @@ proxies:
   udp: true
   uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
   xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇦🇷[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27026
+  server: fpqdy6.yytls.top
+  skip-cert-verify: false
+  sni: fpqdy6.yytls.top
+  type: anytls
+  udp: true
 - encryption: none
   name: 🔴🇺🇸[🎬📺🎭🎪]_github.com/Ruk1ng001...
   network: ws
@@ -4103,31 +1527,9 @@ proxies:
   sni: c7bnnn.yytls.top
   type: anytls
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇵🇰[🤖]_github.com/Ruk1ng001_78...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27032
-  server: b89hb1.yytls.top
-  skip-cert-verify: false
-  sni: b89hb1.yytls.top
-  type: anytls
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🔴🇹🇭_github.com/Ruk1ng001_06568...
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27007
-  server: nnl0fb.yytls.top
-  skip-cert-verify: false
-  sni: nnl0fb.yytls.top
-  type: anytls
-  udp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #7'
+  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #6'
   network: tcp
   port: 443
   reality-opts:
@@ -4139,6 +1541,1790 @@ proxies:
   tls: true
   type: vless
   uuid: 4086c00a-67a4-4d96-9c5f-2f177f26cb51
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇮🇳[🎬🤖]_github.com/Ruk1ng001_c...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27022
+  server: b8ly65.yytls.top
+  skip-cert-verify: false
+  sni: b8ly65.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇲🇾[🔍]_github.com/Ruk1ng001_94...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27014
+  server: bn3w0c.yytls.top
+  skip-cert-verify: false
+  sni: bn3w0c.yytls.top
+  type: anytls
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🔴🇨🇳_github.com/Ruk1ng001_712e0...
+  network: ws
+  port: 80
+  server: hn.xn--wlqw1swrj04ju56d.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f9ddefc5-d121-486f-9e2f-0c2cd1a3decc
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+  xudp: true
+- encryption: none
+  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #9'
+  network: ws
+  port: 20205
+  server: 152.42.217.192
+  servername: nisav2de2t0ai8p-hd0.misa.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: nisav2de2t0ai8p-hd0.misa.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- encryption: none
+  fp: chrome
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #9'
+  network: ws
+  port: 52675
+  security: tls
+  server: 142.248.151.249
+  servername: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
+  skip-cert-verify: false
+  sni: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
+    path: /@Marisa_kristi
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #10'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27103
+  reduce-rtt: false
+  server: z87x3a.yydzx.xyz
+  sni: z87x3a.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇯🇵_github.com/Ruk1ng001_c0e99...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27004
+  server: nqu5ma.yytls.top
+  skip-cert-verify: false
+  sni: nqu5ma.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27108
+  reduce-rtt: false
+  server: j7vt67.yydzx.xyz
+  sni: j7vt67.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇵🇰[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27032
+  server: tvo0tt.yytls.top
+  skip-cert-verify: false
+  sni: tvo0tt.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🔴🇲🇴[🎬📺]_github.com/Ruk1ng001_2...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27113
+  reduce-rtt: false
+  server: w0bgav.yydzx.xyz
+  sni: w0bgav.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇸🇬[🎬🤖📺]_github.com/Ruk1ng001_... #1'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27103
+  reduce-rtt: false
+  server: y72fca.yydzx.xyz
+  sni: y72fca.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- encryption: none
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #10'
+  network: ws
+  port: 33940
+  server: 140.238.33.0
+  servername: guslef2w8oz12wv.ymj.xx.kg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: guslef2w8oz12wv.ymj.xx.kg
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇯🇵[🤖]_github.com/Ruk1ng001_43...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27004
+  server: laseqi.yytls.top
+  skip-cert-verify: false
+  sni: laseqi.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇰🇭[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27027
+  server: jqjfje.yytls.top
+  skip-cert-verify: false
+  sni: jqjfje.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇰🇭[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27027
+  server: e7cvoc.yytls.top
+  skip-cert-verify: false
+  sni: e7cvoc.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #11'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27103
+  reduce-rtt: false
+  server: ttlstl.yydzx.xyz
+  sni: ttlstl.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇰🇭_github.com/Ruk1ng001_69264...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27027
+  server: oio0p4.yytls.top
+  skip-cert-verify: false
+  sni: oio0p4.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇸🇬[📺]_github.com/Ruk1ng001_88...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27003
+  server: w41xrg.yytls.top
+  skip-cert-verify: false
+  sni: w41xrg.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇹🇷[🎬🤖]_github.com/Ruk1ng001_0...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27025
+  server: tzgwwc.yytls.top
+  skip-cert-verify: false
+  sni: tzgwwc.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇲🇳[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27018
+  server: qs6sew.yytls.top
+  skip-cert-verify: false
+  sni: qs6sew.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇹🇷[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27025
+  server: sjx5jv.yytls.top
+  skip-cert-verify: false
+  sni: sjx5jv.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27108
+  reduce-rtt: false
+  server: pfq04d.yydzx.xyz
+  sni: pfq04d.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- name: '🟡🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #2'
+  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  port: 8443
+  server: a7d75baa-te5ts0-tip01z-1gevg.hkt2.cdnhuawei.com
+  skip-cert-verify: true
+  sni: a7d75baa-te5ts0-tip01z-1gevg.hkt2.cdnhuawei.com
+  type: anytls
+  udp: true
+- encryption: none
+  fp: chrome
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #11'
+  network: ws
+  port: 51055
+  security: tls
+  server: 45.12.89.124
+  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+  skip-cert-verify: false
+  sni: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+    path: /@Marisa_kristi
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇱🇦[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27028
+  server: m7glgf.yytls.top
+  skip-cert-verify: false
+  sni: m7glgf.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇱🇦[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27028
+  server: zbslst.yytls.top
+  skip-cert-verify: false
+  sni: zbslst.yytls.top
+  type: anytls
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: '🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a27d5683-4319-4e0d-b476-708ceac9ae05
+  ws-opts:
+    headers:
+      Host: e35f90811b45f78e13b04357ef766c24.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇮🇹[🎬🤖📺]_github.com/Ruk1ng001_...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27024
+  server: we4cfj.yytls.top
+  skip-cert-verify: false
+  sni: we4cfj.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇸🇬[🎬🤖📺]_github.com/Ruk1ng001_... #2'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27103
+  reduce-rtt: false
+  server: ry4kps.yydzx.xyz
+  sni: ry4kps.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇲🇾[🤖📺]_github.com/Ruk1ng001_0...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27014
+  server: my59u2.yytls.top
+  skip-cert-verify: false
+  sni: my59u2.yytls.top
+  type: anytls
+  udp: true
+- name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #12'
+  network: ws
+  port: 7451
+  security: tls
+  server: 8.219.78.44
+  servername: oia8or7k8rs5.zrf.xx.kg
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: oia8or7k8rs5.zrf.xx.kg
+    path: /@Marisa_kristifp=chrome
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇮🇹[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27024
+  server: sphw8p.yytls.top
+  skip-cert-verify: false
+  sni: sphw8p.yytls.top
+  type: anytls
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #4'
+  network: ws
+  port: 10049
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇯🇵[🎬🤖📺]_github.com/Ruk1ng001_... #3'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27004
+  server: g3dhdp.yytls.top
+  skip-cert-verify: false
+  sni: g3dhdp.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇱🇦[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27028
+  server: ylxctm.yytls.top
+  skip-cert-verify: false
+  sni: ylxctm.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #12'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27004
+  server: eu0106.yytls.top
+  skip-cert-verify: false
+  sni: eu0106.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇵🇰_github.com/Ruk1ng001_b163e...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27032
+  server: w8smz0.yytls.top
+  skip-cert-verify: false
+  sni: w8smz0.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🔴🇰🇷[🤖📺🔍]_github.com/Ruk1ng001_...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27108
+  reduce-rtt: false
+  server: ca7zfp.yydzx.xyz
+  sni: ca7zfp.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇻🇳[🤖📺]_github.com/Ruk1ng001_8...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27015
+  server: usrdjx.yytls.top
+  skip-cert-verify: false
+  sni: usrdjx.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇰🇭_github.com/Ruk1ng001_29fd7...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27027
+  server: md61r1.yytls.top
+  skip-cert-verify: false
+  sni: md61r1.yytls.top
+  type: anytls
+  udp: true
+- encryption: none
+  name: 🔴🇺🇸_github.com/Ruk1ng001_4f169...
+  network: ws
+  port: 8880
+  server: 89.117.112.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime11.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
+  xudp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #7'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27105
+  reduce-rtt: false
+  server: n34l58.yydzx.xyz
+  sni: n34l58.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #1'
+  network: ws
+  port: 8880
+  server: 45.131.7.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇯🇵[🎬🤖]_github.com/Ruk1ng001_d...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27004
+  server: ahi9m1.yytls.top
+  skip-cert-verify: false
+  sni: ahi9m1.yytls.top
+  type: anytls
+  udp: true
+- encryption: none
+  name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #2'
+  network: ws
+  port: 8880
+  server: 185.148.107.40
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime55.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
+  xudp: true
+- encryption: none
+  name: 🔴🇺🇸_github.com/Ruk1ng001_34796...
+  network: ws
+  port: 8880
+  server: 45.153.7.40
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime11.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: ⚪🏳️_github.com/Ruk1ng001_32f04...
+  network: tcp
+  port: 30000
+  server: 84.75.203.36
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 948f0b34-3e53-49e8-9874-b75cef63dbcb
+  xudp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #1'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27102
+  reduce-rtt: false
+  server: ch3vjt.yydzx.xyz
+  sni: ch3vjt.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
+  network: tcp
+  port: 36699
+  reality-opts:
+    public-key: XD-oDQTtLwBLmPuHUNg1-F2OTiayhxT_nGajWtAtB0E
+    short-id: '0552bd8d'
+  server: direct-kr-alicloud-01.inetsnode.de
+  servername: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🟢🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  network: tcp
+  port: 36699
+  reality-opts:
+    public-key: rBLgYxDPw9nmzppUc_8Hr-puEW7lkpN1zoRDRcA-Ywo
+    short-id: '5f7b'
+  server: direct-us-kirino-01.inetsnode.de
+  servername: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
+  network: tcp
+  port: 36699
+  reality-opts:
+    public-key: rBLgYxDPw9nmzppUc_8Hr-puEW7lkpN1zoRDRcA-Ywo
+    short-id: '5f7b'
+  server: direct-us-dmit-01.inetsnode.de
+  servername: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
+  xudp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27108
+  reduce-rtt: false
+  server: fzskmf.yydzx.xyz
+  sni: fzskmf.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- encryption: none
+  name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #3'
+  network: ws
+  port: 8880
+  server: 45.153.7.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime11.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🟢🇬🇧[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  network: tcp
+  port: 31199
+  reality-opts:
+    public-key: Y_EY4rY9z0StiVhcgO95v1LZEpyVbGXWtzv5JZtegA0
+    short-id: '6fc8651f'
+  server: direct-de-uk-eons-01.inetsnode.de
+  servername: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🔴🇮🇳[📺🔍]_github.com/Ruk1ng001_0...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+    short-id: '96e03e0f184639ef'
+  server: 139.84.215.236
+  servername: peer.pan.baidu.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🟢🇩🇪[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  network: tcp
+  port: 36699
+  reality-opts:
+    public-key: P1EGw38HA0Y9Mcs_TdTt7pDCwyNVD9V8g32Ckadc-Xw
+    short-id: 'b5e1fdad'
+  server: direct-de-kirino-01.inetsnode.de
+  servername: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇸🇬[🤖📺🔍]_github.com/Ruk1ng001_...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27003
+  server: xiq241.yytls.top
+  skip-cert-verify: false
+  sni: xiq241.yytls.top
+  type: anytls
+  udp: true
+- name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #4'
+  network: ws
+  port: 8880
+  server: 185.135.9.50
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- encryption: none
+  name: 🔴🇰🇷_github.com/Ruk1ng001_47ab9...
+  network: ws
+  port: 10891
+  server: 165.246.171.218
+  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true
+- encryption: none
+  name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #5'
+  network: ws
+  port: 8880
+  server: 45.85.118.50
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime55.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
+  network: tcp
+  port: 36699
+  reality-opts:
+    public-key: rBLgYxDPw9nmzppUc_8Hr-puEW7lkpN1zoRDRcA-Ywo
+    short-id: '5f7b'
+  server: direct-us-it7-01.inetsnode.de
+  servername: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
+  xudp: true
+- name: 🔴🇮🇳[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  network: tcp
+  password: M7v%w11Se*
+  port: 443
+  server: hyfuuf6.wsone.icu
+  skip-cert-verify: true
+  sni: hyfuuf6.wsone.icu
+  type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇲🇾[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27014
+  server: mq52t6.yytls.top
+  skip-cert-verify: false
+  sni: mq52t6.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🔴🇭🇰[🎬📺]_github.com/Ruk1ng001_4...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27102
+  reduce-rtt: false
+  server: gwuzoc.yydzx.xyz
+  sni: gwuzoc.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #2'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27102
+  reduce-rtt: false
+  server: w74dlt.yydzx.xyz
+  sni: w74dlt.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- name: 🔴🇺🇸_github.com/Ruk1ng001_8476e...
+  network: ws
+  port: 80
+  server: 172.67.214.147
+  type: vless
+  uuid: 58867710-6dd3-42b6-a7be-1fdf1c5efd19
+  ws-opts:
+    headers:
+      Host: v2configlab.v2configlab9.workers.dev
+    path: /?ed=2048
+- encryption: none
+  flow: xtls-rprx-vision
+  name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
+  network: tcp
+  port: 35535
+  reality-opts:
+    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
+  server: a.cflive.top
+  servername: www.speedtest.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 35939cbe-5d57-4413-f4d0-cc115db0e000
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇲🇳[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27018
+  server: x4v1b2.yytls.top
+  skip-cert-verify: false
+  sni: x4v1b2.yytls.top
+  type: anytls
+  udp: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🟢🇬🇧[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
+  network: tcp
+  port: 37799
+  reality-opts:
+    public-key: Y_EY4rY9z0StiVhcgO95v1LZEpyVbGXWtzv5JZtegA0
+    short-id: '6fc8651f'
+  server: direct-de-uk-kirino-01.inetsnode.de
+  servername: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
+  xudp: true
+- name: KR_speednode_0018
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+  username: T2clM0QlM0Q6
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🔴🇩🇪[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  network: tcp
+  port: 36699
+  reality-opts:
+    public-key: P1EGw38HA0Y9Mcs_TdTt7pDCwyNVD9V8g32Ckadc-Xw
+    short-id: 'b5e1fdad'
+  server: direct-de-xtom-01.inetsnode.de
+  servername: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
+  xudp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #13'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27103
+  reduce-rtt: false
+  server: x1mbe2.yydzx.xyz
+  sni: x1mbe2.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- down: ''
+  fingerprint: ''
+  name: '🟢🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #11'
+  obfs: ''
+  obfs-password: ''
+  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
+  port: 45981
+  server: tw3.jueduibupao.top
+  skip-cert-verify: true
+  sni: tw3.jueduibupao.top
+  type: hysteria2
+  up: ''
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27108
+  reduce-rtt: false
+  server: q8rt6j.yydzx.xyz
+  sni: q8rt6j.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- encryption: none
+  name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #6'
+  network: ws
+  port: 8880
+  server: 185.148.105.50
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime52.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
+    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇰🇭[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27027
+  server: i46fuk.yytls.top
+  skip-cert-verify: false
+  sni: i46fuk.yytls.top
+  type: anytls
+  udp: true
+- insecure: '1'
+  mport: 40000-49999
+  name: 🔴🇳🇱[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  obfs: salamander
+  obfs-password: YzgyOTkdNDk4ZTU2NTd65A==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: nl.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- alterId: '0'
+  cipher: auto
+  name: '🟢🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #6'
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a27d5683-4319-4e0d-b476-708ceac9ae05
+  ws-opts:
+    headers:
+      Host: e35f90811b45f78e13b04357ef766c24.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🔴🇮🇳[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  network: ws
+  port: 16626
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a27d5683-4319-4e0d-b476-708ceac9ae05
+  ws-opts:
+    headers:
+      Host: e35f90811b45f78e13b04357ef766c24.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '🔴🇹🇼[🎬🤖📺🔍]_github.com/Ruk1ng001... #8'
+  network: ws
+  port: 10054
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇦🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27026
+  server: mfwral.yytls.top
+  skip-cert-verify: false
+  sni: mfwral.yytls.top
+  type: anytls
+  udp: true
+- encryption: none
+  name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #6'
+  network: ws
+  port: 443
+  server: 154.17.225.73
+  servername: hzhz85123803.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: b82777cd-13e8-456c-8e0e-5dd2bb5d3d5c
+  ws-opts:
+    headers:
+      Host: hzhz85123803.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+  xudp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🔴🇰🇷_github.com/Ruk1ng001_5c876...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27108
+  reduce-rtt: false
+  server: nxehof.yydzx.xyz
+  sni: nxehof.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #7'
+  network: ws
+  port: 8880
+  server: 199.181.197.40
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime19.workers.dev
+    path: /?ed=2560
+- name: ⚪🏳️[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4
+    short-id: 'a1b2c3d4'
+  security: reality
+  server: 45.158.127.5
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  uuid: 301d514e-4aa0-47b0-ba44-a0cb891cd52f
+- down: ''
+  fingerprint: ''
+  name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #5'
+  obfs: ''
+  obfs-password: ''
+  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
+  port: 47814
+  server: hkt1.jueduibupao.top
+  skip-cert-verify: true
+  sni: hkt1.jueduibupao.top
+  type: hysteria2
+  up: ''
+- name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
+  network: ws
+  port: 11019
+  security: tls
+  server: 165.246.171.218
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+    path: /@Marisa_kristifp=chrome
+- alterId: '0'
+  cipher: auto
+  name: 🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #3'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27102
+  reduce-rtt: false
+  server: ainz7p.yydzx.xyz
+  sni: ainz7p.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- encryption: none
+  name: ⚪🏳️_github.com/Ruk1ng001_c1308...
+  network: ws
+  port: 443
+  security: tls
+  server: cf.0sm.com
+  servername: juzi.qea.ccwu.cc
+  tls: true
+  type: vless
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  ws-opts:
+    headers:
+      Host: juzi.qea.ccwu.cc
+    path: /?ed=2048
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇯🇵[🎬🤖📺]_github.com/Ruk1ng001_... #4'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27004
+  server: rqpf30.yytls.top
+  skip-cert-verify: false
+  sni: rqpf30.yytls.top
+  type: anytls
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 🟢🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  obfs: ''
+  obfs-password: ''
+  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
+  port: 34801
+  server: 6bkr1.6bnw.top
+  skip-cert-verify: false
+  sni: 6bkr1.6bnw.top
+  type: hysteria2
+  up: ''
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🔴🇺🇸[🎬🤖📺🎪]_github.com/Ruk1ng001...
+  network: tcp
+  port: 50513
+  reality-opts:
+    public-key: BL4bEP5My8N4j8hOkg-lI-JVrFou4eC7nSzD6Gk19DU
+    short-id: '79394c306dd3'
+  server: 38.207.190.137
+  servername: ts3.tc.mm.bing.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6245c3d6-348f-44a4-f18b-9d13168a3425
+- encryption: none
+  fp: chrome
+  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #6'
+  network: ws
+  port: 627
+  security: tls
+  server: 140.245.75.37
+  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+  skip-cert-verify: false
+  sni: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+    path: /@Marisa_kristi
+- name: 🔴🇬🇧_github.com/Ruk1ng001_e1da5...
+  network: ws
+  port: 8880
+  server: 135.84.75.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime08.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇰🇭[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27027
+  server: cuttr1.yytls.top
+  skip-cert-verify: false
+  sni: cuttr1.yytls.top
+  type: anytls
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '🟢🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #3'
+  network: ws
+  port: 10123
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- down: ''
+  fingerprint: ''
+  name: 🟢🇹🇼[🎬🤖🔍]_github.com/Ruk1ng001_...
+  obfs: ''
+  obfs-password: ''
+  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
+  port: 48542
+  server: tw3.jueduibupao.top
+  skip-cert-verify: true
+  sni: tw3.jueduibupao.top
+  type: hysteria2
+  up: ''
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🔴🇹🇼_github.com/Ruk1ng001_1ca8f...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27105
+  reduce-rtt: false
+  server: c2ztrm.yydzx.xyz
+  sni: c2ztrm.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇹🇼[🎬🤖📺]_github.com/Ruk1ng001_... #1'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27105
+  reduce-rtt: false
+  server: w1l6m6.yydzx.xyz
+  sni: w1l6m6.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alterId: 0
+  cipher: auto
+  name: '🟢🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #1'
+  port: 9027
+  server: select-us.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- encryption: none
+  name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #7'
+  network: ws
+  port: 80
+  server: 172.64.50.224
+  type: vless
+  uuid: d8bc8425-5e80-4c26-bd93-af634c033e2d
+  ws-opts:
+    headers:
+      Host: purnet.gmijcp.workers.dev
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0002
+  port: 11885
+  server: board-02.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- encryption: none
+  fp: chrome
+  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #7'
+  network: ws
+  port: 21828
+  security: tls
+  server: 144.24.66.151
+  servername: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+  skip-cert-verify: false
+  sni: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ufo4dxyv6255yk8eh1ejyxgxc.worker.ddns-ip.net
+    path: /@Marisa_kristi
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇹🇼[🎬🤖]_github.com/Ruk1ng001_4...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27005
+  server: xeeetx.yytls.top
+  skip-cert-verify: false
+  sni: xeeetx.yytls.top
+  type: anytls
+  udp: true
+- name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #8'
+  network: ws
+  port: 8880
+  server: 185.162.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- name: 🔴🇬🇧[🎬📺🔍]_github.com/Ruk1ng001_...
+  network: ws
+  port: 8880
+  server: 50.62.195.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime38.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- name: '🔴🇸🇬[🎬🤖📺🔍]_github.com/Ruk1ng001... #14'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NTd65A==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 20000
+  server: sg.9966690.xyz
+  skip-cert-verify: true
+  type: hysteria2
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #4'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27102
+  reduce-rtt: false
+  server: omf6et.yydzx.xyz
+  sni: omf6et.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇰🇷[🎬🤖📺🔍]_github.com/Ruk1ng001... #8'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27108
+  reduce-rtt: false
+  server: utf8pn.yydzx.xyz
+  sni: utf8pn.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #8'
+  network: tcp
+  port: 36699
+  reality-opts:
+    public-key: rBLgYxDPw9nmzppUc_8Hr-puEW7lkpN1zoRDRcA-Ywo
+    short-id: '5f7b'
+  server: direct-us-rs-01.inetsnode.de
+  servername: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
+  xudp: true
+- name: '🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001... #4'
+  network: ws
+  port: 30003
+  server: 114.204.41.241
+  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  skip-cert-verify: true
+  sni: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristi
+- name: '🟡🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #3'
+  password: 06c625ea-5902-11ee-9e87-f23c9313b177
+  port: 8300
+  server: 8625aed1-t9wqo0-tbomae-4mce.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 8625aed1-t9wqo0-tbomae-4mce.hkt.east.wctype.com
+  type: anytls
+  udp: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #9'
+  network: tcp
+  port: 36699
+  reality-opts:
+    public-key: rBLgYxDPw9nmzppUc_8Hr-puEW7lkpN1zoRDRcA-Ywo
+    short-id: '5f7b'
+  server: direct-us-rs-05.inetsnode.de
+  servername: swdist.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #13'
+  network: ws
+  port: 10004
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #10'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+    short-id: '96e03e0f184639ef'
+  server: 81.31.232.210
+  servername: peer.pan.baidu.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🔴🇧🇳[🎬🤖📺🔍]_github.com/Ruk1ng001...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27030
+  server: kqumif.yytls.top
+  skip-cert-verify: false
+  sni: kqumif.yytls.top
+  type: anytls
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: 🟢🇹🇼[🎬🤖📺]_github.com/Ruk1ng001_...
+  obfs: ''
+  obfs-password: ''
+  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
+  port: 42058
+  server: tw3.jueduibupao.top
+  skip-cert-verify: true
+  sni: tw3.jueduibupao.top
+  type: hysteria2
+  up: ''
+- alpn:
+  - h2
+  - http/1.1
+  name: ⚪🏳️_github.com/Ruk1ng001_8fa8d...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27014
+  server: s7hdvr.yytls.top
+  skip-cert-verify: false
+  sni: s7hdvr.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇲🇾[🎬🤖📺🔍]_github.com/Ruk1ng001... #2'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27014
+  server: skiukq.yytls.top
+  skip-cert-verify: false
+  sni: skiukq.yytls.top
+  type: anytls
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: '🟢🇹🇼[🎬🤖📺]_github.com/Ruk1ng001_... #1'
+  obfs: ''
+  obfs-password: ''
+  password: 40c27143-452d-4405-a784-1d5f5f6a7c89
+  port: 48005
+  server: tw3.jueduibupao.top
+  skip-cert-verify: true
+  sni: tw3.jueduibupao.top
+  type: hysteria2
+  up: ''
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🔴🇲🇴[🎬📺]_github.com/Ruk1ng001_e...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27113
+  reduce-rtt: false
+  server: kamr1y.yydzx.xyz
+  sni: kamr1y.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #11'
+  password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+  port: 8443
+  server: aeb67229-tegxs0-tyt0e8-1mh67.sj.oshuawei.com
+  skip-cert-verify: true
+  sni: aeb67229-tegxs0-tyt0e8-1mh67.sj.oshuawei.com
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🔴🇭🇰[🎬📺]_github.com/Ruk1ng001_6...
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27102
+  reduce-rtt: false
+  server: l7xgt7.yydzx.xyz
+  sni: l7xgt7.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- encryption: none
+  name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #9'
+  network: ws
+  port: 8880
+  server: 80.93.202.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: ''
+  xudp: true
+- name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #6'
+  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  port: 443
+  server: 4562ef30-tegxs0-tr9h64-1f1f1.hk2.hyhuawei.com
+  skip-cert-verify: true
+  sni: 4562ef30-tegxs0-tr9h64-1f1f1.hk2.hyhuawei.com
+  type: anytls
+  udp: true
+- name: '🟢🇭🇰[🎬📺🔍]_github.com/Ruk1ng001_... #7'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  type: hysteria2
+- name: '🔴🇺🇸[🎬📺🎭🎪]_github.com/Ruk1ng001... #1'
+  network: ws
+  port: 8880
+  server: 104.21.31.4
+  type: vless
+  udp: true
+  uuid: 0a5ab719-2407-4398-b507-8437ef365023
+  ws-opts:
+    headers:
+      Host: underthegun.cfd.
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇰🇭[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27027
+  server: ix1po7.yytls.top
+  skip-cert-verify: false
+  sni: ix1po7.yytls.top
+  type: anytls
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '🔴🇸🇬[🤖📺🔍]_github.com/Ruk1ng001_... #1'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27103
+  reduce-rtt: false
+  server: fyf6n8.yydzx.xyz
+  sni: fyf6n8.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- encryption: none
+  name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #10'
+  network: ws
+  port: 80
+  security: tls
+  server: 54.153.59.106
+  servername: cf.afrcloudnet1.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: cf.afrcloudnet1.dpdns.org
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #12'
+  password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
+  port: 8443
+  server: b51e6b6b-tegxs0-truoje-1uni.sj.oshuawei.com
+  skip-cert-verify: true
+  sni: b51e6b6b-tegxs0-truoje-1uni.sj.oshuawei.com
+  type: anytls
+  udp: true
+- name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #13'
+  network: ws
+  port: 80
+  server: 104.21.67.57
+  type: vless
+  uuid: 58867710-6dd3-42b6-a7be-1fdf1c5efd19
+  ws-opts:
+    headers:
+      Host: v2configlab.v2configlab9.workers.dev
+    path: /?ed=2048
+- name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #11'
+  network: ws
+  port: 8880
+  server: 69.84.182.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇭🇰[🎬🤖📺🔍]_github.com/Ruk1ng001... #5'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27002
+  server: wwh6nz.yytls.top
+  skip-cert-verify: false
+  sni: wwh6nz.yytls.top
+  type: anytls
+  udp: true
+- name: 🔴🇺🇸[🎬🔍]_github.com/Ruk1ng001_0...
+  network: ws
+  port: 8880
+  server: 156.243.83.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime54.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- name: '🟡🇭🇰[🎬🧠📺🎭]_github.com/Ruk1ng001... #3'
+  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  port: 8300
+  server: 5a48deca-t9wqo0-tee5aa-1glq.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 5a48deca-t9wqo0-tee5aa-1glq.hkt.east.wctype.com
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '🔴🇯🇵[🎬🤖📺🔍]_github.com/Ruk1ng001... #14'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27004
+  server: nd3ben.yytls.top
+  skip-cert-verify: false
+  sni: nd3ben.yytls.top
+  type: anytls
+  udp: true
+- name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #14'
+  network: ws
+  port: 443
+  server: adf.ly
+  servername: rAyAn-007.pArViN.DpDnS.OrG
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  ws-opts:
+    headers:
+      Host: rayan-007.parvin.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: ⚪🏳️_github.com/Ruk1ng001_79f37...
+  network: ws
+  password: HutaoCloud
+  port: 11543
+  server: 185.220.238.77
+  skip-cert-verify: true
+  sni: 185.220.238.77
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /api
+- alterId: 0
+  cipher: auto
+  name: '🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001... #15'
+  network: ws
+  port: 10086
+  server: 107.148.185.16
+  type: vmess
+  uuid: a75d95d5-ae5b-4207-a6a3-ada2943776b9
+- encryption: none
+  name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #12'
+  network: ws
+  port: 8880
+  server: 31.185.108.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime23.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /
+  xudp: true
+- name: '🔴🇺🇸[🎬📺🔍]_github.com/Ruk1ng001_... #13'
+  network: ws
+  port: 8880
+  server: 31.185.108.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime23.workers.dev
+    path: /?https://t.me/youtube@ZYFXSfp=chrome
 - alterId: 0
   cipher: auto
   name: 庆祝亚冬会胜利召开
@@ -4169,9 +3355,9 @@ proxies:
   tls: true
   type: vmess
   uuid: e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b
-- name: 🇺🇸US_4|2.6MB/s
+- name: 🇭🇰_HK_中国香港->🇺🇸_US_美国
   password: BxceQaOe
-  port: '17801'
+  port: 17801
   server: 95.40.68.192
   skip-cert-verify: true
   sni: t.me/ripaojiedian
@@ -4197,25 +3383,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇹🇼_TW_中国台湾->🇸🇬_SG_新加坡_1
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  name: 🇰🇷_KR_韩国
-  password: ff488c48-b745-4d65-a6a1-0339be0b7fd7
-  port: 15219
-  server: okrs01.7770123.xyz
-  skip-cert-verify: false
-  sni: okrs01.7770123.xyz
-  type: hysteria2
-  udp: true
 - alterId: 2
   cipher: auto
   name: 🇮🇩_ID_印度尼西亚->🇺🇸_US_美国
@@ -4250,8 +3417,27 @@ proxies:
       Host: ava.game.naver.com.cyylr.eu.cc
     path: /id-pusat
 - alterId: 0
-  cipher: aes-128-gcm
-  name: GB_speednode_0004
+  cipher: auto
+  name: 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾
+  port: 2510
+  server: world.t.51guangtaobao.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- name: 🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜疆
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  tls: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国
   port: 180
   server: 82.198.246.37
   skip-cert-verify: false
@@ -4270,6 +3456,15 @@ proxies:
   type: vless
   udp: true
   uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
+- name: 🇺🇸_US_美国->🇮🇸_IS_冰岛
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: false
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: 🇲🇾_MY_马来西亚->🇯🇵_JP_日本
@@ -4280,17 +3475,13 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: none
-  name: 🇩🇪DE_2|2.5MB/s
-  network: tcp
-  port: '8443'
+- name: 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
+  port: 8443
   server: cdn9-33.vk-cdnvideo.com
-  servername: cdn9-33.vk-cdnvideo.com
   tls: true
   type: vless
   udp: true
   uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-  xudp: true
 - name: 🇮🇷_IR_伊朗
   network: ws
   port: 80
@@ -4333,17 +3524,6 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0025
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - name: 🇭🇰_HK_中国香港->🇺🇸_US_美国_1
   password: BxceQaOe
   port: 2702
@@ -4353,21 +3533,19 @@ proxies:
   tls: false
   type: trojan
   udp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_4|1019KB/s
-  network: tcp
-  port: '443'
+- flow: xtls-rprx-vision
+  name: GB_speednode_0015
+  port: 443
   reality-opts:
     public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
     short-id: '7a3f9e2b1c8d4f6a'
   server: 31.76.113.91
   servername: it.s3-cloud.xyz
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-  xudp: true
 - name: 🇺🇸_US_美国->🇨🇭_CH_瑞士
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45553
@@ -4393,16 +3571,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国4|@ripaojiedian
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
   name: 🇭🇰_HK_中国香港_3
   network: ws
   port: 36703
@@ -4420,7 +3588,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 18.142.140.195
+  server: 13.214.179.194
   servername: www.apple.com
   tls: true
   type: vless
@@ -4431,7 +3599,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 15.164.224.251
+  server: 15.164.217.156
   servername: www.apple.com
   tls: true
   type: vless
@@ -4443,28 +3611,28 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇭🇰 香港4|@ripaojiedian
+- name: 🇭🇰HK_1|1.5MB/s
   password: BxceQaOe
   port: 11031
   server: 95.40.80.85
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇭🇰HK_2|1.7MB/s
+- name: 🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 50712
   server: 18.183.163.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇯🇵JP_3|1.2MB/s
+- name: 🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
   port: 16712
   server: 13.114.234.238
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇯🇵JP_4|1.4MB/s
+- name: 🇯🇵 日本2|@ripaojiedian
   password: d84665c37878196ecf983cf6910e3b44
   port: 31351
   server: 43.207.82.19
@@ -4520,176 +3688,186 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇳🇱NL_1|1.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 163.172.214.188
-  servername: SC-TheNetherlands1.09vpn.com
+- alpn:
+  - h2
+  - http/1.1
+  encryption: none
+  name: 🇩🇪DE_1|2.8MB/s
+  network: xhttp
+  port: '8443'
+  server: ns2.cloudflare.com
+  servername: de1.cfarous.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0de0be25-c106-4833-bddb-6fdebb7eaeea
+  xhttp-opts:
+    host: de1.cfarous.online
+    mode: auto
+    path: /random
+    x-padding-bytes: 100-1000
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  encryption: none
+  name: 🇳🇱NL_1|1.4MB/s
+  network: xhttp
+  port: '2096'
+  server: client.ronixgames.ir
+  servername: cl2.ronixgames.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94a981c4-eb75-443c-b855-6e93d8143719
+  xhttp-opts:
+    host: nl2.ronixgames.ir
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- name: 🇫🇷FR_1|2.6MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 64772
+  server: 62.210.26.173
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf
-  ws-opts:
-    path: /vless/
-  xudp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - uplod.ir
-    path:
-    - /
-  name: 🇨🇭CH_1|3.4MB/s
-  network: http
-  port: '443'
-  server: 179.237.73.24
-  type: vless
-  udp: true
-  uuid: 043c4eff-0999-4a90-9090-5eb206709c92
-  xudp: true
-- encryption: none
-  name: 🇨🇭CH_2|2.5MB/s
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_1|2.2MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: 🇭🇰HK_2|1003KB/s
   network: tcp
-  port: '51363'
-  reality-opts:
-    public-key: v60GzauxQqusqymc8-6wOSyYtq6hyitBxPvqVs_IQCw
-    short-id: 'fbe96c540c2005'
-  server: 179.237.73.24
-  servername: ws.nobitex.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 043c4eff-0999-4a90-9090-5eb206709c92
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_1|2.0MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: i94KIi7GKGTZnRVHp0IkIEUiWSAXrjdswOVyhhweTio
-    short-id: '43c195b86271871a'
-  server: srv-06a2a6.21freedom.net
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fa86a0cf-fc25-4fdd-8479-f18229446428
-  xhttp-opts:
-    host: vk.com
-    mode: auto
-    path: /api/v1/5e684628
-  xudp: true
-- encryption: none
-  name: 🇬🇧GB_1|2.7MB/s
-  network: ws
-  port: '2053'
-  server: strong.zdshop.ir
-  servername: 31faea2cfa37bf8c.blAcKpaPErs.IR.
-  tls: true
-  type: vless
-  udp: true
-  uuid: d35eadff-915a-43a1-9ed3-a99eaaf124b3
-  ws-opts:
-    headers:
-      Host: b27cb839644db8f6.blAcKpaPErs.IR.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: ''
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_4|2.5MB/s
-  network: ws
-  port: '2053'
-  server: strong.zdshop.ir
-  servername: 46b6528fbbe29ea9.kiWiJuiCe.IR.
-  tls: true
-  type: vless
-  udp: true
-  uuid: d35eadff-915a-43a1-9ed3-a99eaaf124b3
-  ws-opts:
-    headers:
-      Host: 8b25ce7045712517.kiWiJuiCe.IR.
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: ''
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_5|1.4MB/s
-  network: ws
-  port: '2053'
-  server: jet.zdshop.ir
-  servername: a427ba86d876a71f.kiWiJuiCe.IR.
-  tls: true
-  type: vless
-  udp: true
-  uuid: d35eadff-915a-43a1-9ed3-a99eaaf124b3
-  ws-opts:
-    headers:
-      Host: a76ac85861cc5f3d.kiWiJuiCe.IR.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: ''
-  xudp: true
-- encryption: none
-  name: 🇦🇪AE_1|2.6MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: HVhOxkUi3RhGJc-nc5gdM82XRymOnG5L_TOJ4eHL7jY
-    short-id: '7d951e7eba51ed0e'
-  server: srv-3331c0.21freedom.net
-  servername: sberbank.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: e94eb2e4-f8e9-48f6-87fc-a3644e738768
-  xhttp-opts:
-    host: vk.com
-    mode: auto
-    path: /api/v1/be463283
-  xudp: true
-- encryption: none
-  name: 🇨🇭CH_3|2.5MB/s
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 155.117.198.83
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- name: 🇭🇰HK_3|1.2MB/s
   network: tcp
-  port: '25085'
-  reality-opts:
-    public-key: prtV_0DLgExvlTftK3ggN3ESXjU_PwMl6ydt5hHLKBM
-    short-id: '290b4c40'
-  server: 179.237.73.24
-  servername: nobitex.ir
-  tls: true
-  type: vless
+  password: BxceQaOe
+  port: '11031'
+  server: 95.40.80.85
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
   udp: true
-  uuid: 043c4eff-0999-4a90-9090-5eb206709c92
-  xudp: true
+- client-fingerprint: randomized
+  name: 🇺🇸US_2|1.1MB/s
+  network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: '443'
+  server: 104.19.174.68
+  skip-cert-verify: false
+  sni: azadnet-5vk.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan
 - alpn:
   - h2
   - http/1.1
   encryption: none
-  name: 🇺🇸US_2|3.0MB/s
+  name: 🇩🇪DE_2|2.1MB/s
   network: xhttp
   port: '443'
-  server: 45.130.125.2
-  servername: www.middle.cc.cd
+  server: 63.141.128.25
+  servername: a.pedramdns.shop
   tls: true
   type: vless
   udp: true
-  uuid: bdd885ff-1b3b-40fd-93d5-ac2b29b90f8b
+  uuid: 88888888-8888-8888-8888-888888888888
   xhttp-opts:
-    host: www.middle.cc.cd
+    host: a.pedramdns.shop
+    mode: packet-up
+    path: /JynMarket
+    x-padding-bytes: 100-1000
+  xudp: true
+- name: 🇩🇪DE_3|1.2MB/s
+  network: ws
+  port: '443'
+  server: www.visa.cn
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.110 Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_4|1.8MB/s
+  network: xhttp
+  port: '443'
+  server: dey.lnmarketplace.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  xhttp-opts:
+    host: dey.lnmarketplace.net
     mode: stream-one
-    path: /settings----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE
+    path: /kavir
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  encryption: mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs
+  name: 🇩🇪DE_5|1.1MB/s
+  network: xhttp
+  port: '443'
+  server: 104.19.229.21
+  servername: 1-cloudflare.lapis-lazuli.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 58225ed2-9017-4204-8852-1b5cc1311fb8
+  xhttp-opts:
+    mode: auto
+    path: /c544c1d5248bf014e3a8
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  encryption: mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs
+  name: 🇩🇪DE_6|1.5MB/s
+  network: xhttp
+  port: '443'
+  server: 66.81.247.104
+  servername: 1-cloudflare.lapis-lazuli.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 58225ed2-9017-4204-8852-1b5cc1311fb8
+  xhttp-opts:
+    mode: auto
+    path: /c544c1d5248bf014e3a8
   xudp: true
 - alpn:
   - h2
   - http/1.1
   encryption: none
-  name: 🇫🇮FI_1|2.3MB/s
+  name: 🇫🇮FI_2|2.5MB/s
   network: xhttp
   port: '443'
-  server: 45.130.125.190
+  server: 198.62.62.18
   servername: cdn.safev2ray.store
   tls: true
   type: vless
@@ -4702,347 +3880,56 @@ proxies:
     x-padding-bytes: 100-1000
   xudp: true
 - encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|1.7MB/s
+  name: 🇳🇱NL_2|1.6MB/s
   network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 4n-kU4YGN9L_XkDepNtAohIGO15Eaxzw7BDhP1hPPU8
-    short-id: '6257e28b6a8c0ad5'
-  server: 217.179.6.101
-  servername: franccxc3.twilightparadox.com
+  port: '8443'
+  server: 213.171.30.169
+  servername: cdn3-87.vk-cdnvideo.com
   tls: true
   type: vless
   udp: true
-  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
   xudp: true
 - encryption: none
-  name: 🇺🇸US_3|4.3MB/s
-  network: ws
-  port: '8880'
-  server: 23.227.60.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vms.lifetime18.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    max-early-data: 2048
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇩🇪DE_6|2.1MB/s
-  network: ws
-  port: '2053'
-  server: legend.zdshop.ir
-  servername: 4b596b7ebf00393e.kiWiJuiCe.IR.
-  tls: true
-  type: vless
-  udp: true
-  uuid: d35eadff-915a-43a1-9ed3-a99eaaf124b3
-  ws-opts:
-    headers:
-      Host: e0aff452e21e9894.kiWiJuiCe.IR.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: ''
-  xudp: true
-- name: ❓Other_1|3.1MB/s
+  name: 🇳🇱NL_3|1.6MB/s
   network: tcp
-  password: BxceQaOe
-  port: '50712'
-  server: 18.183.163.141
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- encryption: none
-  name: 🇬🇧GB_3|1.3MB/s
-  network: ws
-  port: '2053'
-  server: jet.zdshop.ir
-  servername: a05991eb66371bfd.blAcKpaPErs.IR.
+  port: '8443'
+  server: 82.202.156.197
+  servername: cdn3-87.vk-cdnvideo.com
   tls: true
   type: vless
   udp: true
-  uuid: d35eadff-915a-43a1-9ed3-a99eaaf124b3
-  ws-opts:
-    headers:
-      Host: fb09469d17c16765.blAcKpaPErs.IR.
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: ''
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_5|2.5MB/s
-  network: tcp
-  port: '47682'
-  reality-opts:
-    public-key: aFP49UCt4YO26UK3P-ghfY-KJSTBWhe-j58CeHfqiW4
-    short-id: 'ba35da3e'
-  server: 54.168.125.182
-  servername: newww-dev.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3cc98f22-b7da-416f-a17e-3e6654ddf2e7
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|3.3MB/s
-  network: tcp
-  port: '15773'
-  reality-opts:
-    public-key: LCzn7m3IZ2SYt9fUXPCnu322zI455SEvxrXok8V-0lE
-    short-id: '2435c3df'
-  server: 54.168.125.182
-  servername: newww-dev.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3cc98f22-b7da-416f-a17e-3e6654ddf2e7
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_2|3.7MB/s
-  network: tcp
-  port: '19069'
-  reality-opts:
-    public-key: Z0QR_m_Bkmv3ExcX89RYyupIhyRozj1oqM3hqb9Qlzg
-    short-id: '85d8666c'
-  server: 13.251.124.88
-  servername: www.mmud.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3cc98f22-b7da-416f-a17e-3e6654ddf2e7
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
   xudp: true
 - alpn:
   - h2
   - http/1.1
   encryption: none
-  name: 🇫🇮FI_2|2.3MB/s
+  name: 🇬🇧GB_1|1.4MB/s
   network: xhttp
   port: '443'
-  server: 5.10.214.53
-  servername: cdn.safev2ray.store
+  server: 104.17.121.71
+  servername: sabkpo.tll-far.ir
   tls: true
   type: vless
   udp: true
-  uuid: 5e5608a2-9893-4eaa-b90a-e202bacef5b6
+  uuid: d644824c-7f7c-4b48-87da-d988722082cb
   xhttp-opts:
-    host: cdn.safev2ray.store
+    host: sabkpo.tll-far.ir
     mode: auto
-    path: /kir
+    path: /Telegram-Zedmodeon
+    x-padding-bytes: 100-1000
   xudp: true
-- encryption: none
-  name: 🇺🇸US_6|2.5MB/s
-  network: ws
-  port: '8880'
-  server: 80.93.202.40
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇺🇸US_7|3.6MB/s
-  network: ws
-  port: '8880'
-  server: 31.185.108.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime23.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 🇰🇷KR_1|3.3MB/s
-  network: ws
-  port: '35555'
-  server: 144.24.64.13
-  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- name: 🇭🇰HK_1|2.1MB/s
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 8300
-  server: 8ff2fd1c-t9mv40-tdtaxw-au6.hkt.east.wctype.com
+- fingerprint: ''
+  name: 🇸🇬SG_1|3.4MB/s
+  password: 6a267720-68db-49c6-8f35-a62fde6bc2c5
+  port: '12002'
+  server: 43.198.90.48
   skip-cert-verify: true
-  sni: 8ff2fd1c-t9mv40-tdtaxw-au6.hkt.east.wctype.com
+  sni: www.bing.com
   type: anytls
   udp: true
-- encryption: none
-  fp: chrome
-  name: 🇯🇵JP_2|1.4MB/s
-  network: ws
-  port: 52675
-  security: tls
-  server: 142.248.151.249
-  servername: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
-  skip-cert-verify: false
-  sni: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: vfn-6o8h-kht7rpd.zipgd3vx91o.ddns-ip.net
-    path: /@Marisa_kristi
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_1|1.0MB/s
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 155.117.198.83
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-- name: 🇭🇰HK_3|1.2MB/s
-  password: e3a5bb40be52de65
-  port: 55555
-  server: 89.251.26.111
-  skip-cert-verify: true
-  sni: apps.apple.com
-  tfo: false
-  type: hysteria2
-- name: 🇩🇪DE_7|1.3MB/s
-  password: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
-  port: 11000
-  server: 185.227.108.195
-  skip-cert-verify: false
-  sni: de-node.farnet.top
-  tfo: false
-  type: hysteria2
-- name: 🇷🇺RU_1|1.4MB/s
-  obfs: salamander
-  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
-  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
-  port: 9443
-  server: 80.66.81.78
-  skip-cert-verify: false
-  sni: tunel1.washing.help
-  tfo: false
-  type: hysteria2
-- name: 🇩🇪DE_8|2.4MB/s
-  network: tcp
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: de-1.hysteria.ltd
-  type: trojan
-- name: 🇸🇬SG_3|1000KB/s
-  network: ws
-  port: 443
-  server: 173.245.58.87
-  servername: juzi.qea.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: juzi.qea.ccwu.cc
-    max-early-data: 2048
-    path: /
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL_2|1.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 28167
-  reality-opts:
-    public-key: edl7x700EJzY6NIN1pZXo-QiyRAScQCW5UO-0ZQXpA0
-    short-id: 'aabbccdd'
-  server: 79.141.164.40
-  servername: ya.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 703fe724-d2b9-40f9-934f-3089403a109d
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL_3|1.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: M1a5zeQ6Ckoo1UybbRYD8696xaWb-fRcCY-7iaQ4wCA
-    short-id: 'fd3f0f2bce8083fe'
-  server: nld02.helpbot.click
-  servername: nld02.helpbot.click
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b95e6017-d54e-4016-b651-91c86aeaa463
-- down: ''
-  fingerprint: ''
-  name: 🇰🇷KR_2|1.0MB/s
-  obfs: ''
-  obfs-password: ''
-  password: ff488c48-b745-4d65-a6a1-0339be0b7fd7
-  port: '15219'
-  server: 152.70.38.156
-  skip-cert-verify: false
-  sni: okrs01.7770123.xyz
-  type: hysteria2
-  up: ''
-- name: 🇫🇷FR_2|1.3MB/s
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: '45619'
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_5|1.6MB/s
-  network: tcp
-  password: BxceQaOe
-  port: '4099'
-  server: 18.183.163.141
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 🇯🇵JP_7|1.7MB/s
-  network: tcp
-  password: BxceQaOe
-  port: '4099'
-  server: 18.183.163.141
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  username: 6a267720-68db-49c6-8f35-a62fde6bc2c5
 - auth: github.com%2FAlvin9999-newpac%2Ffanqiang
   insecure: '1'
   name: '[Hysteria2] hysteria2-ipv4'
@@ -5063,84 +3950,102 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-141.101.114.30-0543
-  network: ws
-  port: 443
-  server: 141.101.114.30
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  ws-opts:
-    headers:
-      Host: lg1.trump2023.us
-    path: /ECTCJ0DF
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR-52.78.213.224-1161
+  name: 🇯🇵JP-20.243.69.62-0240
   network: ws
   port: 80
-  server: 52.78.213.224
+  server: 20.243.69.62
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 6f442823-6b73-4b31-f1f5-aa1e907b051e
+  uuid: 5f405152-88b2-4e5e-9091-b730e65e8983
   ws-opts:
     path: /
 - alterId: 64
   cipher: auto
-  name: 🇺🇸US-199.180.101.10-7262
+  name: 🇱🇹LT-85.206.165.36-0443
   network: ws
-  port: 36008
-  server: 199.180.101.10
+  port: 443
+  server: 85.206.165.36
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: ba49ab05-78f8-4b0b-9400-1826cc2d3f75
+  ws-opts:
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 🏁RELAY-104.25.52.187-0803
+  network: ws
+  port: 443
+  server: 104.25.52.187
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80
   ws-opts:
     headers:
-      Host: www.84163007.xyz
+      Host: free.frli.xyz
+    path: /y475
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP-140.83.84.209-1048
+  network: ws
+  port: 1234
+  server: 140.83.84.209
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e94247e0-d3e5-4f96-d8f3-b2144b383292
+  ws-opts:
+    path: /1234
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-146.190.114.190-1465
+  network: ws
+  port: 80
+  server: 146.190.114.190
+  servername: tms.dingtalk.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: db8f8bbe-c589-4316-8063-49baaf0fd858
+  ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: CN_speednode_0001
+  name: 🏁RELAY-188.114.99.205-7017
   network: ws
-  port: 10021
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  ws-opts:
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: GB_speednode_0005
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- flow: xtls-rprx-vision
-  name: GB_speednode_0006
   port: 443
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 31.76.113.114
-  servername: it.s3-cloud.xyz
+  server: 188.114.99.205
+  servername: linde06.indiavideo.sbs
   skip-cert-verify: false
   tls: true
-  type: vless
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: CN_speednode_0001
+  port: 11973
+  server: board-04.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- name: DE_speednode_0011
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: de-1.hysteria.ltd
+  type: trojan
+  udp: true
 - flow: xtls-rprx-vision
-  name: GB_speednode_0007
+  name: GB_speednode_0013
   port: 443
   reality-opts:
     public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
@@ -5153,20 +4058,7 @@ proxies:
   udp: true
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - flow: xtls-rprx-vision
-  name: GB_speednode_0008
-  port: 443
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 31.76.113.110
-  servername: it.s3-cloud.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- flow: xtls-rprx-vision
-  name: GB_speednode_0009
+  name: GB_speednode_0014
   port: 443
   reality-opts:
     public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
@@ -5178,95 +4070,34 @@ proxies:
   type: vless
   udp: true
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- name: JP_speednode_0012
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 8066
-  server: 18.181.199.223
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: JP_speednode_0013
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 3842
-  server: 18.181.199.223
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: RU_speednode_0029
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
+- name: NN_speednode_0020
+  network: ws
+  port: 17512
+  server: 142.248.151.249
+  servername: qi4rysu2u-e8j2zzhk.bsld.de5.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: RU_speednode_0027
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
+    path: /@Marisa_kristi
 - flow: xtls-rprx-vision
-  name: RU_speednode_0028
+  name: RU_speednode_0042
   port: 443
   reality-opts:
-    public-key: FurqA-2jJHS4vNj92Ya5i2ZTxf0sWSjUTaz5Y_KMBgk
-    short-id: '57cc65bfd5ef7465'
-  server: 185.212.117.34
-  servername: www.scaleway.com
+    public-key: c9eCHF41FReFLIdarpg8M5edw4_E133EJBzrvYS02Ck
+    short-id: 'cd9a5f0edff48da4'
+  server: 213.108.2.130
+  servername: cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bb2b0112-577f-4862-886a-3c2ee004ca23
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: RU_speednode_0030
-  port: 443
-  reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: 'c1a7e9b4711d5f60'
-  server: 193.168.46.180
-  servername: rruu.persik.host
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 54b2b357-c66c-4bb0-9e01-0afc9b85c1e4
-- name: US_speednode_0035
-  password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: US_speednode_0036
-  password: BxceQaOe
-  port: 17801
-  server: 95.40.68.192
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: US_speednode_0037
-  password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: US_speednode_0038
+  uuid: 5e8ee155-0962-4307-98f2-b65f6bbbd5bb
+- name: US_speednode_0045
   port: 443
   reality-opts:
     public-key: HlxgAXuwwby0lujjT2LKBPF0udWK4SVjtMPyKtiNdEw
@@ -5278,3 +4109,17 @@ proxies:
   type: vless
   udp: true
   uuid: 6d088fbd-528d-4f2a-be26-317dcda3c6ee
+- flow: xtls-rprx-vision
+  name: US_speednode_0046
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: M1a5zeQ6Ckoo1UybbRYD8696xaWb-fRcCY-7iaQ4wCA
+    short-id: 'fd3f0f2bce8083fe'
+  server: nld02.helpbot.click
+  servername: nld02.helpbot.click
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b95e6017-d54e-4016-b651-91c86aeaa463
