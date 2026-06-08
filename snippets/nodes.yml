@@ -62,6 +62,14 @@ proxies:
   sni: fr.01.naiun.bilibili.com
   type: trojan
   udp: true
+- name: '[Trojan] 未知 TROJAN-35 | free-n...'
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  port: 443
+  security: tls
+  server: 130.94.107.171
+  skip-cert-verify: true
+  sni: www.logger-guard.click
+  type: trojan
 - alterId: 0
   cipher: auto
   name: ⚪🏳️_github.com/Ruk1ng001_32f04...
@@ -623,10 +631,10 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- allowInsecure: '0'
-  name: 'DE_speednode_0011 #1'
+- name: 'DE_speednode_0011 #1'
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443
+  security: tls
   server: de-1.hysteria.ltd
   skip-cert-verify: false
   sni: de-1.hysteria.ltd
@@ -893,10 +901,16 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-03 | free-nodes'
+  name: '[SS] 未知 SS-02 | free-nodes'
   password: 4e287631dc4fc8fc
   port: 12012
   server: 62.146.231.112
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] 未知 SS-03 | free-nodes'
+  password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
+  port: 51523
+  server: ru.moktana.app
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-04 | free-nodes'
@@ -930,9 +944,9 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-09 | free-nodes'
-  password: 1kVr0KATIJI7mwOF
-  port: 443
-  server: admin.c1.havij.co
+  password: uROuEqsL8IUMMVb4wDwnGU
+  port: 10443
+  server: 57.129.121.230
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-10 | free-nodes'
@@ -954,25 +968,37 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: '[SS] 未知 SS-13 | free-nodes'
+  password: 34fItyZyz69uIrxkJ+cLR1pdclvG628pv8+fzUNTIC0=
+  port: 2083
+  server: it5.taskflowhub.org
+  type: ss
+- cipher: aes-256-gcm
+  name: '[SS] 未知 SS-14 | free-nodes'
   password: 7NuB0Y5m3aNzkKMKlFoMwkiajsu6F36c9ok4VKEZnB4=
   port: 2083
   server: de5.taskflowhub.org
   type: ss
 - cipher: aes-256-gcm
-  name: '[SS] 未知 SS-14 | free-nodes'
+  name: '[SS] 未知 SS-15 | free-nodes'
   password: FjG3IPbny+0ZYU4/p1vULP84GcKpGoZpWKAay16VhIw=
   port: 2083
   server: 51.254.128.106
   type: ss
-- name: '[Trojan] 未知 TROJAN-16 | free-n...'
-  password: BzOx2R8u59SOipHwhIYW-IMyJePBEiUY-m
+- cipher: aes-256-gcm
+  name: '[SS] 未知 SS-16 | free-nodes'
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 185.213.20.110
+  type: ss
+- name: '[Trojan] 未知 TROJAN-17 | free-n...'
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   port: 443
   security: tls
-  server: 149.104.104.101
+  server: 172.237.145.189
   skip-cert-verify: true
-  sni: www.registry-monitor.click
+  sni: 172.237.145.189
   type: trojan
-- name: '[Trojan] 未知 TROJAN-17 | free-n...'
+- name: '[Trojan] 未知 TROJAN-19 | free-n...'
   password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
   port: 443
   security: tls
@@ -980,7 +1006,37 @@ proxies:
   skip-cert-verify: true
   sni: 172.238.19.11
   type: trojan
-- name: '[Trojan] 未知 TROJAN-19 | free-n...'
+- name: '[Trojan] 未知 TROJAN-20 | free-n...'
+  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
+  port: 443
+  security: tls
+  server: 91.233.8.25
+  skip-cert-verify: true
+  sni: fra34.tracker-ws.click
+  type: trojan
+- name: '[Trojan] 未知 TROJAN-22 | free-n...'
+  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
+  port: 443
+  security: tls
+  server: 149.104.87.182
+  skip-cert-verify: true
+  sni: www.jewelapp.click
+  type: trojan
+- amp;fp: chrome
+  amp;headerType: none
+  amp;pbk: bVGtj0cRMfC-VapbrAa97IjYqjMoxODMOqsN0eGBDmI
+  amp;sid: e0c7dbaa7dc2
+  amp;sni: www.yahoo.com
+  amp;spx: '%2F'
+  amp;type: tcp
+  name: '[Trojan] 未知 TROJAN-23 | free-n...'
+  password: SoftNetConnect
+  port: 443
+  security: reality
+  server: 178.104.213.121
+  skip-cert-verify: true
+  type: trojan
+- name: '[Trojan] 未知 TROJAN-24 | free-n...'
   password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
   port: 443
   security: tls
@@ -988,7 +1044,7 @@ proxies:
   skip-cert-verify: true
   sni: www.sandbox-cloud.click
   type: trojan
-- name: '[Trojan] 未知 TROJAN-20 | free-n...'
+- name: '[Trojan] 未知 TROJAN-25 | free-n...'
   password: YGWIMlg.W1wRWQkRDcKfjZY7sng09aC=Yh
   port: 443
   security: tls
@@ -996,37 +1052,19 @@ proxies:
   skip-cert-verify: true
   sni: www.weavenet.click
   type: trojan
-- allowInsecure: '0'
-  name: '[Trojan] 未知 TROJAN-23 | free-n...'
-  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
-  port: 443
-  security: tls
-  server: 185.137.157.254
-  skip-cert-verify: true
-  sni: www.directorypipeline.click
-  type: trojan
 - amp;allowInsecure: '0'
   amp;alpn: http%2F1.1
   amp;headerType: none
   amp;insecure: '0'
   amp;type: tcp
-  name: '[Trojan] 未知 TROJAN-24 | free-n...'
+  name: '[Trojan] 未知 TROJAN-29 | free-n...'
   password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
   port: 443
   security: tls
   server: 64.176.65.85
   skip-cert-verify: true
   type: trojan
-- allowInsecure: '0'
-  name: '[Trojan] 未知 TROJAN-25 | free-n...'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  security: tls
-  server: 130.94.68.100
-  skip-cert-verify: true
-  sni: www.rolll.click
-  type: trojan
-- name: '[Trojan] 未知 TROJAN-26 | free-n...'
+- name: '[Trojan] 未知 TROJAN-30 | free-n...'
   password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
   port: 443
   security: tls
@@ -1034,7 +1072,30 @@ proxies:
   skip-cert-verify: true
   sni: www.cdn-structure.click
   type: trojan
-- name: '[Trojan] 未知 TROJAN-29 | free-n...'
+- name: '[Trojan] 未知 TROJAN-31 | free-n...'
+  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
+  port: 443
+  security: tls
+  server: 130.94.92.144
+  skip-cert-verify: true
+  sni: www.node-finder.click
+  type: trojan
+- name: '[Trojan] 未知 TROJAN-32 | free-n...'
+  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
+  port: 443
+  security: tls
+  server: 91.233.8.138
+  skip-cert-verify: true
+  sni: www.homelywebs.click
+  type: trojan
+- name: '[Trojan] 未知 TROJAN-33 | free-n...'
+  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+  port: 443
+  security: tls
+  server: 172.238.120.124
+  skip-cert-verify: true
+  type: trojan
+- name: '[Trojan] 未知 TROJAN-34 | free-n...'
   password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
   port: 443
   security: tls
@@ -1042,45 +1103,17 @@ proxies:
   skip-cert-verify: true
   sni: 45.79.8.17
   type: trojan
-- allowInsecure: '0'
-  name: '[Trojan] 未知 TROJAN-30 | free-n...'
+- name: '[Trojan] 未知 TROJAN-36 | free-n...'
   password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
   port: 443
+  security: tls
   server: 172.236.220.10
   skip-cert-verify: true
   sni: 172.236.220.10
   type: trojan
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-110 | free-no...'
-  network: tcp
-  port: 10086
-  server: 57.151.100.27
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 550e8400-e29b-41d4-a716-446655440000
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[Vmess] 未知 VMESS-111 | free-no...'
-  network: ws
-  port: 10020
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  ws-opts:
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] DE VMESS-112 | free-no...'
+  name: '[Vmess] DE VMESS-132 | free-no...'
   network: ws
   port: 80
   server: de4.niekotin.de
@@ -1094,21 +1127,7 @@ proxies:
     path: /vmess
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] DE VMESS-113 | free-no...'
-  network: ws
-  port: 80
-  server: de5.niekotin.de
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 85bf5801-4658-441c-a2e5-842c6c71a521
-  ws-opts:
-    headers:
-      Host: de5.niekotin.de
-    path: /vmess
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] 未知 VMESS-114 | free-no...'
+  name: '[Vmess] 未知 VMESS-133 | free-no...'
   network: ws
   port: 443
   server: renderer-stream-1-411.mirra.now
@@ -1122,7 +1141,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-115 | free-no...'
+  name: '[Vmess] 未知 VMESS-134 | free-no...'
   network: ws
   port: 80
   server: speedtest.org
@@ -1135,14 +1154,14 @@ proxies:
       Host: de2.ping-game.ir
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - cipher: aes-128-gcm
-  name: '[SS] 未知 SS-121 | free-nodes'
+  name: '[SS] 未知 SS-140 | free-nodes'
   password: 6601fb90e9b3
   port: 443
   server: fast.com
   type: ss
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-151 | free-no...'
+  name: '[Vmess] 未知 VMESS-170 | free-no...'
   network: ws
   port: 443
   server: s611.ccgfw.online
@@ -1156,183 +1175,59 @@ proxies:
     path: /ssp-ws
 - alterId: 0
   cipher: auto
-  name: 🇨🇦CA-23.162.200.227-0095
+  name: 🇬🇧GB-51.89.87.143-0171
   network: ws
-  port: 443
-  server: 23.162.200.227
+  port: 10020
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  servername: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
   ws-opts:
+    headers:
+      Host: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.222.46-0374
+  name: 🇺🇸US-13.248.169.48-0216
   network: ws
-  port: 80
-  server: 172.67.222.46
-  servername: us-lb.sshkit.org
+  port: 17013
+  server: cn.zzv06.infonode.xyz
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  ws-opts:
-    path: /sshkit/fdfadsfa/63848bfe228fd/
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.26.4.10-0482
-  network: ws
-  port: 443
-  server: hynesconstruction.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
   ws-opts:
     headers:
-      Host: sg1-v2ray.sshkit.org
-    path: /sshkit/401452697/635b464921141/
-- alterId: 0
-  cipher: auto
-  name: 🇻🇳VN-103.161.112.225-0492
-  network: ws
-  port: 80
-  server: 103.161.112.225
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: fc49716a-3594-47b2-8667-0bfba2a88e60
-  ws-opts:
-    path: /vpndata.shop
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.67.197.47-0669
-  network: ws
-  port: 8443
-  server: t1.620720.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: t1.620720.xyz
+      Host: cn.zzv06.infonode.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-104.19.40.48-1761
+  name: 🇯🇵JP-140.83.84.209-1024
   network: ws
-  port: 8880
-  server: 104.19.40.48
+  port: 1234
+  server: 140.83.84.209
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  uuid: e94247e0-d3e5-4f96-d8f3-b2144b383292
   ws-opts:
-    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+    path: /1234
 - alterId: 0
   cipher: auto
-  name: 🇩🇪DE-57.129.25.25-6538
+  name: 🇮🇷IR-2.189.59.3-7051
   network: ws
   port: 443
-  server: 57.129.25.25
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  server: 2.189.59.3
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
     headers:
-      Host: f.khilei.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-47.86.16.206-6881
-  network: ws
-  port: 40617
-  server: 47.86.16.206
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: eec9ce64-a124-4f14-b72d-f513b6ad6ab2
-  ws-opts:
+      Host: obdii.cfd
     path: /
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸US-38.33.34.38-7096
-  network: ws
-  port: 36002
-  server: 38.33.34.38
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US-137.175.10.241-7059
-  network: ws
-  port: 38003
-  server: 137.175.10.241
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: 38.14.107.225
-    path: /path/181721272114
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱NL-51.15.19.206-7654
-  network: ws
-  port: 8443
-  server: 51.15.19.206
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 3a3ac0c0-31f4-11ee-b337-205c6d5f5d78
-  ws-opts:
-    path: /V2RayyNGvpn
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US-47.253.60.200-7692
-  network: ws
-  port: 443
-  server: 47.253.60.200
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: b36473e1-49c5-438e-85c4-d56796200585
-  ws-opts:
-    path: /swoole
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-172.64.82.215-8082
-  network: ws
-  port: 2095
-  server: 172.64.82.215
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-  ws-opts:
-    path: /hgcefomn
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-162.159.249.80-8129
-  network: ws
-  port: 2095
-  server: 162.159.249.80
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-  ws-opts:
-    path: /hgcefomn
 - alterId: 0
   cipher: auto
   name: CN_speednode_0001
