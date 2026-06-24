@@ -1,4 +1,4 @@
-# Update: 2026-06-24 16:51
+# Update: 2026-06-24 22:03
 allow-lan: true
 dns:
   enable: true
@@ -18,6 +18,106 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
+- name: 🔴🇩🇪[🤖🔍]_github.com/Ruk1ng001_4...
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  fp: chrome
+  insecure: '0'
+  name: 🇯🇵 日本-68965877
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  security: tls
+  server: 172.104.120.92
+  servername: hhcm.hhxaf.cc.cd
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- allowInsecure: '0'
+  ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
+  fp: chrome
+  insecure: '0'
+  name: 🇯🇵 日本-FBDFB36B
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  security: tls
+  server: 172.104.86.229
+  servername: tjsp.hhxaf.cc.cd
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- name: 🇯🇵 日本-381ED26D
+  network: tcp
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.68
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本-83257829
+  network: tcp
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本-949D6513
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 156.246.91.9
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers: null
+    path:
+    - /ABCDE
+  name: 🇯🇵 日本-CC40E05D
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- alterId: 0
+  cipher: auto
+  country: 🇰🇷KR
+  name: 🇰🇷 韩国-01958B5F
+  network: none
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - name: ⚪🏳️[🎬🤖📺🔍]_github.com/Ruk1ng001...
   network: ws
   password: '114514'
@@ -147,7 +247,7 @@ proxies:
       Host: bce.bdstatic.com
     path: /
   ws-path: /
-- name: 🔴🇰🇷[📺]_github.com/Ruk1ng001_6e...
+- name: 🇰🇷KR_10|1.2MB/s
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -158,8 +258,8 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /
 - alpn:
   - ''
@@ -566,15 +666,6 @@ proxies:
   sni: is.01.naiun.bilibili.com
   type: trojan
   udp: true
-- name: 🔴🇩🇪[🤖🔍]_github.com/Ruk1ng001_4...
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 103.177.136.45
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-  udp: true
 - name: 🔴🇦🇿[🤖🔍]_github.com/Ruk1ng001_e...
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
@@ -646,7 +737,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 🇺🇸US_82|4.6MB/s
+  name: 🇺🇸US_82|5.1MB/s
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1203,83 +1294,103 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[SS] 未知 SS-59 | free-nodes'
+  password: do1DZ-_QvkFWXzsjc_w8eT5-TeYP6U3Q
+  port: 8388
+  server: 62.60.255.11
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[SS] 未知 SS-60 | free-nodes'
   password: eDfN7SODQceIOmIAbtJJtK
   port: 443
   server: 198.98.53.130
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-61 | free-nodes'
+  name: '[SS] 未知 SS-62 | free-nodes'
   password: hkasb5cVrs4jE18jCEJxB4Gr55hVGW24y35gU9GIIeyT31Fw
   port: 31348
   server: 213.226.68.8
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-63 | free-nodes'
+  name: '[SS] 未知 SS-64 | free-nodes'
   password: nbWNC8zZ0eXokIOuW5rL8oNrXmXg5qAuL05R4fGNKCS7IG0u
   port: 31348
   server: 46.246.97.3
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-64 | free-nodes'
+  name: '[SS] 未知 SS-65 | free-nodes'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.15
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-65 | free-nodes'
+  name: '[SS] 未知 SS-66 | free-nodes'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.16
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-66 | free-nodes'
+  name: '[SS] 未知 SS-67 | free-nodes'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.17
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-67 | free-nodes'
+  name: '[SS] 未知 SS-68 | free-nodes'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.2
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[SS] 未知 SS-68 | free-nodes'
+  name: '[SS] 未知 SS-69 | free-nodes'
   password: qItG8SueYQcP
   port: 8388
   server: 140.174.184.5
   type: ss
 - cipher: aes-128-gcm
-  name: '[SS] 未知 SS-70 | free-nodes'
+  name: '[SS] 未知 SS-71 | free-nodes'
   password: JVSuuib4ydvY8m7u6jElTYbeRO8ygJ4Hi8Iq733BqAkF
   port: 9888
   server: 168.138.175.92
   type: ss
 - cipher: aes-128-gcm
-  name: '[SS] 未知 SS-71 | free-nodes'
+  name: '[SS] 未知 SS-72 | free-nodes'
   password: wcjMniCODfhz26P7L2BvpEDQfhogbFTl
   port: 17913
   server: 161.129.71.148
   type: ss
 - cipher: aes-256-gcm
-  name: '[SS] 未知 SS-72 | free-nodes'
+  name: '[SS] 未知 SS-73 | free-nodes'
   password: '123'
   port: 1001
   server: 61.171.92.202
   type: ss
 - cipher: aes-256-gcm
-  name: '[SS] 未知 SS-73 | free-nodes'
+  name: '[SS] 未知 SS-74 | free-nodes'
   password: kSLjbrBc84
   port: 3030
   server: 78.129.155.63
   type: ss
 - cipher: aes-256-gcm
-  name: '[SS] 未知 SS-75 | free-nodes'
+  name: '[SS] 未知 SS-76 | free-nodes'
   password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
   port: 1122
   server: 103.130.147.40
   type: ss
-- name: '[Trojan] 未知 TROJAN-78 | free-n...'
+- amp;fp: chrome
+  amp;headerType: none
+  amp;pbk: h0Lem3eyDGqkye4yAMuxixCMI2EqD1EKdH9Ky0Xetjg
+  amp;sid: c7
+  amp;sni: play.google.com
+  amp;spx: '%2F'
+  amp;type: tcp
+  name: '[Trojan] 未知 TROJAN-79 | free-n...'
+  password: SoftNetConnect
+  port: 8443
+  security: reality
+  server: 37.156.44.6
+  skip-cert-verify: true
+  type: trojan
+- name: '[Trojan] 未知 TROJAN-80 | free-n...'
   password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
   port: 443
   security: tls
@@ -1287,38 +1398,31 @@ proxies:
   skip-cert-verify: true
   sni: 185.126.236.190
   type: trojan
-- name: 🇩🇪DE_21|1.9MB/s
+- name: 🇿🇦ZA_3|1.9MB/s|M001-260618
   network: tcp
-  password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
   security: tls
-  server: 185.137.157.59
-  skip-cert-verify: true
-  sni: www.lateralio.click
+  server: 38.54.64.247
+  skip-cert-verify: false
+  sni: ''
+  sub_tag: M001-260618
   type: trojan
   udp: true
-- name: '[Trojan] 未知 TROJAN-83 | free-n...'
-  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
-  port: 443
-  security: tls
-  server: 130.94.94.15
-  skip-cert-verify: true
-  sni: 130.94.94.15
-  type: trojan
 - amp;alpn: http/1.1
   amp;headerType: none
   amp;sni: trojan.burgerip.co.uk
   amp;type: tcp
-  name: '[Trojan] 未知 TROJAN-84 | free-n...'
+  name: '[Trojan] 未知 TROJAN-87 | free-n...'
   password: telegram-id-privatevpns
   port: 22222
   security: tls
-  server: 52.57.203.89
+  server: 13.36.118.76
   skip-cert-verify: true
   type: trojan
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-463 | free-no...'
+  name: '[Vmess] 未知 VMESS-409 | free-no...'
   network: ws
   port: 6666
   server: 107.173.27.219
@@ -1330,9 +1434,9 @@ proxies:
     headers:
       Host: ''
     path: /youtube
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-465 | free-no...'
+  name: '[Vmess] 未知 VMESS-463 | free-no...'
   network: tcp
   port: 49178
   server: 160.250.247.70
@@ -1360,22 +1464,18 @@ proxies:
     path: /
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_319|1.4MB/s|A003-260618
+  name: '[Vmess] 未知 VMESS-462 | free-no...'
   network: tcp
-  packet-encoding: xudp
   port: 30022
   server: 186.244.208.78
-  skip-cert-verify: false
-  sub_tag: A003-260618
+  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: b7d93549-0f3f-4af2-9f4d-4340867a23b4
   ws-opts:
     headers:
       Host: ''
     path: /
-  xudp: true
 - alterId: 0
   cipher: auto
   name: '[Vmess] 未知 VMESS-422 | free-no...'
@@ -1474,9 +1574,9 @@ proxies:
     headers:
       Host: ''
     path: /Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-437 | free-no...'
+  name: '[Vmess] 未知 VMESS-460 | free-no...'
   network: ws
   port: 80
   server: 69.84.182.49
@@ -1490,7 +1590,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-443 | free-no...'
+  name: '[Vmess] 未知 VMESS-442 | free-no...'
   network: ws
   port: 443
   server: 8.211.149.30
@@ -1504,7 +1604,7 @@ proxies:
     path: /ws/
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-444 | free-no...'
+  name: '[Vmess] 未知 VMESS-443 | free-no...'
   network: tcp
   port: 8880
   server: 89.167.82.102
@@ -1518,7 +1618,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-447 | free-no...'
+  name: '[Vmess] 未知 VMESS-446 | free-no...'
   network: tcp
   port: 4443
   server: 89.167.82.102
@@ -1532,7 +1632,7 @@ proxies:
     path: ''
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-446 | free-no...'
+  name: '[Vmess] 未知 VMESS-445 | free-no...'
   network: tcp
   port: 8880
   server: 89.167.82.102
@@ -1546,7 +1646,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-449 | free-no...'
+  name: '[Vmess] 未知 VMESS-448 | free-no...'
   network: ws
   port: 54840
   server: 96.47.230.5
@@ -1560,7 +1660,7 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-452 | free-no...'
+  name: '[Vmess] 未知 VMESS-451 | free-no...'
   network: tcp
   port: 443
   server: atiins.com.tr
@@ -1574,7 +1674,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[Vmess] 未知 VMESS-455 | free-no...'
+  name: '[Vmess] 未知 VMESS-454 | free-no...'
   network: ws
   port: 80
   server: myvpshosting.name.ng
@@ -1588,7 +1688,7 @@ proxies:
     path: /vmess
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-457 | free-no...'
+  name: '[Vmess] 未知 VMESS-456 | free-no...'
   network: tcp
   port: 1020
   server: nlt.reata.ir
@@ -1602,35 +1702,7 @@ proxies:
     path: /
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-458 | free-no...'
-  network: tcp
-  port: 1514
-  server: sinavip.cnavippanel.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0aca35ee-b845-45d7-9b52-379a2984378a
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] 未知 VMESS-459 | free-no...'
-  network: tcp
-  port: 1516
-  server: sinavip3.cnavippanel.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0aca35ee-b845-45d7-9b52-379a2984378a
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: /
-- alterId: '0'
-  cipher: auto
-  name: '[Vmess] 未知 VMESS-460 | free-no...'
+  name: '[Vmess] 未知 VMESS-457 | free-no...'
   network: ws
   port: 10000
   server: uk.vpnjantit.com
@@ -1644,7 +1716,7 @@ proxies:
     path: /vpnjantit
 - alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-461 | free-no...'
+  name: '[Vmess] 未知 VMESS-458 | free-no...'
   network: tcp
   port: 1546
   server: vip3.sanaiehdasti.com
@@ -1656,187 +1728,233 @@ proxies:
     headers:
       Host: play.google.com
     path: /
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: '[Vmess] 未知 VMESS-462 | free-no...'
-  network: ws
-  port: 57865
-  server: 62.60.151.41
+  name: '[Vmess] 未知 VMESS-459 | free-no...'
+  network: tcp
+  port: 110
+  server: 2.26.231.87
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 3c61ea53-a550-4252-8211-956f9f7dc2d0
+  uuid: ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf
   ws-opts:
     headers:
       Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 🇸🇪SE_9|1.4MB/s|B007-260618
+  network: ws
+  packet-encoding: xudp
+  port: 57865
+  server: 62.60.151.41
+  skip-cert-verify: false
+  sub_tag: B007-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3c61ea53-a550-4252-8211-956f9f7dc2d0
+  ws-opts:
+    headers: {}
     path: /
+  xudp: true
 - cipher: aes-128-gcm
-  name: '[SS] 未知 SS-471 | free-nodes'
+  name: '[SS] 未知 SS-469 | free-nodes'
   password: 6601fb90e9b3
   port: 443
   server: fast.com
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇨🇦CA-23.162.200.227-0114
+  name: 🇲🇾MY-47.250.45.234-0117
   network: ws
-  port: 443
-  server: 23.162.200.227
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR-152.67.218.38-0127
-  network: ws
-  port: 443
-  server: 152.67.218.38
+  port: 43063
+  server: 47.250.45.234
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP-172.111.146.64-0121
+  name: 🇭🇰HK-47.244.120.197-0156
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-172.67.167.111-0224
+  network: ws
+  port: 443
+  server: 172.67.167.111
+  servername: 56789.gq
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 89b6075d-ea4a-43f4-a8a2-f155de987ab9
+  ws-opts:
+    headers:
+      Host: 56789.gq
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-185.162.228.229-0294
+  network: ws
+  port: 443
+  server: 185.162.228.229
+  servername: oplg1.zhujicn2.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-opts:
+    path: /5QNROSRV
+- alterId: 0
+  cipher: auto
+  name: 🇻🇳VN-103.166.183.226-0326
   network: ws
   port: 80
-  server: 172.111.146.64
+  server: 103.166.183.226
+  servername: dl.kgvn.garenanow.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca
+  ws-opts:
+    path: /tandung288.click
+- alterId: 0
+  cipher: auto
+  name: 🏁RELAY-104.18.6.82-0356
+  network: ws
+  port: 443
+  server: 104.18.6.82
+  servername: jp.binghe.design
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 5ce9cb0d-6b12-4dbd-9114-74fd11dc6f35
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.67.166.111-0226
+  name: 🏁RELAY-172.67.218.162-0487
   network: ws
   port: 443
-  server: 172.67.166.111
-  servername: guil.tk
+  server: 172.67.218.162
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 251165d1-f3ea-8977-4fe6-96d0601f493d
+  uuid: 70d9bf20-3e6b-4cd3-ff28-b62567ff5a23
   ws-opts:
     headers:
-      Host: guil.tk
+      Host: eu.ptuu.tk
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR-51.77.212.145-0340
+  name: 🇫🇷FR-185.16.110.212-0618
   network: ws
-  port: 80
-  server: 51.77.212.145
-  servername: 51.77.212.145
+  port: 8880
+  server: 185.16.110.212
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 5f6e42bb-2fd1-478b-8f0f-e52b2d6f7652
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE-45.66.129.15-0540
-  network: ws
-  port: 8080
-  server: 45.66.129.15
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  uuid: b209dfbf-6bb0-30b2-a77a-286e230466b5
   ws-opts:
     headers:
-      Host: download.windowsupdate.com
-    path: /download
+      Host: TG.WangCai2.s4.db-link02.top
+    path: /dabai
 - alterId: 0
   cipher: auto
-  name: 🇸🇬SG-18.141.185.144-0573
-  network: ws
-  port: 8080
-  server: 18.141.185.144
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-1.1.1.5-0583
-  network: ws
-  port: 443
-  server: 1.1.1.5
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a91c50c3-c838-428d-a61d-ed372255bb71
-  ws-opts:
-    headers:
-      Host: 1.1.1.5
-    path: /Acdtms4zfx
-- alterId: 0
-  cipher: auto
-  name: 🏁RELAY-104.19.45.47-0688
+  name: 🏁RELAY-172.64.175.88-0687
   network: ws
   port: 2086
-  server: 104.19.45.47
+  server: 172.64.175.88
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: ip13.freegradely.xyz
+      Host: ip1.1457230.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🏁RELAY-172.64.154.150-0768
+  name: 🏁RELAY-141.101.115.120-0758
   network: ws
   port: 443
-  server: 172.64.154.150
+  server: 141.101.115.120
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
   ws-opts:
-    headers:
-      Host: clash6.ssr-free.xyz
     path: /dongtaiwang.com
-- alterId: 64
-  cipher: auto
-  name: 🇹🇼TW-61.216.85.68-4191
-  network: ws
-  port: 443
-  server: 61.216.85.68
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5ba738e7-0abf-4935-b67e-d404a083d6a6
-  ws-opts:
-    headers:
-      Host: www.88612860.xyz
-    path: /path/243535322906
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW-103.61.139.137-6773
+  name: 🇩🇪DE-64.190.63.222-0829
   network: ws
-  port: 20521
-  server: 103.61.139.137
+  port: 443
+  server: cvywfavasdc.cymlr.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc
+  ws-opts:
+    headers:
+      Host: cvywfavasdc.cymlr.xyz
+    path: /ksebupo
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-67.21.85.227-0943
+  network: ws
+  port: 443
+  server: cg1c04.waimaojd.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c04.waimaojd.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇫🇮FI-65.21.240.108-3249
+  network: http
+  port: 443
+  server: 65.21.240.108
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: f8d93cfb-3d5d-447c-a697-16496dd74697
-  ws-opts:
-    path: /
-- name: 🇳🇱NL_3|2.3MB/s
+  uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_232|2.6MB/s|A004-260618
+  network: tcp
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.37
+  servername: fra4.chasem2026sud.com
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: 🇳🇱NL_5|2.6MB/s
   network: ws
   password: humanity
   port: 443
@@ -1848,7 +1966,7 @@ proxies:
     headers:
       Host: www.multiplydose.com
     path: /%2Fassignment
-- name: 🇳🇱NL_5|2.6MB/s
+- name: 🇳🇱NL_6|803KB/s
   network: ws
   password: humanity
   port: 443
@@ -1864,7 +1982,7 @@ proxies:
     path: /assignment
 - alpn:
   - http/1.1
-  name: 🇫🇷FR_2|3.0MB/s
+  name: 🇫🇷FR_2|2.0MB/s
   network: ws
   password: humanity
   port: 443
@@ -1878,37 +1996,20 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
-- alpn:
-  - http/1.1
-  name: ❓Other_1|1.2MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
+- alterId: '0'
+  cipher: auto
+  name: 🇸🇬SG_1|2.3MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 18000
+  server: 149.88.23.207
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /assignment
-- name: 🇳🇱NL_6|1.6MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.180.92
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_4|2.1MB/s
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- name: 🇫🇷FR_3|3.2MB/s
   network: ws
   password: humanity
   port: 443
@@ -1922,939 +2023,9 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_5|2.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.6
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_6|2.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.44
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_25|2.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_16|1.7MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 48111
-  server: 129.146.143.80
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_30|1.4MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 18000
-  server: 38.91.107.49
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇺🇸US_349|3.5MB/s|A004-260618
-  network: tcp
-  packet-encoding: xudp
-  port: 180
-  server: 82.198.246.9
-  servername: sgp9.node-resource.click
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇺🇸US_341|3.4MB/s|A004-260618
-  network: tcp
-  packet-encoding: xudp
-  port: 180
-  server: 82.198.246.233
-  servername: free-v7-09.elbrusway.online
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_12|1.1MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 13581
-  server: 104.233.214.176
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_147|984KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 18000
-  server: 67.220.95.3
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_14|685KB/s
-  network: raw
-  packet-encoding: xudp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_20|1.9MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 18000
-  server: 169.197.142.22
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇺🇸US_382|990KB/s|M002-260618
-  network: tcp
-  packet-encoding: xudp
-  port: 180
-  server: 82.198.246.97
-  servername: AZERB.NET
-  skip-cert-verify: false
-  sub_tag: M002-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_8|1.4MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: www.calmloud.com
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_9|2.5MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.18.250.252
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_10|2.2MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.62.62.23
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_12|2.3MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_22|598KB/s
-  network: raw
-  packet-encoding: xudp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 🇺🇸US_23|2.7MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_24|1.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 18000
-  server: 67.220.85.46
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP_1|1.5MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 49803
-  server: 153.121.73.175
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP_2|944KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 22324
-  server: 172.104.80.66
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_348|520KB/s|A004-260618
-  network: tcp
-  packet-encoding: xudp
-  port: 180
-  server: 82.198.246.37
-  servername: fra4.chasem2026sud.com
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- name: 🇳🇱NL_13|2.0MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_13|3.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.121.9
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: ❓Other_3|902KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_14|2.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.2.175
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦CA_4|1.3MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 18000
-  server: 23.162.200.198
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_28|2.7MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 18000
-  server: 84.17.41.2
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  xudp: true
-- name: 🇳🇱NL_14|2.0MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.121.71
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /assignment
-- name: 🇳🇱NL_15|2.0MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_350|2.0MB/s|A004-260618
-  network: tcp
-  packet-encoding: xudp
-  port: 180
-  server: 82.198.246.214
-  servername: fra32.chasem2026sud.com
-  skip-cert-verify: false
-  sub_tag: A004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  name: 🇫🇷FR_15|1.5MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.42.250
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_16|776KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.50
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_17|1.2MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- name: 🇳🇱NL_16|2.8MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.47.69
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_18|2.5MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 89.116.46.68
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_19|2.6MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.6
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_20|1.2MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.193.213.30
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /assignment
-- name: 🇩🇪DE_10|648KB/s
-  network: raw
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: de-1.hysteria.ltd
-  type: trojan
-  udp: true
-- name: 🇫🇷FR_21|1.6MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.22
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /%2Fassignment
-- name: 🇵🇱PL_1|880KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 202.37.33.80
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_70|1.7MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_22|2.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 208.103.161.170
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/67.0.3396.99 Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_339|1.0MB/s|M002-260618
-  network: tcp
-  packet-encoding: xudp
-  port: 180
-  server: 82.198.246.250
-  servername: 82.198.246.250
-  skip-cert-verify: false
-  sub_tag: M002-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_24|3.8MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 89.116.46.8
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_26|1.3MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 66.81.247.155
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_27|1.5MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 89.116.46.210
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /assignment
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇯🇵JP_5|939KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 25686
-  server: 140.83.51.161
-  servername: jp02.a0a.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
-  ws-opts:
-    headers:
-      Host: jp02.a0a.xyz
-    path: /cctv13.m3u8
-  xudp: true
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_29|1.3MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.193.213.21
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_30|803KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 27.50.48.49
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /assignment
-- name: 🇵🇱PL_2|1.7MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: /%2Fassignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_31|558KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_32|3.4MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.229
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /assignment
-- alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_87|3.2MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 165.140.216.141
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  xudp: true
-- name: 🇳🇱NL_20|1.7MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.152.38
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /assignment
-- name: 🇯🇵JP_6|1.8MB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 2053
-  server: 45.77.129.86
-  skip-cert-verify: true
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-- alpn:
-  - h2
-  name: 🇫🇷FR_34|2.6MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: chat.openai.com
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_35|1.8MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: ip.myip2.qzz.io
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /assignment
-- name: 🇳🇱NL_21|3.0MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.147.52
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_36|1.8MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 199.181.197.111
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- name: 🇸🇬SG_4|633KB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 45.77.241.64
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /%2F
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 🇫🇷FR_37|2.1MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.158
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_38|1.4MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 199.181.197.228
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧GB_26|891KB/s
-  network: raw
-  packet-encoding: xudp
-  port: 22324
-  server: 66.163.117.58
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_122|1.2MB/s
+  name: 🇺🇸US_7|1.1MB/s
   network: ws
   packet-encoding: xudp
   port: 39495
@@ -2868,204 +2039,37 @@ proxies:
     headers: {}
     path: /cctv13.m3u8
   xudp: true
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_41|606KB/s
+- name: 🇫🇷FR_32|2.1MB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.17.121.71
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_42|2.8MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.160
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /assignment
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇯🇵JP_19|2.1MB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 32221
-  server: 153.121.73.175
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b06054ae-f249-438e-998a-8e67bd8df653
-  xudp: true
-- name: 🇫🇷FR_43|2.8MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.32.47
+  server: www.calmlunch.com
   skip-cert-verify: false
   sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /assignment
-- name: 🇫🇷FR_44|2.6MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.160
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_45|549KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 212.183.88.136
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_46|1.8MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_47|1.3MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  skip-cert-verify: true
-  sni: www.gossipglove.com
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇯🇵JP_10|1.9MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 168.138.43.75
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers: {}
-    path: /cctv13.m3u8
-  xudp: true
-- name: 🇵🇱PL_3|1.2MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.6
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
 - alpn:
   - http/1.1
-  name: 🇫🇷FR_48|1.2MB/s
+  name: 🇫🇷FR_5|1.6MB/s
   network: ws
   password: humanity
   port: 443
-  server: 199.181.197.143
+  server: 45.130.125.69
   skip-cert-verify: true
   sni: www.calmloud.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_49|1.2MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.146.28
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_50|2.5MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.233
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /assignment
-- name: 🇳🇱NL_28|2.8MB/s
+- name: 🇳🇱NL_7|1.9MB/s
   network: ws
   password: humanity
   port: 443
@@ -3081,11 +2085,11 @@ proxies:
     path: /assignment
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_143|1.2MB/s
+  name: 🇺🇸US_34|932KB/s
   network: tcp
   packet-encoding: xudp
   port: 18000
-  server: 38.114.123.42
+  server: 38.91.107.49
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3094,7 +2098,74 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_144|9.1MB/s
+  name: 🇺🇸US_234|1.9MB/s|A004-260618
+  network: tcp
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.9
+  servername: sgp9.node-resource.click
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: '0'
+  cipher: aes-128-gcm
+  name: 🇺🇸US_12|1.8MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 18000
+  server: 67.220.95.3
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_13|2.4MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 18000
+  server: 84.17.41.2
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_14|1.5MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 48111
+  server: 129.146.143.80
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_109|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 48111
+  server: 129.146.143.80
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_16|2.6MB/s
   network: raw
   packet-encoding: xudp
   port: 180
@@ -3105,21 +2176,162 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- name: 🇳🇱NL_29|3.1MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_224|2.6MB/s|A004-260618
+  network: tcp
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.233
+  servername: fra33.chasem2026sud.com
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇸🇬SG_2|1.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 18000
+  server: 149.88.23.202
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- name: 🇳🇱NL_44|3.3MB/s
   network: ws
   password: humanity
   port: 443
-  server: 172.64.152.23
+  server: www.multiplydose.com
   skip-cert-verify: false
   sni: www.multiplydose.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
     path: /assignment
-- name: 🇫🇷FR_51|3.3MB/s
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_6|2.5MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 66.81.247.155
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_20|2.6MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_21|1.3MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 18000
+  server: 169.197.142.22
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_22|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 18000
+  server: 67.220.85.46
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 🇺🇸US_23|1.9MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 18000
+  server: 67.220.85.46
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇺🇸US_251|2.1MB/s|M002-260618
+  network: tcp
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.97
+  servername: AZERB.NET
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_26|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 18000
+  server: 67.220.95.3
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_108|2.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 13581
+  server: 104.233.214.176
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
+  xudp: true
+- name: 🇫🇷FR_8|1.1MB/s
   network: ws
   password: humanity
   port: 443
@@ -3133,20 +2345,137 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/64.0.3282.167 Safari/537.36
     path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_9|2.1MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
 - alterId: '0'
   cipher: auto
-  name: 🇹🇼TW_1|1.6MB/s
+  name: 🇨🇦CA_3|2.1MB/s
   network: tcp
   packet-encoding: xudp
-  port: 35034
-  server: 165.154.195.38
+  port: 18000
+  server: 23.162.200.198
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   xudp: true
-- name: 🇳🇱NL_33|2.6MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_32|2.6MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 18000
+  server: 38.114.123.42
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- name: 🇳🇱NL_12|2.7MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_10|1.8MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.208
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /assignment
+- alterId: '1'
+  cipher: auto
+  name: 🇯🇵JP_1|603KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 22324
+  server: 172.104.80.66
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  xudp: true
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_11|2.2MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 208.103.161.170
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/67.0.3396.99 Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  name: 🇫🇷FR_12|2.0MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.42.250
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
+- name: 🇳🇱NL_13|1.7MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.98.0
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /assignment
+- name: 🇳🇱NL_14|2.7MB/s
   network: ws
   password: humanity
   port: 443
@@ -3160,7 +2489,23 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /assignment
-- name: 🇧🇬BG_1|1.8MB/s
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_14|2.0MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.246
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /assignment
+- name: 🇧🇬BG_1|2.4MB/s
   network: tcp
   password: MeaDiUmPlkWbZJ2BON8tz
   port: 28259
@@ -3169,7 +2514,22 @@ proxies:
   sni: 78.159.131.12
   type: trojan
   udp: true
-- name: 🇫🇷FR_52|1.8MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_270|2.0MB/s|M002-260618
+  network: tcp
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.214
+  servername: HL-FREEDOM-1.UNDEF.NETWORK
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: 🇫🇷FR_15|2.0MB/s
   network: ws
   password: humanity
   port: 443
@@ -3183,23 +2543,50 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.110 Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_53|2.5MB/s
+- name: 🇳🇱NL_16|3.4MB/s
   network: ws
   password: humanity
   port: 443
-  server: 104.17.121.43
+  server: 8.6.112.0
   skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: random
+  name: 🇫🇷FR_16|3.1MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.18.250.245
+  skip-cert-verify: true
   sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
     path: /assignment
+- name: 🇫🇷FR_17|2.2MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /%2Fassignment
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_159|667KB/s
+  name: 🇺🇸US_76|669KB/s
   network: tcp
   packet-encoding: xudp
   port: 22324
@@ -3210,7 +2597,7 @@ proxies:
   udp: true
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   xudp: true
-- name: 🇵🇱PL_4|3.3MB/s
+- name: 🇵🇱PL_2|2.1MB/s
   network: ws
   password: humanity
   port: 443
@@ -3224,7 +2611,54 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/69.0.3497.100 Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_54|1.8MB/s
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_18|1.5MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.160
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_19|676KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.4
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_67|1.4MB/s|B007-260618
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_21|2.1MB/s
   network: ws
   password: humanity
   port: 443
@@ -3240,93 +2674,106 @@ proxies:
     path: /assignment
 - alpn:
   - http/1.1
-  name: 🇫🇷FR_55|3.1MB/s
+  name: 🇫🇷FR_22|3.6MB/s
   network: ws
   password: humanity
   port: 443
-  server: 94.140.0.100
+  server: 45.130.125.76
   skip-cert-verify: true
   sni: www.calmloud.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
     path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_56|1.7MB/s
+- name: 🇵🇱PL_3|1.7MB/s
   network: ws
   password: humanity
   port: 443
-  server: 141.193.213.10
+  server: 188.114.98.0
   skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- name: 🇵🇱PL_5|2.0MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 208.103.161.110
-  skip-cert-verify: true
   sni: www.creationlong.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_58|2.4MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_233|1.8MB/s|A004-260618
+  network: tcp
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.250
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_84|1.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 165.140.216.141
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_85|571KB/s
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  server: 165.140.216.141
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  xudp: true
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_23|662KB/s
   network: ws
   password: humanity
   port: 443
-  server: 172.64.155.209
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/67.0.3396.99 Safari/537.36
-    path: /assignment
-- name: 🇭🇰HK_4|618KB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 2053
-  server: 45.38.42.198
+  server: 199.181.197.143
   skip-cert-verify: true
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /
-- name: 🇫🇷FR_59|2.7MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.155.199
-  skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_60|2.0MB/s
+- name: 🇳🇱NL_21|3.5MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.47.45
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.104 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_24|1.3MB/s
   network: ws
   password: humanity
   port: 443
@@ -3340,11 +2787,27 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/41.0.2272.118 Safari/537.36
     path: /assignment
-- name: 🇯🇵JP_12|2.7MB/s
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_25|1.8MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 199.181.197.111
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /assignment
+- name: 🇸🇬SG_6|950KB/s
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: 64.176.36.17
+  server: 45.77.241.64
   skip-cert-verify: false
   sni: tjsp.hhxaf.cc.cd
   type: trojan
@@ -3352,7 +2815,25 @@ proxies:
     headers:
       Host: tjsp.hhxaf.cc.cd
     path: /%2F
-- name: 🇺🇸US_189|2.2MB/s
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 🇫🇷FR_26|2.5MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.158
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- name: 🇺🇸US_150|2.7MB/s
   network: tcp
   password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
   port: 443
@@ -3361,7 +2842,16 @@ proxies:
   sni: 45.61.58.89
   type: trojan
   udp: true
-- name: 🇯🇵JP_13|537KB/s
+- name: 🇩🇪DE_6|1.4MB/s
+  network: tcp
+  password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
+  port: 443
+  server: 185.137.157.59
+  skip-cert-verify: true
+  sni: www.lateralio.click
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_4|2.5MB/s
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -3377,11 +2867,11 @@ proxies:
     path: /
 - alterId: '0'
   cipher: auto
-  name: 🇸🇬SG_6|1.4MB/s
-  network: raw
+  name: 🇺🇸US_110|2.7MB/s
+  network: tcp
   packet-encoding: xudp
   port: 18000
-  server: 149.88.23.202
+  server: 38.110.1.246
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -3390,7 +2880,115 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇹🇼TW_2|1.2MB/s
+  name: 🇰🇷KR_8|2.1MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_112|3.2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 18000
+  server: 169.197.142.22
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- name: 🇫🇷FR_27|2.1MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.18.250.252
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_28|3.0MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_7|1.2MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 18000
+  server: 149.88.23.207
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 🇺🇸US_114|2.6MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_116|653KB/s
+  network: raw
+  packet-encoding: xudp
+  port: 18000
+  server: 38.91.107.49
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇹🇼TW_1|1.0MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 35034
+  server: 165.154.195.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇹🇼TW_2|675KB/s
   network: raw
   packet-encoding: xudp
   port: 35034
@@ -3401,47 +2999,166 @@ proxies:
   udp: true
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
   xudp: true
-- client-fingerprint: ios
-  name: ❓Other_6|1.8MB/s
+- name: 🇫🇷FR_31|3.2MB/s
   network: ws
   password: humanity
   port: 443
-  server: 141.101.90.101
-  skip-cert-verify: true
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_33|2.2MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/51.0.2704.103 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_34|2.4MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmloud.com
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /assignment
+- name: 🇫🇷FR_35|2.1MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.62.62.23
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
 - alterId: '0'
   cipher: auto
-  name: 🇹🇷TR_2|1.6MB/s
-  network: raw
+  name: 🇺🇸US_128|672KB/s
+  network: tcp
   packet-encoding: xudp
   port: 22324
-  server: 5.188.190.252
+  server: 216.106.183.35
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   xudp: true
-- name: 🇵🇱PL_6|828KB/s
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_36|1.5MB/s
   network: ws
   password: humanity
   port: 443
-  server: 208.103.161.101
-  skip-cert-verify: false
-  sni: www.creationlong.org
+  server: 89.116.46.8
+  skip-cert-verify: true
+  sni: www.calmloud.com
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: www.creationlong.org
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /assignment
-- name: 🇩🇪DE_32|744KB/s
+- alterId: '0'
+  cipher: auto
+  name: 🇯🇵JP_6|610KB/s
+  network: raw
+  packet-encoding: xudp
+  port: 49803
+  server: 153.121.73.175
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇰🇷KR_4|2.6MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 8888
+  server: 146.56.112.110
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  xudp: true
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_38|1.6MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.96
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /assignment
+- name: 🇯🇵JP_8|1.6MB/s
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 2053
+  server: 45.77.129.86
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+- alpn:
+  - h2
+  name: 🇫🇷FR_40|2.5MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: chat.openai.com
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /assignment
+- name: 🇩🇪DE_11|635KB/s
   network: tcp
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443
@@ -3450,35 +3167,21 @@ proxies:
   sni: de-1.hysteria.ltd
   type: trojan
   udp: true
-- name: 🇺🇸US_182|1.8MB/s
+- name: 🇺🇸US_145|3.8MB/s
   network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
   port: 443
-  server: 154.26.187.6
+  server: 141.193.213.30
   skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
+  sni: space.byu.id.yxls.eu.cc
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /
-- name: 🇺🇸US_183|2.4MB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 154.26.186.78
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /
-- name: 🇺🇸US_184|2.6MB/s
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /br-orcl
+- name: 🇺🇸US_146|2.0MB/s
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -3492,21 +3195,21 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /
-- name: 🇯🇵JP_17|1.0MB/s
+- name: 🇯🇵JP_11|1.8MB/s
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 8443
-  server: 152.70.105.42
+  port: 443
+  server: 156.246.91.9
   skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
+  sni: hhcm.hhxaf.cc.cd
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /
-- name: 🇰🇷KR_8|1.2MB/s
+- name: 🇰🇷KR_7|1.8MB/s
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -3520,21 +3223,21 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/49.0.2623.112 Safari/537.36
     path: /
-- name: 🇸🇬SG_10|1.1MB/s
+- name: 🇯🇵JP_12|2.4MB/s
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: 77.93.90.231
+  server: 154.83.95.129
   skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
+  sni: tjsp.hhxaf.cc.cd
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
     path: /
-- name: 🇫🇷FR_61|3.2MB/s
+- name: ❓Other_6|1.1MB/s
   network: ws
   password: humanity
   port: 443
@@ -3550,7 +3253,7 @@ proxies:
     path: /assignment
 - alpn:
   - http/1.1
-  name: 🇫🇷FR_62|1.9MB/s
+  name: 🇫🇷FR_41|1.7MB/s
   network: ws
   password: humanity
   port: 443
@@ -3566,52 +3269,21 @@ proxies:
     path: /assignment
 - alpn:
   - http/1.1
-  name: 🇫🇷FR_63|2.9MB/s
+  name: 🇫🇷FR_42|2.4MB/s
   network: ws
   password: humanity
   port: 443
-  server: 45.85.118.176
-  skip-cert-verify: false
+  server: 45.130.125.72
+  skip-cert-verify: true
   sni: www.calmloud.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /assignment
-- name: 🇺🇸US_405|937KB/s|B007-260618
-  network: tcp
-  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
-  port: 443
-  server: 45.61.52.243
-  skip-cert-verify: false
-  sub_tag: B007-260618
-  type: trojan
-  udp: true
-- name: 🇺🇸US_186|599KB/s
-  network: tcp
-  password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
-  port: 443
-  server: 45.61.58.89
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇫🇷FR_64|1.8MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.160
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /assignment
-- name: 🇺🇸US_294|585KB/s
+- name: 🇺🇸US_196|2.2MB/s
   network: tcp
   password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
   port: 443
@@ -3620,7 +3292,7 @@ proxies:
   sni: 207.126.167.150
   type: trojan
   udp: true
-- name: 🇺🇸US_297|1002KB/s|V002-260618
+- name: 🇺🇸US_198|1.5MB/s|V002-260618
   network: tcp
   password: O4O8.Ew+ujFX6GJBQ=xQr.heGwux0GYHqk
   port: 443
@@ -3630,7 +3302,7 @@ proxies:
   sub_tag: V002-260618
   type: trojan
   udp: true
-- name: 🇩🇪DE_36|1.5MB/s
+- name: 🇩🇪DE_15|2.0MB/s
   network: tcp
   password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
   port: 443
@@ -3641,7 +3313,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_190|1.8MB/s
+  name: 🇺🇸US_151|997KB/s
   network: tcp
   packet-encoding: xudp
   port: 10086
@@ -3652,15 +3324,101 @@ proxies:
   udp: true
   uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
   xudp: true
-- name: 🇭🇰HK_8|1.2MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US_152|3.0MB/s
+  network: none
+  packet-encoding: xudp
+  port: 13581
+  server: 104.233.214.176
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
+  xudp: true
+- name: 🇧🇬BG_2|1.9MB/s
   network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 119.246.1.143
+  password: MeaDiUmPlkWbZJ2BON8tz
+  port: 28259
+  server: 78.159.131.12
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇳🇱NL_47|2.6MB/s
+  udp: true
+- name: 🇫🇷FR_44|1.5MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /assignment
+- name: 🇺🇸US_156|4.7MB/s
+  network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 443
+  server: 104.19.173.68
+  skip-cert-verify: false
+  sni: azadnet-5vk.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: azadnet-5vk.pages.dev
+    max-early-data: 2560
+    path: /azadnet-5vk.pages.dev/?PROT_TYPE=trojan
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_45|2.5MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.0
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
+- name: 🇳🇱NL_38|2.3MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.52
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /assignment
+- name: 🇺🇸US_157|2.6MB/s
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 154.17.28.152
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+- name: 🇳🇱NL_41|3.4MB/s
   network: ws
   password: humanity
   port: 443
@@ -3674,187 +3432,266 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /assignment
+- name: 🇭🇰HK_12|932KB/s
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 8443
+  server: 46.8.226.197
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
 - alpn:
   - http/1.1
-  name: 🇫🇷FR_65|2.4MB/s
+  name: 🇫🇷FR_46|847KB/s
   network: ws
   password: humanity
   port: 443
-  server: sourceforge.net
+  server: 104.17.121.71
   skip-cert-verify: true
   sni: www.calmloud.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_66|3.2MB/s
+- name: 🇫🇷FR_47|2.6MB/s
   network: ws
   password: humanity
   port: 443
-  server: 45.80.111.7
+  server: 212.183.88.136
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- name: 🇵🇱PL_7|584KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.147.104
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_68|1.5MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: www.gossipglove.com
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
 - alpn:
   - http/1.1
-  name: 🇺🇸US_231|1.5MB/s
-  network: ws
-  password: 988sR-269PKCKlb&3pMrFTEr
-  port: 443
-  server: 104.18.155.119
-  skip-cert-verify: false
-  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
-- name: 🇺🇸US_232|1.5MB/s
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: wing2452.nyc.mn
-  skip-cert-verify: false
-  sni: wing2452.nyc.mn
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    max-early-data: 2560
-    path: /tr
-- name: 🇺🇸US_255|591KB/s
-  network: ws
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  port: 443
-  server: blackshadow.dpdns.org
-  skip-cert-verify: false
-  sni: blackshadow.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /195.123.218.174-443
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_264|851KB/s
-  network: ws
-  password: 988sR-269PKCKlb&3pMrFTEr
-  port: 443
-  server: jquery.com
-  skip-cert-verify: false
-  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/45.0.2454.93 Safari/537.36
-    max-early-data: 2560
-    path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
-- name: 🇰🇷KR_11|2.6MB/s
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 152.67.210.234
-  skip-cert-verify: true
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /
-- name: 🇫🇷FR_70|2.0MB/s
+  name: 🇫🇷FR_48|2.0MB/s
   network: ws
   password: humanity
   port: 443
-  server: 188.114.96.3
+  server: 104.19.2.175
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /assignment
-- name: 🇳🇱NL_49|2.7MB/s
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇯🇵JP_14|2.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 32221
+  server: 153.121.73.175
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b06054ae-f249-438e-998a-8e67bd8df653
+  xudp: true
+- name: 🇳🇱NL_45|1.7MB/s
   network: ws
   password: humanity
   port: 443
-  server: 159.112.235.52
+  server: 172.66.47.69
   skip-cert-verify: false
   sni: www.multiplydose.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /assignment
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_160|1.6MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 10086
+  server: 57.151.100.27
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 550e8400-e29b-41d4-a716-446655440000
+  xudp: true
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_49|2.4MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.193.213.11
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
-- name: 🇳🇱NL_50|2.0MB/s
+- name: 🇫🇷FR_50|3.2MB/s
   network: ws
   password: humanity
   port: 443
-  server: 172.64.146.127
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /assignment?L=tls
+- name: 🇫🇷FR_51|3.0MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.24
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /assignment
+- name: 🇵🇱PL_4|2.5MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 🇲🇾MY_1|1.2MB/s
+  network: raw
+  packet-encoding: xudp
+  port: 10000
+  server: 47.250.135.244
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  xudp: true
+- name: 🇵🇱PL_5|837KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: www.creationlong.org
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
+- name: 🇺🇸US_161|2.0MB/s
+  network: ws
+  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  port: 443
+  server: 141.193.213.30
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /au-do
+- name: 🇯🇵JP_16|1.6MB/s
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 124.156.208.160
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
+- name: 🇫🇷FR_52|1.6MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- name: 🇳🇱NL_46|2.1MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.223
   skip-cert-verify: false
   sni: www.multiplydose.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
     path: /assignment
-- name: 🇳🇱NL_51|1.1MB/s
+- name: 🇳🇱NL_47|1.4MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.210
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
+- name: 🇳🇱NL_48|2.5MB/s
   network: ws
   password: humanity
   port: 443
@@ -3868,23 +3705,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/70.0.3538.67 Safari/537.36
     path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_71|2.7MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- name: 🇳🇱NL_52|2.3MB/s
+- name: 🇳🇱NL_49|3.5MB/s
   network: ws
   password: humanity
   port: 443
@@ -3898,7 +3719,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /assignment
-- name: 🇵🇱PL_10|821KB/s
+- name: 🇵🇱PL_6|1.0MB/s
   network: ws
   password: humanity
   port: 443
@@ -3912,23 +3733,9 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/64.0.3282.167 Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_72|1.2MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.73.213
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /assignment
 - alpn:
   - http/1.1
-  name: 🇫🇷FR_73|3.4MB/s|V001-260618
+  name: 🇫🇷FR_54|2.9MB/s|V001-260618
   network: ws
   password: humanity
   port: 443
@@ -3945,7 +3752,7 @@ proxies:
     path: /assignment
 - alpn:
   - http/1.1
-  name: 🇫🇷FR_74|921KB/s|V002-260618
+  name: 🇫🇷FR_55|1.5MB/s|V002-260618
   network: ws
   password: humanity
   port: 443
@@ -3960,22 +3767,22 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_75|1.9MB/s|V004-260618
+- name: 🇳🇱NL_51|2.8MB/s|S004-260618
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.72
+  server: 104.17.25.173
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  sub_tag: V004-260618
+  sni: www.multiplydose.com
+  sub_tag: S004-260618
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
-- name: 🇭🇰HK_9|2.4MB/s|M002-260618
+- name: 🇭🇰HK_13|1.9MB/s|M002-260618
   network: ws
   password: 13d29042-ab82-4195-9cd4-2bafc518e201
   port: 443
@@ -3992,76 +3799,49 @@ proxies:
     path: /images
 - alpn:
   - http/1.1
-  name: 🇺🇸US_298|1.4MB/s|T001-260618
+  name: 🇺🇸US_199|1.9MB/s|V002-260618
   network: ws
-  password: 0ab59a11983d4ce7862d156c164d927d
-  port: 443
-  server: www.speedtest.net
+  password: iW3T_,2o&eJrL(|Q
+  port: 2053
+  server: 104.21.83.223
   skip-cert-verify: false
-  sni: FAST-Route-DD4E2D.FREEfiReMO7964.WOrkeRS.DEV
-  sub_tag: T001-260618
+  sni: wIld-sUnSET-03a1.deHgHaNPooYa42.WOrkeRS.dev
+  sub_tag: V002-260618
   type: trojan
   udp: true
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
     max-early-data: 2560
-    path: /eyJqdW5rIjoiajRMMndudHIiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIxMDkuMTIyLjE5OC4xMjciXX0=
-- name: 🇫🇷FR_76|2.5MB/s|B007-260618
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.12.149
+    path: /eyJqdW5rIjoiOVJSd0xQWnd0RTBDWHpNaSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOltdfQ==
+- name: 🇩🇪DE_20|694KB/s
+  network: tcp
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
   skip-cert-verify: false
-  sni: www.calmlunch.com
-  sub_tag: B007-260618
+  sni: de-1.hysteria.ltd
+  type: trojan
+  udp: true
+- name: 🇺🇸US_201|3.1MB/s|S004-260618
+  network: ws
+  password: 6c862415-30d2-4813-8e49-42e99a0bd415
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  sub_tag: S004-260618
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /assignment
-- alpn:
-  - h3
-  - h2
-  name: 🇳🇱NL_53|2.8MB/s|B007-260618
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.54
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  sub_tag: B007-260618
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /assignment
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇰🇿KZ_1|582KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 3h-kazakhstan1.09vpn.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
-    path: /vmess/
-  xudp: true
-- name: 🇫🇷FR_78|2.6MB/s|B007-260618
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /us-gllc
+- name: 🇫🇷FR_57|2.4MB/s|B007-260618
   network: ws
   password: humanity
   port: 443
@@ -4076,7 +3856,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/49.0.2623.112 Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_79|1.2MB/s|B007-260618
+- name: 🇫🇷FR_58|2.2MB/s|B007-260618
   network: ws
   password: humanity
   port: 443
@@ -4091,7 +3871,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /assignment
-- name: 🇳🇱NL_54|3.1MB/s|V005-260618
+- name: 🇳🇱NL_54|3.0MB/s|V005-260618
   network: ws
   password: humanity
   port: 443
@@ -4107,11 +3887,26 @@ proxies:
         wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
         Mobile Safari/537.36
     path: /assignment
+- name: 🇫🇷FR_59|3.0MB/s|B007-260618
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.9.83
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: 🇺🇸US_306|3.9MB/s|M002-260618
+  name: 🇺🇸US_203|1.0MB/s|M002-260618
   network: ws
   packet-encoding: xudp
   port: 443
@@ -4126,22 +3921,7 @@ proxies:
     headers: {}
     path: /JASON.ET
   xudp: true
-- name: 🇯🇵JP_20|518KB/s|R002-260618
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 172.104.120.92
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  sub_tag: R002-260618
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /
-- name: 🇰🇷KR_12|2.5MB/s|R002-260618
+- name: 🇰🇷KR_11|1.5MB/s|R002-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -4156,91 +3936,72 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/68.0.3440.106 Safari/537.36
     path: /
-- name: 🇵🇱PL_11|1.9MB/s|V006-260618
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  sub_tag: V006-260618
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇺🇸US_308|1.3MB/s|T001-260618
-  network: ws
-  password: 0ab59a11983d4ce7862d156c164d927d
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: false
-  sni: fasT-ROute-dd4e2D.fREEfIremo7964.WoRKerS.dev
-  sub_tag: T001-260618
-  type: trojan
-  udp: true
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    max-early-data: 2560
-    path: /eyJqdW5rIjoicFlpMlNNRHl3bkdYOSIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSJdfQ==
-- name: 🇯🇵JP_21|1.5MB/s|S001-260618
+- name: 🇺🇸US_204|1.6MB/s|R002-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: 172.237.13.221
+  server: 8.219.134.138
   skip-cert-verify: false
   sni: hhcm.hhxaf.cc.cd
-  sub_tag: S001-260618
+  sub_tag: R002-260618
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /
-- name: 🇮🇪IE_3|604KB/s|B007-260618
-  network: tcp
-  password: t1k169n5zmvvwn96r9ft
-  port: 57452
-  server: 146.70.90.195
-  skip-cert-verify: true
-  sni: api-yandex.maps.ru
-  sub_tag: B007-260618
-  type: trojan
-  udp: true
-- name: 🇮🇪IE_2|1.3MB/s|A004-260618
-  network: tcp
-  password: t1k169n5zmvvwn96r9ft
-  port: 57452
-  server: 146.70.90.198
-  skip-cert-verify: true
-  sni: www.vk.com
-  sub_tag: A004-260618
-  type: trojan
-  udp: true
-- name: 🇺🇸US_312|5.0MB/s|V002-260618
+- name: 🇳🇱NL_55|2.7MB/s|V005-260618
   network: ws
-  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  password: humanity
   port: 443
-  server: 45.130.125.126
+  server: 104.18.139.67
   skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  sub_tag: V002-260618
+  sni: www.multiplydose.com
+  sub_tag: V005-260618
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /au-do
-- name: 🇺🇸US_316|2.6MB/s|B007-260618
+    path: /assignment
+- name: 🇭🇰HK_14|2.2MB/s|M002-260618
+  network: ws
+  password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
+  port: 443
+  server: 23.227.38.178
+  skip-cert-verify: false
+  sni: q6clkp794liy3y90.hktimecsgo.xyz
+  sub_tag: M002-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /images
+- name: 🇮🇪IE_1|2.5MB/s|A004-260618
+  network: tcp
+  password: t1k169n5zmvvwn96r9ft
+  port: 57452
+  server: 146.70.90.197
+  skip-cert-verify: true
+  sni: www.vk.com
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- name: 🇮🇪IE_3|2.4MB/s|B007-260618
+  network: tcp
+  password: t1k169n5zmvvwn96r9ft
+  port: 57452
+  server: 146.70.90.198
+  skip-cert-verify: true
+  sni: www.vk.com
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- name: 🇺🇸US_212|4.8MB/s|B007-260618
   network: ws
   password: f922fa0f-3311-4368-85ff-cf65e727c854
   port: 443
@@ -4255,47 +4016,77 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/45.0.2454.85 Safari/537.36
     path: /br-orcl
-- name: 🇺🇸US_342|2.3MB/s|S004-260618
+- name: 🇺🇸US_213|2.6MB/s|F003-260618
   network: ws
-  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: space.byu.id.yxls.eu.cc
+  server: 199.193.125.72
   skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  sub_tag: S004-260618
+  sni: tjsp.hhxaf.cc.cd
+  sub_tag: F003-260618
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /au-do
-- name: 🇪🇸ES_2|1.7MB/s|S004-260618
-  network: tcp
-  password: 2eutknankxtbgkwcajzt
-  port: 52794
-  server: 193.148.19.210
-  skip-cert-verify: true
-  sni: www.vk.com
-  sub_tag: S004-260618
-  type: trojan
-  udp: true
-- name: 🇺🇸US_351|3.1MB/s|B007-260618
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
+- name: 🇯🇵JP_18|944KB/s|F003-260618
   network: ws
-  password: sbdsbdbdgbdgbdg
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: cfnew.tehranhost.online
+  server: 172.104.81.253
   skip-cert-verify: false
-  sni: cfnew.tehranhost.online
-  sub_tag: B007-260618
+  sni: tjsp.hhxaf.cc.cd
+  sub_tag: F003-260618
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
+        Chrome/70.0.3538.110 Safari/537.36
     path: /
-- name: ❓Other_10|1.4MB/s|A001-260618
+- name: 🇰🇷KR_12|607KB/s|F003-260618
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 123.111.169.70
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  sub_tag: F003-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+- name: 🇰🇷KR_13|954KB/s|F003-260618
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 144.24.94.127
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  sub_tag: F003-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /
+- name: 🇩🇪DE_27|1.6MB/s|B007-260618
+  network: tcp
+  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  port: 443
+  server: 185.137.157.154
+  skip-cert-verify: false
+  sni: fra154.clientfirewall.click
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- name: 🇺🇸US_239|3.2MB/s|A001-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -4310,7 +4101,22 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /
-- name: 🇫🇷FR_82|2.4MB/s|B007-260618
+- name: 🇺🇸US_241|620KB/s|S004-260618
+  network: ws
+  password: e2706e57-690b-fd2e-0c53-9c34e1805162
+  port: 443
+  server: 104.20.30.73
+  skip-cert-verify: false
+  sni: purple-rain-4512.erfan22.workers.dev
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /sync
+- name: 🇫🇷FR_64|2.3MB/s|B007-260618
   network: ws
   password: humanity
   port: 443
@@ -4325,37 +4131,32 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/49.0.2623.112 Safari/537.36
     path: /assignment
-- name: 🇺🇸US_373|4.4MB/s|B007-260618
+- name: 🇳🇱NL_58|2.1MB/s|B007-260618
   network: ws
-  password: 6c862415-30d2-4813-8e49-42e99a0bd415
+  password: humanity
   port: 443
-  server: 104.16.72.70
+  server: 104.19.208.184
   skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
+  sni: www.multiplydose.com
   sub_tag: B007-260618
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /us-gllc
-- name: 🇰🇷KR_13|651KB/s|A001-260618
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 211.49.57.161
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  sub_tag: A001-260618
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /%2Fassignment
+- name: 🇮🇪IE_4|2.2MB/s|X001-260618
+  network: tcp
+  password: t1k169n5zmvvwn96r9ft
+  port: 57452
+  server: 146.70.90.198
+  skip-cert-verify: true
+  sni: 146.70.90.198
+  sub_tag: X001-260618
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /
-- name: 🇺🇸US_381|1.8MB/s|B007-260618
+- name: 🇺🇸US_250|2.5MB/s|B007-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -4370,7 +4171,26 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /
-- name: 🇸🇬SG_16|1.8MB/s|T001-260618
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP_20|2.0MB/s|A004-260618
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 168.138.43.75
+  servername: jp01.a0a.xyz
+  skip-cert-verify: false
+  sub_tag: A004-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
+  xudp: true
+- name: 🇸🇬SG_14|1.2MB/s|T001-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -4385,9 +4205,38 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/70.0.3538.67 Safari/537.36
     path: /
+- name: 🇫🇷FR_69|581KB/s|R002-260618
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.99.0
+  sni: www.gossipglove.com
+  sub_tag: R002-260618
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
+- name: 🇺🇸US_256|2.7MB/s|M002-260618
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: vless.herogoing.top
+  skip-cert-verify: false
+  sni: vless.herogoing.top
+  sub_tag: M002-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    max-early-data: 2560
+    path: /tr
 - alpn:
   - http/1.1
-  name: 🇺🇸US_397|2.5MB/s|B007-260618
+  name: 🇺🇸US_257|2.5MB/s|B007-260618
   network: ws
   password: bd85f5fe32d9446a8b1f59e4f710455b
   port: 443
@@ -4404,22 +4253,52 @@ proxies:
         (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     max-early-data: 2560
     path: /eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9
-- name: 🇯🇵JP_25|583KB/s|V010-260618
+- name: 🇰🇷KR_14|542KB/s|V010-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: 151.241.129.141
+  server: 141.164.51.88
   skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
+  sni: hhcm.hhxaf.cc.cd
   sub_tag: V010-260618
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.118 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /
-- name: 🇰🇷KR_14|1.0MB/s|S004-260618
+- name: 🇦🇺AU_6|2.6MB/s|S004-260618
+  network: ws
+  password: rYuChHcwQZskq9E0zdoR
+  port: 443
+  server: ip4.vpean2.qzz.io
+  skip-cert-verify: false
+  sni: vpn5.rnmcnm.com
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /ws-79dffb8106db
+- name: 🇫🇷FR_70|881KB/s|S004-260618
+  network: ws
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /assignment
+- name: 🇰🇷KR_15|1.2MB/s|S004-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -4434,7 +4313,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /
-- name: 🇸🇬SG_20|2.1MB/s|S004-260618
+- name: 🇸🇬SG_17|1.5MB/s|S004-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -4449,7 +4328,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /
-- name: 🇰🇷KR_15|1.3MB/s|B007-260618
+- name: 🇰🇷KR_16|1.2MB/s|B007-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -4464,7 +4343,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
     path: /
-- name: 🇰🇷KR_16|2.0MB/s|B007-260618
+- name: 🇰🇷KR_17|1.1MB/s|B007-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 8443
@@ -4480,7 +4359,7 @@ proxies:
         AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
         Safari/537.36
     path: /
-- name: 🇸🇬SG_21|2.0MB/s|B007-260618
+- name: 🇸🇬SG_18|2.0MB/s|B007-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -4495,48 +4374,22 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.139 Safari/537.36
     path: /
-- name: 🇯🇵JP_27|730KB/s|V009-260618
+- name: ❓Other_12|2.3MB/s|B007-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: 161.248.63.77
+  server: 64.110.74.109
   skip-cert-verify: false
   sni: hhcm.hhxaf.cc.cd
-  sub_tag: V009-260618
+  sub_tag: B007-260618
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/67.0.3396.99 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /
-- name: 🇯🇵JP_28|2.5MB/s|B007-260618
-  network: tcp
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  port: 443
-  server: 103.125.216.11
-  skip-cert-verify: false
-  sub_tag: B007-260618
-  type: trojan
-  udp: true
-- alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: 🇩🇪DE_92|611KB/s|B007-260618
-  network: ws
-  password: P6oS8vzFbu
-  port: 443
-  server: 45.130.125.2
-  skip-cert-verify: false
-  sni: sb.farxmode.ir
-  sub_tag: B007-260618
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /db
-- name: 🇭🇰HK_12|582KB/s|V007-260618
+- name: 🇭🇰HK_17|649KB/s|V007-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -4551,55 +4404,31 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /
-- name: 🇺🇸US_426|601KB/s|B007-260618
-  network: tcp
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
-  port: 443
-  server: 38.60.202.163
-  skip-cert-verify: false
-  sub_tag: B007-260618
-  type: trojan
-  udp: true
-- name: 🇺🇸US_427|4.4MB/s|B007-260618
+- name: 🇺🇸US_275|8.1MB/s|B007-260618
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: saas.sin.fan
+  server: store.ubi.com
   skip-cert-verify: false
   sni: hhcm.hhxaf.cc.cd
   sub_tag: B007-260618
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
-- name: 🇯🇵JP_31|1.3MB/s|T001-260618
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 133.18.140.38
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  sub_tag: T001-260618
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
+        Chrome/67.0.3396.99 Safari/537.36
     path: /
-- name: 🇯🇵JP_34|974KB/s|B007-260618
+- name: 🇫🇷FR_78|2.1MB/s|K001-260618
   network: tcp
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
   port: 443
-  server: 103.125.216.18
+  server: 38.60.168.129
   skip-cert-verify: false
-  sub_tag: B007-260618
+  sub_tag: K001-260618
   type: trojan
   udp: true
-- name: 🇮🇶IQ_1|1.6MB/s|B007-260618
+- name: 🇮🇶IQ_1|1.8MB/s|B007-260618
   network: tcp
   password: d5VIifAZlI.VX459mxBPZ0skFQ2JP6BvHy
   port: 443
@@ -4608,7 +4437,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
-- name: 🇩🇪DE_108|1.1MB/s|B007-260618
+- name: 🇩🇪DE_78|2.0MB/s|B007-260618
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
@@ -4617,7 +4446,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
-- name: 🇩🇪DE_109|1.3MB/s|B007-260618
+- name: 🇩🇪DE_79|1.2MB/s|B007-260618
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
@@ -4626,7 +4455,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
-- name: 🇩🇪DE_110|1.1MB/s|B007-260618
+- name: 🇩🇪DE_80|1.4MB/s|B007-260618
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
@@ -4635,44 +4464,58 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
-- name: 🇩🇪DE_111|1.2MB/s|B007-260618
+- name: 🇩🇪DE_81|774KB/s|B007-260618
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.156
+  server: 185.137.157.149
   skip-cert-verify: false
   sub_tag: B007-260618
   type: trojan
   udp: true
-- name: 🇩🇪DE_112|1.6MB/s|B007-260618
+- name: 🇬🇧GB_62|2.3MB/s|B007-260618
+  network: tcp
+  password: kflYwtj8VD7Pd4V9ixedIxEDsac4QQXvbP
+  port: 443
+  server: 45.77.227.183
+  skip-cert-verify: false
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- name: 🇮🇸IS_1|1.7MB/s|B007-260618
+  network: tcp
+  password: p=Xuu4jK_lJ9rOKw5+7BsW798DZ-01cv4S
+  port: 443
+  server: 37.235.49.118
+  skip-cert-verify: false
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- name: 🇩🇪DE_82|1.2MB/s|B007-260618
   network: tcp
   password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
   port: 443
-  server: 92.119.35.119
+  server: 92.119.35.105
   skip-cert-verify: false
   sub_tag: B007-260618
   type: trojan
   udp: true
-- name: 🇩🇪DE_113|1.9MB/s|B007-260618
-  network: tcp
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+- name: ❓Other_15|1.0MB/s|V004-260618
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: 92.119.35.131
+  server: 83.147.60.186
   skip-cert-verify: false
-  sub_tag: B007-260618
+  sni: hhcm.hhxaf.cc.cd
+  sub_tag: V004-260618
   type: trojan
   udp: true
-- name: 🇯🇵JP_35|943KB/s|V001-260618
-  network: tcp
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  port: 443
-  server: 103.125.216.11
-  skip-cert-verify: true
-  sni: 103.125.216.11
-  sub_tag: V001-260618
-  type: trojan
-  udp: true
-- name: 🇮🇹IT_10|1.9MB/s|B007-260618
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /
+- name: 🇮🇹IT_5|1.8MB/s|B007-260618
   network: tcp
   password: zK=0KfL3IG+sNNZL-J7d0Nonu4wFBx8MOy
   port: 443
@@ -4681,27 +4524,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇫🇷FR_86|2.1MB/s|S004-260618
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: cf.tencentapp.cn
-  skip-cert-verify: false
-  sub_tag: S004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
-  xudp: true
-- name: 🇫🇷FR_87|1.6MB/s|B007-260618
+- name: 🇫🇷FR_74|1.8MB/s|B007-260618
   network: ws
   password: humanity
   port: 443
@@ -4716,42 +4539,16 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/68.0.3440.106 Safari/537.36
     path: /assignment
-- name: 🇫🇷FR_88|2.0MB/s|B007-260618
-  network: ws
-  password: humanity
+- name: 🇩🇪DE_92|993KB/s|A001-260618
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: www.medium.com
+  server: 185.137.157.145
   skip-cert-verify: false
-  sni: www.calmloud.com
-  sub_tag: B007-260618
+  sub_tag: A001-260618
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /assignment
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇬🇧GB_58|584KB/s|S004-260618
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: bestcf.030101.xyz
-  skip-cert-verify: false
-  sub_tag: S004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
-  xudp: true
-- name: 🇻🇳VN_1|1.1MB/s|S004-260618
+- name: 🇻🇳VN_1|949KB/s|S004-260618
   network: tcp
   password: NAdtbpuyJXPH=CfKmdBqD2YVbzdvwAtuxw
   port: 443
@@ -4760,18 +4557,9 @@ proxies:
   sub_tag: S004-260618
   type: trojan
   udp: true
-- name: 🇩🇪DE_118|1.6MB/s|S004-260618
-  network: tcp
-  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
-  port: 443
-  server: 92.119.35.97
-  skip-cert-verify: false
-  sub_tag: S004-260618
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_436|555KB/s|A004-260618
+  name: 🇺🇸US_281|1.5MB/s|A004-260618
   network: ws
   packet-encoding: xudp
   port: 39495
@@ -4788,68 +4576,58 @@ proxies:
       Host: 129.146.77.248
     path: /cctv13.m3u8
   xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇫🇷FR_92|713KB/s|M002-260618
+- name: 🇺🇸US_284|3.0MB/s|M001-260618
   network: ws
-  packet-encoding: xudp
-  port: 80
-  server: ct.877774.xyz
-  skip-cert-verify: false
-  sub_tag: M002-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_14|1.3MB/s|S004-260618
-  network: ws
-  packet-encoding: xudp
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: yg1.ygkkk.dpdns.org
-  servername: associations-bryan-manchester-latino.trycloudflare.com
+  server: www.shopify.com
   skip-cert-verify: false
-  sub_tag: S004-260618
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a2243c24-a82c-4098-bc4d-e85331a1e1d1
+  sni: tjsp.hhxaf.cc.cd
+  sub_tag: M001-260618
+  type: trojan
   ws-opts:
     headers:
-      Host: associations-bryan-manchester-latino.trycloudflare.com
-    path: /a2243c24-a82c-4098-bc4d-e85331a1e1d1-vm
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇫🇷FR_93|1.3MB/s|S004-260618
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: yg1.ygkkk.dpdns.org
-  servername: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-  skip-cert-verify: false
-  sub_tag: S004-260618
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+      Host: tjsp.hhxaf.cc.cd
     path: /
-  xudp: true
+- name: 🇫🇷FR_77|2.1MB/s|B007-260618
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.32
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /assignment
+- name: 🇩🇪DE_95|2.0MB/s|K001-260618
+  network: tcp
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.131
+  skip-cert-verify: false
+  sub_tag: K001-260618
+  type: trojan
+  udp: true
+- name: 🇺🇸US_292|3.4MB/s|V003-260618
+  network: ws
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
+  port: 443
+  server: 104.16.72.70
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  sub_tag: V003-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /br-orcl
 sniffer:
   enable: true
   skip-domain:
